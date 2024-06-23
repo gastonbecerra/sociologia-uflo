@@ -1,6 +1,6 @@
 # Recursos Abiertos de Lic. en Sociología UFLO
 
-Un listado de algunos recursos y materiales didácticos que elaboramos en la carrera de [Sociología de la Universidad de Flores](https://www.uflo.edu.ar/ver-info-sobre-406-licenciatura-en-sociologia.php) (Argentina).
+Página web de la carrera de [Sociología de la Universidad de Flores](https://www.uflo.edu.ar/ver-info-sobre-406-licenciatura-en-sociologia.php).
 
 Nuestra carrera tiene una orientación computacional que busca, entre otros objetivos, integrar saberes digitales y nuevas tecnologías con una mirada social crítica y epistemológicamente fundada. 
 
