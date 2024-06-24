@@ -1,7 +1,9 @@
 ---
 layout: default
-title: "Recursos Abiertos Sociología UFLO"
+title: "Recursos Socio UFLO"
 ---
+
+# Bienvenidos a los Recursos Abiertos de la Licenciatura en Sociología de UFLO
 
 Página web de la carrera de [Sociología de la Universidad de Flores](https://www.uflo.edu.ar/ver-info-sobre-406-licenciatura-en-sociologia.php).
 
