@@ -18,6 +18,9 @@ Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflou
 - **1eras Jornadas de Sociología UFLO Universidad** - Julio de 2024 - Modalidad virtual / Gratuito para ponentes y asistentes - Invitamos a estudiantes, docentes, investigadores y profesionales de la comunidad sociológica local e internacional a participar en las Jornadas. Actividades: Mesas de ponencias - Workshop sobre divulgación - Conversatorios y Conferencias magistrales - Clases abiertas - Novedades editoriales. 
 Más info: [Circulares y actividades](https://bit.ly/circular-socio-uflo)
 
+- **Revista Desarrollos en Ciencias Sociales Computacionales (en desarrollo!)** - Julio de 2024 - Publicación  editada por la Licenciatura en Sociología de la Universidad de Flores que busca ofrecer un espacio de difusión e intercambio del trabajo de estudiantes, docentes, investigadores/as y profesionales en el campo de las ciencias sociales computacionales. 
+Más info: [OJS de la revista DCSC](https://revistadesarrollos.uflo.edu.ar/index.php/RDCSC/about)
+
 ## Podcasts
 
 El podcast **(Re) Pensar la Sociología desde el hoy** es una serie de entrevistas a profesore/as e investigadore/as de Argentina acerca de algún/a referente de la teoría sociológica. 
@@ -64,6 +67,7 @@ En este módulo buscamos fomentar una mirada crítica de los desarrollos tecnol�
     - Tema 2: Problemas éticos en las ciencias de datos - Introducimos una mirada sociológica de la ética de la investigación: [Exposición en video](https://youtu.be/V-h_h5DOQCg)
     - Tema 3: Epistemología de las ciencias de datos - Exponemos y discutimos  el paper R. Kitchin [Exposición en video](https://youtu.be/VVYCMaT9xgQ) y [material de lectura: "Big Data, new epistemologies and paradigm shifts"](http://journals.sagepub.com/doi/10.1177/2053951714528481)
 
+<br />
 
 - **Módulo**: **"La ciencia como comunicación"** <br />
 **Asignatura**: *Taller de Herramientas de Documentación y Colaboración* - [Programa de la materia](https://docs.google.com/document/d/1xaybSimckdOUN9DuUmXO6J3ds_iTP46x/edit?usp=sharing&ouid=110060493895495443798&rtpof=true&sd=true) <br />
@@ -75,6 +79,7 @@ En este módulo exploramos una manera de observar la ciencia como un sistema de 
     - Tema 3: ¿Cómo leer artículos y ponencias? - Nos introducimos a dos géneros de la comunicación científica y leemos 2 ejemplos: [Exposición en video](https://youtu.be/Dmk2U8DgnEc), [Ejemplo 1: "Hacia una exploración de las representaciones sociales en torno al big data"](https://drive.google.com/file/d/1bOmgIK8QWZcB3Dg-4L83W2qICMguMn4z/view?usp=sharing) y [Ejemplo 2: "Adieu à Bourdieu? Asimetrías, límites y paradojas en la noción de habitus. Convergencia Revista de Ciencias Sociales"](https://drive.google.com/file/d/1YWpjhLuEuYzdmHz1RNED0_LvLVzo5u8A/view?usp=sharing)
     - Tema 4: Gestores de bibliografía - Mostramos el software Mendeley para manejar bibliografía y citado: [Exposición en video](https://youtu.be/n1UYMaLxSBQ)
 
+<br />
 
 - **Módulo**: **"Camino hacia la elección del diseño de investigación"** <br />
 **Asignatura**: *Taller de Investigación I* - [Programa de la materia](https://docs.google.com/document/d/1WjJsNzH5UqCfeqlRLufFBwPl1OsRcxc9/edit) <br />
