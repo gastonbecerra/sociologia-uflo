@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: "Recursos Socio UFLO"
 ---
 
