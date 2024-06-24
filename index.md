@@ -9,13 +9,14 @@ Página web de la carrera de [Sociología de la Universidad de Flores](https://w
 
 Nuestra carrera tiene una orientación computacional que busca, entre otros objetivos, integrar saberes digitales y nuevas tecnologías con una mirada social crítica y epistemológicamente fundada. 
 
-![UFLO diseño](./socio%20computacional%20en%20relassc%20(1).jpg)
+![UFLO diseño](./images/materias.jpg)
 
 Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflouniversidad.edu.ar*
 
-## Actividades abiertas / Invitaciones
+## Invitaciones / Novedades
 
-- **1eras Jornadas de Sociología UFLO Universidad** - Junio de 2024 - Modalidad virtual / Gratuito para ponentes y asistentes - Invitamos a estudiantes, docentes, investigadores y profesionales de la comunidad sociológica local e internacional a participar en las Jornadas. El objetivo es crear un espacio de intercambio, discusión y aprendizaje mutuo, ameno y plural. Circulares y más info: [Circulares, envío de resúmenes y lista de difusión](https://bit.ly/circular-socio-uflo)
+- **1eras Jornadas de Sociología UFLO Universidad** - Julio de 2024 - Modalidad virtual / Gratuito para ponentes y asistentes - Invitamos a estudiantes, docentes, investigadores y profesionales de la comunidad sociológica local e internacional a participar en las Jornadas. Actividades: Mesas de ponencias - Workshop sobre divulgación - Conversatorios y Conferencias magistrales - Clases abiertas - Novedades editoriales. 
+Más info: [Circulares y actividades](https://bit.ly/circular-socio-uflo)
 
 ## Podcasts
 
@@ -31,7 +32,7 @@ El podcast **(Re) Pensar la Sociología desde el hoy** es una serie de entrevist
 
 - [Ep. 5 Niklas Luhmann](https://www.youtube.com/watch?v=AKgqvt_59SQ) - Entrevista al Dr. Sergio Pignuoli Ocampo
 
-Playlist completa: https://bit.ly/podcast-socio-uflo
+[Playlist completa: https://bit.ly/podcast-socio-uflo](https://bit.ly/podcast-socio-uflo)
 
 Estos materiales corresponden a las asignaturas *Teoría Sociológica Clásica* y *Teoría Sociológica Contemporánea*. Para una bitácora y reflexión, podés consultar la ponencia:
 Ciardiello, M., Giordano, P. y Becerra, G. (2023). Experiencias en la producción de podcasts de teoría sociológica. *IV Jornadas Institucionales de Innovación Educativa en la Universidad - Universidad de Flores*. https://repositorio.uflo.edu.ar/entities/ponencia/be9853f1-f1c5-4744-a85a-1263ee95fb09
@@ -48,7 +49,7 @@ En nuestros conversatorios buscamos intercambiar con colegas sobre sus experienc
 
 - [Panel on Technological Challenges from a Social Sciences Perspective](https://www.youtube.com/watch?v=BgjpTQ4Dx7c&list=PLf1wJeC17bII6xCrew2vVjGOZV2ShisVy&index=8) - Panel en el *Communication In The Age Of Technological Challenges: Research Perspectives across Disciplines* organizado con la Universidad de Varsovia (en inglés) (Mayo/2023)
 
-Todos los encuentros: https://bit.ly/conversatorios-uflo
+[Todos los encuentros: https://bit.ly/conversatorios-uflo](https://bit.ly/conversatorios-uflo)
 
 ## Módulos y clases 
 
@@ -82,11 +83,11 @@ En este módulo nos introducimos al proceso de investigación, a través de sus 
 
     - Tema 1: Idea, diseños y enfoques - Algunas nociones previas a dar el primer paso de investigación [Exposición en video](https://youtu.be/N5MrhOCmgPU)
     - Tema 2: El marco teórico - Nuestros anteojos sociológicos para hacer preguntas [Exposición en video parte 1](https://youtu.be/8Zp6wNq7MJI) + [Exposición en video parte 2](https://youtu.be/nTdm6yzuLRw) + Un ejemplo: la teoría de las representaciones sociales [Exposición en video](https://youtu.be/XVN3shrWgA4)
-    - Tema 3: Objetivos de investigación - Una guía rápida para leer/escribir un objetivo de investigación [Exposición en video](https://youtu.be/) + [Material de lectura: "Consejos y advertencias para la formación de investigadores en ciencias sociales (C.Wainerman)" ](http://www.catalinawainerman.com.ar/pdf/Consejos_y_advertencias_para_la_form_de_investigadores.pdf)
+    - Tema 3: Objetivos de investigación - Una guía rápida para leer/ escribir un objetivo de investigación [Exposición en video](https://youtu.be/) + [Material de lectura: "Consejos y advertencias para la formación de investigadores en ciencias sociales (C.Wainerman)" ](http://www.catalinawainerman.com.ar/pdf/Consejos_y_advertencias_para_la_form_de_investigadores.pdf)
 
-## Guías didácticas y tutoriales
+## Tutoriales de Sociología computacional
 
-Aquí compilamos algunas guías de trabajo y tutoriales que elaboramos para distintas materias, cursos y talleres. 
+Aquí compilamos algunas guías de trabajo y tutoriales que elaboramos para distintas materias, cursos y talleres vinculados con los saberes computacionales.
 
 - [Introducción a la ciencia de datos con R. Una guía rápida para cientistas sociales](https://bookdown.org/gaston_becerra/curso-intro-r/) - Una compilación de algunos tutoriales en **lenguaje R** que usamos en la asignatura *Análisis de datos* y en el curso *Introducción teórica y práctica al big data y las ciencias de datos*. Acá también están las [slides de la parte teórica](https://www.academia.edu/48345036/Sociolog%C3%ADa_y_epistemolog%C3%ADa_del_Big_data).
 
@@ -96,7 +97,18 @@ Aquí compilamos algunas guías de trabajo y tutoriales que elaboramos para dist
 
 - [Tutorial completo de arqueo bibliográfico en lenguaje Clojure](https://www.youtube.com/playlist?list=PLUxsdd9CjsoGwvfLkoTuYnSDB3j0L07Xw) - Un curso completo para armar una aplicación en **lenguaje de programación lógica Clojure** para obtener información de la API de Semantic Scholar. Incluye introducción teórica y práctica con GitPod, Codespace, y VS-Code.
 
-## Proyectos de Investigación
+- [Tutorial sobre uso de ChatGPT](xx) - Un tutorial breve sobre cómo construir prompts con **ChatGPT**, desarrollado para la materia *Sociología de la Inteligencia Artificial* por la Prof. Paula Urabayen.
+
+## Materiales docentes de Sociología
+
+Aquí listamos los materiales de apoyo que hemos elaborado para distintos cursos y encuentros de iniciación a la sociología:
+
+- [Guías del ciclo "Charlas Sociológicas"](https://drive.google.com/file/d/18g0yOfkAt43rpVTEe0xwpuZj_adtBubu/view?usp=drive_link) - Material de apoyo elaborado para el ciclo virtual y gratuito “Charlas sociológicas” (verano/2024). Prof. Micaela Ciardiello
+
+![ciclo charlas sociologicas](./charlas.jpg)
+
+
+## Proyectos de investigación
 
 Aquí linkeamos a nuestros proyectos de investigación (completos, con marco teórico, objetivos, antecedentes, bajada metodológica y presupuesto) que ya fueron evaluados y aprobados por un comité externo.
 
