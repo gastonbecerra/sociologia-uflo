@@ -97,16 +97,13 @@ Aquí compilamos algunas guías de trabajo y tutoriales que elaboramos para dist
 
 - [Tutorial completo de arqueo bibliográfico en lenguaje Clojure](https://www.youtube.com/playlist?list=PLUxsdd9CjsoGwvfLkoTuYnSDB3j0L07Xw) - Un curso completo para armar una aplicación en **lenguaje de programación lógica Clojure** para obtener información de la API de Semantic Scholar. Incluye introducción teórica y práctica con GitPod, Codespace, y VS-Code.
 
-- [Tutorial sobre uso de ChatGPT](xx) - Un tutorial breve sobre cómo construir prompts con **ChatGPT**, desarrollado para la materia *Sociología de la Inteligencia Artificial* por la Prof. Paula Urabayen.
+- [Tutorial sobre uso de ChatGPT](downloads/material%20chatgpt.pdf) - Un tutorial breve sobre cómo construir prompts con **ChatGPT**, desarrollado para la materia *Sociología de la Inteligencia Artificial* por la Prof. Paula Urabayen.
 
 ## Materiales docentes de Sociología
 
 Aquí listamos los materiales de apoyo que hemos elaborado para distintos cursos y encuentros de iniciación a la sociología:
 
 - [Guías del ciclo "Charlas Sociológicas"](https://drive.google.com/file/d/18g0yOfkAt43rpVTEe0xwpuZj_adtBubu/view?usp=drive_link) - Material de apoyo elaborado para el ciclo virtual y gratuito “Charlas sociológicas” (verano/2024). Prof. Micaela Ciardiello
-
-![ciclo charlas sociologicas](./charlas.jpg)
-
 
 ## Proyectos de investigación
 
@@ -126,7 +123,4 @@ Generamos herramientas de código abierto para asistir a distintos momentos de l
 
 - [minCaqdasR](https://github.com/gastonbecerra/mincaqdasr) **(en desarrollo!)**  - Herramienta para análisis cualitativo (CAQDAS), diseñada para asistir en la tarea de codificar o anotar un corpus de documentos o fragmentos de los mismos, a través de una interfaz gráfica (GUI) que corre en cualquier navegador que tenga JavaScript habilitado, y que se puede vincular con R.
 
-- [ojsr](https://cran.r-project.org/web/packages/ojsr/index.html) - Package de R para navegar y hacer webscraping de revistas electrónicas editadas con Open Journal System. La documentación está en inglés... pero acá hay un [artículo en castellano](https://dspaceapi.uai.edu.ar/server/api/core/bitstreams/5b8cc797-032a-4611-ab00-a5ae5acce1d8/content).---
-layout: default
-title: 'Recursos Socio UFLO'
----
+- [ojsr](https://cran.r-project.org/web/packages/ojsr/index.html) - Package de R para navegar y hacer webscraping de revistas electrónicas editadas con Open Journal System. La documentación está en inglés... pero acá hay un [artículo en castellano](https://dspaceapi.uai.edu.ar/server/api/core/bitstreams/5b8cc797-032a-4611-ab00-a5ae5acce1d8/content).
