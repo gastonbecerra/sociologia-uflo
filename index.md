@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Recursos Abiertos Sociología UFLO"
+---
+
 Página web de la carrera de [Sociología de la Universidad de Flores](https://www.uflo.edu.ar/ver-info-sobre-406-licenciatura-en-sociologia.php).
 
 Nuestra carrera tiene una orientación computacional que busca, entre otros objetivos, integrar saberes digitales y nuevas tecnologías con una mirada social crítica y epistemológicamente fundada. 
