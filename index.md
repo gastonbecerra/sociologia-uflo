@@ -15,11 +15,11 @@ Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflou
 
 ## Invitaciones / Novedades
 
-- **1eras Jornadas de Sociología UFLO Universidad** - Julio de 2024 - Modalidad virtual / Gratuito para ponentes y asistentes - Invitamos a estudiantes, docentes, investigadores y profesionales de la comunidad sociológica local e internacional a participar en las Jornadas. Actividades: Mesas de ponencias - Workshop sobre divulgación - Conversatorios y Conferencias magistrales - Clases abiertas - Novedades editoriales. 
-Más info: [Circulares y actividades](https://bit.ly/circular-socio-uflo)
-
 - **Revista Desarrollos en Ciencias Sociales Computacionales (en desarrollo!)** - Julio de 2024 - Publicación  editada por la Licenciatura en Sociología de la Universidad de Flores que busca ofrecer un espacio de difusión e intercambio del trabajo de estudiantes, docentes, investigadores/as y profesionales en el campo de las ciencias sociales computacionales. 
 Más info: [OJS de la revista DCSC](https://revistadesarrollos.uflo.edu.ar/index.php/RDCSC/about)
+
+- **Clase abierta sobre la vigencia de los clásicos en sociología** - 7 ago 2024 06:00 p. m. (Arg). - Clase de la Prof. Micaela Ciardiello en la que abordaremos el surgimiento de la sociología y el rol de la idea de "autor clásico", ejemplificando con las contribuciones de Durkheim, Weber y Marx.
+Inscripciones: [Actividad gratuita con inscripción](https://zoom.us/meeting/register/tJMkfuygrTwoGddz204FKhQdDBgaSdgYrKyV#/registration)
 
 ## Podcasts
 
@@ -54,7 +54,7 @@ En nuestros conversatorios buscamos intercambiar con colegas sobre sus experienc
 
 [Todos los encuentros: https://bit.ly/conversatorios-uflo](https://bit.ly/conversatorios-uflo)
 
-## Módulos y clases 
+## Módulos de nuestas asignaturas
 
 Estos son algunos de los contenidos y temas de algunas materias de la carrera. Por cuestiones de privacidad, sólo listamos contenidos asincrónicos (y no las actividades sincrónicas). 
 
@@ -89,6 +89,15 @@ En este módulo nos introducimos al proceso de investigación, a través de sus 
     - Tema 1: Idea, diseños y enfoques - Algunas nociones previas a dar el primer paso de investigación [Exposición en video](https://youtu.be/N5MrhOCmgPU)
     - Tema 2: El marco teórico - Nuestros anteojos sociológicos para hacer preguntas [Exposición en video parte 1](https://youtu.be/8Zp6wNq7MJI) + [Exposición en video parte 2](https://youtu.be/nTdm6yzuLRw) + Un ejemplo: la teoría de las representaciones sociales [Exposición en video](https://youtu.be/XVN3shrWgA4)
     - Tema 3: Objetivos de investigación - Una guía rápida para leer/ escribir un objetivo de investigación [Exposición en video](https://youtu.be/) + [Material de lectura: "Consejos y advertencias para la formación de investigadores en ciencias sociales (C.Wainerman)" ](http://www.catalinawainerman.com.ar/pdf/Consejos_y_advertencias_para_la_form_de_investigadores.pdf)
+
+
+## Clases abiertas
+
+Algunas de las clases abiertas y gratuitas que organizamos en el marco de nuestras asignaturas y de nuestras colaboraciones con otros programas.
+
+- [Clase abierta sobre historia del desarrollo/comercialización/adopción de la I.A.](https://www.youtube.com/watch?v=TJSZ87EJ_ac) - Clase abierta de la Prof. Dra. Francesca Batista dada en el marco del módulo de *Historia de la I.A.*
+
+- [Clase abierta sobre regulación de la I.A.](https://www.youtube.com/watch?v=ivGBaXMs7yI) - Clase abierta del Prof. Dr. Carlos Carretero y el Prof. Guillermo Movia sobre el marco regulatorio de la I.A., realizada en el marco del módulo *Sociología de la I.A.*
 
 ## Tutoriales de Sociología computacional
 
@@ -129,3 +138,10 @@ Generamos herramientas de código abierto para asistir a distintos momentos de l
 - [minCaqdasR](https://github.com/gastonbecerra/mincaqdasr) **(en desarrollo!)**  - Herramienta para análisis cualitativo (CAQDAS), diseñada para asistir en la tarea de codificar o anotar un corpus de documentos o fragmentos de los mismos, a través de una interfaz gráfica (GUI) que corre en cualquier navegador que tenga JavaScript habilitado, y que se puede vincular con R.
 
 - [ojsr](https://cran.r-project.org/web/packages/ojsr/index.html) - Package de R para navegar y hacer webscraping de revistas electrónicas editadas con Open Journal System. La documentación está en inglés... pero acá hay un [artículo en castellano](https://dspaceapi.uai.edu.ar/server/api/core/bitstreams/5b8cc797-032a-4611-ab00-a5ae5acce1d8/content).
+
+
+
+<!--
+- **1eras Jornadas de Sociología UFLO Universidad** - Julio de 2024 - Modalidad virtual / Gratuito para ponentes y asistentes - Invitamos a estudiantes, docentes, investigadores y profesionales de la comunidad sociológica local e internacional a participar en las Jornadas. Actividades: Mesas de ponencias - Workshop sobre divulgación - Conversatorios y Conferencias magistrales - Clases abiertas - Novedades editoriales. 
+Más info: [Circulares y actividades](https://bit.ly/circular-socio-uflo)
+-->
