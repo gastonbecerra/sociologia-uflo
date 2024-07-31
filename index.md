@@ -21,6 +21,12 @@ Más info: [OJS de la revista DCSC](https://revistadesarrollos.uflo.edu.ar/index
 - **Clase abierta sobre la vigencia de los clásicos en sociología** - 7 ago 2024 06:00 p. m. (Arg). - Clase de la Prof. Micaela Ciardiello en la que abordaremos el surgimiento de la sociología y el rol de la idea de "autor clásico", ejemplificando con las contribuciones de Durkheim, Weber y Marx.
 Inscripciones: [Actividad gratuita con inscripción](https://zoom.us/meeting/register/tJMkfuygrTwoGddz204FKhQdDBgaSdgYrKyV#/registration)
 
+3 de nuestros seminarios se encuentran abiertos a estudiantes externos (cupo limitado):
+
+- **Seminario de Teoría Social Clásica** - Miércoles de 18 a 22 hs - Prof. Micaela Ciardiello. [Más info](https://formacion.uflo.edu.ar/index.php/producto/teoria-social-clasica/)
+- **Seminario de Introducción a la Programación** - Viernes de 19 a 21 hs. - Prof. Javier Blanco y Gastón Becerra. [Más info](https://formacion.uflo.edu.ar/index.php/producto/seminario-introduccion-a-la-programacion-2/)
+- **Seminario de Bases de datos** - Martes de 19 a 21 hs.- Prof. Pablo Ayala. [Más info](https://formacion.uflo.edu.ar/index.php/producto/seminario-introduccion-a-las-bases-de-datos/)
+
 ## Podcasts
 
 El podcast **(Re) Pensar la Sociología desde el hoy** es una serie de entrevistas a profesore/as e investigadore/as de Argentina acerca de algún/a referente de la teoría sociológica. 
