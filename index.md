@@ -137,6 +137,8 @@ Aquí linkeamos a nuestros proyectos de investigación (completos, con marco te�
 
 - [Proyecto: La Teoría de los Sistemas Sociales en las dicotomías de la sociología contemporánea](https://docs.google.com/document/d/e/2PACX-1vTccXsWLV5cYNQO62CM2dICtWI0sJshi2C_iVx3W9zu5E_x7WyJJxj9oxSoIHHyTR-PZTyYS9SADgde/pub) / 2022 / Proyecto teórico que busca contribuir a avanzar la elucidación de aspectos críticos y controversiales de la Teoría de los Sistemas Sociales.
 
+- [Proyecto: Incorporación de la Inteligencia Artificial en la educación universitaria](https://docs.google.com/document/d/1kTa5oWwhzRlTPxeyWUcS74SoUd3rPDxUv0FnpnSwZaw/edit?usp=sharing) / 2023 / Proyecto junto a la Comunidad Internacional de Investigación Educativa (CIIED), que vincula a investigadores de Ciencias de la Educación y las Ciencias de Sociales de Perú, Argentina, Brasil, España, Chile y Japón.
+
 ## Desarrollos y herramientas
 
 Generamos herramientas de código abierto para asistir a distintos momentos de la investigación social. Algunos de estos desarrollos son:
