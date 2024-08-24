@@ -100,7 +100,7 @@ Algunas de las clases abiertas y gratuitas que organizamos en el marco de nuestr
 
 - [Clase abierta sobre regulación de la I.A.](https://www.youtube.com/watch?v=ivGBaXMs7yI) - Clase abierta del Prof. Dr. Carlos Carretero y el Prof. Guillermo Movia sobre el marco regulatorio de la I.A., realizada en el marco del módulo *Sociología de la I.A.*
 
-- [Clase abierta sobre la vigencia de los clásicos en sociología](https://www.youtube.com/watch?v=mkuuyVLAtCw) - Clase abierta de la Prof. Micaela Ciardiello sobre la centralidad de los clásicos en la Sociología
+- [Clase abierta sobre la vigencia de los clásicos en sociología](https://www.youtube.com/watch?v=mkuuyVLAtCw) - Clase abierta de la Prof. Micaela Ciardiello sobre la centralidad y vigencia de Marx, Durkheim y Weber en la Sociología, organizada desde la materia *Teoría Sociológica Clásica*
 
 ## Tutoriales de Sociología computacional
 
