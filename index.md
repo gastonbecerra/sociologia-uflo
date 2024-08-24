@@ -13,19 +13,14 @@ Nuestra carrera tiene una orientación computacional que busca, entre otros obje
 
 Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflouniversidad.edu.ar*
 
-## Invitaciones / Novedades
+## Publicaciones
+
+Algunas publicaciones y otros editoriales que elaboramos desde nuestros equipos de investigación y otros espacios de trabajo de la carrera.
 
 - **Revista Desarrollos en Ciencias Sociales Computacionales (en desarrollo!)** - Julio de 2024 - Publicación  editada por la Licenciatura en Sociología de la Universidad de Flores que busca ofrecer un espacio de difusión e intercambio del trabajo de estudiantes, docentes, investigadores/as y profesionales en el campo de las ciencias sociales computacionales. 
 Más info: [OJS de la revista DCSC](https://revistadesarrollos.uflo.edu.ar/index.php/RDCSC/about)
 
-- **Clase abierta sobre la vigencia de los clásicos en sociología** - 7 ago 2024 06:00 p. m. (Arg). - Clase de la Prof. Micaela Ciardiello en la que abordaremos el surgimiento de la sociología y el rol de la idea de "autor clásico", ejemplificando con las contribuciones de Durkheim, Weber y Marx.
-Inscripciones: [Actividad gratuita con inscripción](https://zoom.us/meeting/register/tJMkfuygrTwoGddz204FKhQdDBgaSdgYrKyV#/registration)
-
-3 de nuestros seminarios se encuentran abiertos a estudiantes externos (cupo limitado):
-
-- **Seminario de Teoría Social Clásica** - Miércoles de 18 a 22 hs - Prof. Micaela Ciardiello. [Más info](https://formacion.uflo.edu.ar/index.php/producto/teoria-social-clasica/)
-- **Seminario de Introducción a la Programación** - Viernes de 19 a 21 hs. - Prof. Javier Blanco y Gastón Becerra. [Más info](https://formacion.uflo.edu.ar/index.php/producto/seminario-introduccion-a-la-programacion-2/)
-- **Seminario de Bases de datos** - Martes de 19 a 21 hs.- Prof. Pablo Ayala. [Más info](https://formacion.uflo.edu.ar/index.php/producto/seminario-introduccion-a-las-bases-de-datos/)
+- **La inteligencia artificial como tecnología disruptiva y sus sentidos sociales** - Artículo elaborado por Gastón Becerra y Esteban Magnani como resultado de las Jornadas de Inteligencia Artificial en la Universidad - [Descargar artículo desde la Revista El Faro](https://revistaelfaro.uflo.edu.ar/elfaro/article/view/14)
 
 ## Podcasts
 
@@ -105,6 +100,8 @@ Algunas de las clases abiertas y gratuitas que organizamos en el marco de nuestr
 
 - [Clase abierta sobre regulación de la I.A.](https://www.youtube.com/watch?v=ivGBaXMs7yI) - Clase abierta del Prof. Dr. Carlos Carretero y el Prof. Guillermo Movia sobre el marco regulatorio de la I.A., realizada en el marco del módulo *Sociología de la I.A.*
 
+- [Clase abierta sobre la vigencia de los clásicos en sociología](https://www.youtube.com/watch?v=mkuuyVLAtCw) - Clase abierta de la Prof. Micaela Ciardiello sobre la centralidad de los clásicos en la Sociología
+
 ## Tutoriales de Sociología computacional
 
 Aquí compilamos algunas guías de trabajo y tutoriales que elaboramos para distintas materias, cursos y talleres vinculados con los saberes computacionales.
@@ -146,8 +143,6 @@ Generamos herramientas de código abierto para asistir a distintos momentos de l
 - [minCaqdasR](https://github.com/gastonbecerra/mincaqdasr) **(en desarrollo!)**  - Herramienta para análisis cualitativo (CAQDAS), diseñada para asistir en la tarea de codificar o anotar un corpus de documentos o fragmentos de los mismos, a través de una interfaz gráfica (GUI) que corre en cualquier navegador que tenga JavaScript habilitado, y que se puede vincular con R.
 
 - [ojsr](https://cran.r-project.org/web/packages/ojsr/index.html) - Package de R para navegar y hacer webscraping de revistas electrónicas editadas con Open Journal System. La documentación está en inglés... pero acá hay un [artículo en castellano](https://dspaceapi.uai.edu.ar/server/api/core/bitstreams/5b8cc797-032a-4611-ab00-a5ae5acce1d8/content).
-
-
 
 <!--
 - **1eras Jornadas de Sociología UFLO Universidad** - Julio de 2024 - Modalidad virtual / Gratuito para ponentes y asistentes - Invitamos a estudiantes, docentes, investigadores y profesionales de la comunidad sociológica local e internacional a participar en las Jornadas. Actividades: Mesas de ponencias - Workshop sobre divulgación - Conversatorios y Conferencias magistrales - Clases abiertas - Novedades editoriales. 
