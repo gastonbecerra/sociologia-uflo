@@ -15,7 +15,7 @@ Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflou
 
 ## Publicaciones
 
-Algunas publicaciones y otros editoriales que elaboramos desde nuestros equipos de investigación y otros espacios de trabajo de la carrera.
+Publicaciones y proyectos editoriales que elaboramos desde nuestros equipos de investigación y otros espacios de trabajo de la carrera.
 
 - **Revista Desarrollos en Ciencias Sociales Computacionales (en desarrollo!)** - Julio de 2024 - Publicación  editada por la Licenciatura en Sociología de la Universidad de Flores que busca ofrecer un espacio de difusión e intercambio del trabajo de estudiantes, docentes, investigadores/as y profesionales en el campo de las ciencias sociales computacionales. 
 Más info: [OJS de la revista DCSC](https://revistadesarrollos.uflo.edu.ar/index.php/RDCSC/about)
