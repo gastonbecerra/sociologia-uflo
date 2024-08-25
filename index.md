@@ -75,6 +75,8 @@ En este módulo buscamos fomentar una mirada crítica de los desarrollos tecnol�
     - Tema 2: Problemas éticos en las ciencias de datos - Introducimos una mirada sociológica de la ética de la investigación: [Exposición en video](https://youtu.be/V-h_h5DOQCg)
     - Tema 3: Epistemología de las ciencias de datos - Exponemos y discutimos  el paper R. Kitchin [Exposición en video](https://youtu.be/VVYCMaT9xgQ) y [material de lectura: "Big Data, new epistemologies and paradigm shifts"](http://journals.sagepub.com/doi/10.1177/2053951714528481)
 
+<br />
+
 - **Módulo**: **"La ciencia como comunicación"** <br />
 **Asignatura**: *Taller de Herramientas de Documentación y Colaboración* - [Programa de la materia](https://docs.google.com/document/d/1xaybSimckdOUN9DuUmXO6J3ds_iTP46x/edit?usp=sharing&ouid=110060493895495443798&rtpof=true&sd=true) <br />
 **Tramo**: Metodológico - Estudiantes de 1er año <br />
@@ -84,6 +86,8 @@ En este módulo exploramos una manera de observar la ciencia como un sistema de 
     - Tema 2: Buscadores y redes científicas - Presentamos los canales típicos de la comunicación científica: [Exposición en video](https://youtu.be/Cr9cYWMr2LY) y [Listado de buscadores](https://docs.google.com/document/d/1YX85xK02GsAaltsUIHBCnm27LKXFEJ8kU967xE-iSuM/edit?usp=sharing)
     - Tema 3: ¿Cómo leer artículos y ponencias? - Nos introducimos a dos géneros de la comunicación científica y leemos 2 ejemplos: [Exposición en video](https://youtu.be/Dmk2U8DgnEc), [Ejemplo 1: "Hacia una exploración de las representaciones sociales en torno al big data"](https://drive.google.com/file/d/1bOmgIK8QWZcB3Dg-4L83W2qICMguMn4z/view?usp=sharing) y [Ejemplo 2: "Adieu à Bourdieu? Asimetrías, límites y paradojas en la noción de habitus. Convergencia Revista de Ciencias Sociales"](https://drive.google.com/file/d/1YWpjhLuEuYzdmHz1RNED0_LvLVzo5u8A/view?usp=sharing)
     - Tema 4: Gestores de bibliografía - Mostramos el software Mendeley para manejar bibliografía y citado: [Exposición en video](https://youtu.be/n1UYMaLxSBQ)
+
+<br />
 
 - **Módulo**: **"Camino hacia la elección del diseño de investigación"** <br />
 **Asignatura**: *Taller de Investigación I* - [Programa de la materia](https://docs.google.com/document/d/1WjJsNzH5UqCfeqlRLufFBwPl1OsRcxc9/edit) <br />
@@ -95,7 +99,7 @@ En este módulo nos introducimos al proceso de investigación, a través de sus 
     - Tema 3: Objetivos de investigación - Una guía rápida para leer/ escribir un objetivo de investigación [Exposición en video](https://youtu.be/) + [Material de lectura: "Consejos y advertencias para la formación de investigadores en ciencias sociales (C.Wainerman)" ](http://www.catalinawainerman.com.ar/pdf/Consejos_y_advertencias_para_la_form_de_investigadores.pdf)
 
 
-## Clases abiertas
+## Clases abiertas y Videos de otros eventos
 
 Algunas de las clases abiertas y gratuitas que organizamos en el marco de nuestras asignaturas.
 
@@ -104,6 +108,8 @@ Algunas de las clases abiertas y gratuitas que organizamos en el marco de nuestr
 - [Clase abierta sobre regulación de la I.A.](https://www.youtube.com/watch?v=ivGBaXMs7yI) - Clase abierta del Prof. Dr. Carlos Carretero y el Prof. Guillermo Movia sobre el marco regulatorio de la I.A., realizada en el marco del módulo *Sociología de la I.A.*
 
 - [Clase abierta sobre la vigencia de los clásicos en sociología](https://www.youtube.com/watch?v=mkuuyVLAtCw) - Clase abierta de la Prof. Micaela Ciardiello sobre la centralidad y vigencia de Marx, Durkheim y Weber en la Sociología, organizada desde la materia *Teoría Sociológica Clásica*
+
+- [500 sociólogxs dicen](https://youtu.be/ohE4kJM1DSw) - Presentación de Gastón Becerra y Christian Aiello en el marco de las 1eras Jornadas de Sociología de UFLO (Julio/2024), con datos de una encuesta realizada por la Asociación de Sociólogos de la República Argentina y el Colegio de Profesionales de Sociología
 
 ## Tutoriales de Sociología computacional
 
@@ -140,8 +146,3 @@ Generamos herramientas de código abierto para asistir a distintos momentos de l
 - [minCaqdasR](https://github.com/gastonbecerra/mincaqdasr) **(en desarrollo!)**  - Herramienta para análisis cualitativo (CAQDAS), diseñada para asistir en la tarea de codificar o anotar un corpus de documentos o fragmentos de los mismos, a través de una interfaz gráfica (GUI) que corre en cualquier navegador que tenga JavaScript habilitado, y que se puede vincular con R.
 
 - [ojsr](https://cran.r-project.org/web/packages/ojsr/index.html) - Package de R para navegar y hacer webscraping de revistas electrónicas editadas con Open Journal System. La documentación está en inglés... pero acá hay un [artículo en castellano](https://dspaceapi.uai.edu.ar/server/api/core/bitstreams/5b8cc797-032a-4611-ab00-a5ae5acce1d8/content).
-
-<!--
-- **1eras Jornadas de Sociología UFLO Universidad** - Julio de 2024 - Modalidad virtual / Gratuito para ponentes y asistentes - Invitamos a estudiantes, docentes, investigadores y profesionales de la comunidad sociológica local e internacional a participar en las Jornadas. Actividades: Mesas de ponencias - Workshop sobre divulgación - Conversatorios y Conferencias magistrales - Clases abiertas - Novedades editoriales. 
-Más info: [Circulares y actividades](https://bit.ly/circular-socio-uflo)
--->
