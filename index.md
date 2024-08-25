@@ -17,10 +17,16 @@ Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflou
 
 Publicaciones y proyectos editoriales que elaboramos desde nuestros equipos de investigación y otros espacios de trabajo de la carrera.
 
-- **Revista Desarrollos en Ciencias Sociales Computacionales (en desarrollo!)** - Julio de 2024 - Publicación  editada por la Licenciatura en Sociología de la Universidad de Flores que busca ofrecer un espacio de difusión e intercambio del trabajo de estudiantes, docentes, investigadores/as y profesionales en el campo de las ciencias sociales computacionales. 
+- **Revista Desarrollos en Ciencias Sociales Computacionales (en desarrollo!)** - Publicación  editada por la Licenciatura en Sociología de la Universidad de Flores que busca ofrecer un espacio de difusión e intercambio del trabajo de estudiantes, docentes, investigadores/as y profesionales en el campo de las ciencias sociales computacionales. 
 Más info: [OJS de la revista DCSC](https://revistadesarrollos.uflo.edu.ar/index.php/RDCSC/about)
 
-- **La inteligencia artificial como tecnología disruptiva y sus sentidos sociales** - Artículo elaborado por Gastón Becerra y Esteban Magnani como resultado de las Jornadas de Inteligencia Artificial en la Universidad - [Descargar artículo desde la Revista El Faro](https://revistaelfaro.uflo.edu.ar/elfaro/article/view/14)
+- **La inteligencia artificial como tecnología disruptiva y sus sentidos sociales** - Artículo elaborado por Gastón Becerra y Esteban Magnani como registro de las Jornadas de Inteligencia Artificial en la Universidad - [Descargar artículo desde la Revista El Faro](https://revistaelfaro.uflo.edu.ar/elfaro/article/view/14)
+
+- **Guías del ciclo "Charlas Sociológicas"** - Material de apoyo elaborado para el ciclo virtual y gratuito “Charlas sociológicas” (verano/2024). Prof. Micaela Ciardiello. - [Ver guías](https://drive.google.com/file/d/18g0yOfkAt43rpVTEe0xwpuZj_adtBubu/view?usp=drive_link) 
+
+- **Libro de Resúmenes de las 1eras Jornadas de Sociología de UFLO (ISBN en trámite!)** - En este libro compilamos todos los resúmenes aceptados para las 1eras Jornadas de Sociología de UFLO realizadas en Julio/2024 - [Ir al libro](https://docs.google.com/document/d/e/2PACX-1vQyAAr0M7_3d0dYpmeg5F8M7I7WPmo3ki27RDT4cyHjfi5FqVaArM-UP6xrrb0srRLHDNDh4bH0I8_p/pub)
+
+- **Registro del Coloquio Internacional *Communication in the age of technological challenges*** - Registro elaborado por Gastón Becerra y Cristina Paganoni a partir de lo charlado en un evento organizado junto a la Universidad de Varsovia (Polonia) en Mayo/2023. [Descargar artículo desde el Journal of International Legal Communication](https://doi.org/10.32612/uw.27201643.2023.9.pp.99-101)
 
 ## Podcasts
 
@@ -57,7 +63,8 @@ En nuestros conversatorios buscamos intercambiar con colegas sobre sus experienc
 
 ## Módulos de nuestas asignaturas
 
-Estos son algunos de los contenidos y temas de algunas materias de la carrera. Por cuestiones de privacidad, sólo listamos contenidos asincrónicos (y no las actividades sincrónicas). 
+Estos son algunos de los contenidos y temas de algunas materias de la carrera. 
+Por cuestiones de privacidad, sólo listamos contenidos asincrónicos (y no las actividades sincrónicas con estaudiantes). 
 
 - **Módulo**: **"El análisis de datos y la Sociología"** <br />
 **Asignatura**: *Análisis de datos* - [Programa de la materia](https://docs.google.com/document/d/1A_hDY1bkpvRAaeU5WOAqpQlbtdAxzQOV/edit) <br />
@@ -68,8 +75,6 @@ En este módulo buscamos fomentar una mirada crítica de los desarrollos tecnol�
     - Tema 2: Problemas éticos en las ciencias de datos - Introducimos una mirada sociológica de la ética de la investigación: [Exposición en video](https://youtu.be/V-h_h5DOQCg)
     - Tema 3: Epistemología de las ciencias de datos - Exponemos y discutimos  el paper R. Kitchin [Exposición en video](https://youtu.be/VVYCMaT9xgQ) y [material de lectura: "Big Data, new epistemologies and paradigm shifts"](http://journals.sagepub.com/doi/10.1177/2053951714528481)
 
-<br />
-
 - **Módulo**: **"La ciencia como comunicación"** <br />
 **Asignatura**: *Taller de Herramientas de Documentación y Colaboración* - [Programa de la materia](https://docs.google.com/document/d/1xaybSimckdOUN9DuUmXO6J3ds_iTP46x/edit?usp=sharing&ouid=110060493895495443798&rtpof=true&sd=true) <br />
 **Tramo**: Metodológico - Estudiantes de 1er año <br />
@@ -79,8 +84,6 @@ En este módulo exploramos una manera de observar la ciencia como un sistema de 
     - Tema 2: Buscadores y redes científicas - Presentamos los canales típicos de la comunicación científica: [Exposición en video](https://youtu.be/Cr9cYWMr2LY) y [Listado de buscadores](https://docs.google.com/document/d/1YX85xK02GsAaltsUIHBCnm27LKXFEJ8kU967xE-iSuM/edit?usp=sharing)
     - Tema 3: ¿Cómo leer artículos y ponencias? - Nos introducimos a dos géneros de la comunicación científica y leemos 2 ejemplos: [Exposición en video](https://youtu.be/Dmk2U8DgnEc), [Ejemplo 1: "Hacia una exploración de las representaciones sociales en torno al big data"](https://drive.google.com/file/d/1bOmgIK8QWZcB3Dg-4L83W2qICMguMn4z/view?usp=sharing) y [Ejemplo 2: "Adieu à Bourdieu? Asimetrías, límites y paradojas en la noción de habitus. Convergencia Revista de Ciencias Sociales"](https://drive.google.com/file/d/1YWpjhLuEuYzdmHz1RNED0_LvLVzo5u8A/view?usp=sharing)
     - Tema 4: Gestores de bibliografía - Mostramos el software Mendeley para manejar bibliografía y citado: [Exposición en video](https://youtu.be/n1UYMaLxSBQ)
-
-<br />
 
 - **Módulo**: **"Camino hacia la elección del diseño de investigación"** <br />
 **Asignatura**: *Taller de Investigación I* - [Programa de la materia](https://docs.google.com/document/d/1WjJsNzH5UqCfeqlRLufFBwPl1OsRcxc9/edit) <br />
@@ -94,7 +97,7 @@ En este módulo nos introducimos al proceso de investigación, a través de sus 
 
 ## Clases abiertas
 
-Algunas de las clases abiertas y gratuitas que organizamos en el marco de nuestras asignaturas y de nuestras colaboraciones con otros programas.
+Algunas de las clases abiertas y gratuitas que organizamos en el marco de nuestras asignaturas.
 
 - [Clase abierta sobre historia del desarrollo/comercialización/adopción de la I.A.](https://www.youtube.com/watch?v=TJSZ87EJ_ac) - Clase abierta de la Prof. Dra. Francesca Batista dada en el marco del módulo de *Historia de la I.A.*
 
@@ -115,12 +118,6 @@ Aquí compilamos algunas guías de trabajo y tutoriales que elaboramos para dist
 - [Tutorial completo de arqueo bibliográfico en lenguaje Clojure](https://www.youtube.com/playlist?list=PLUxsdd9CjsoGwvfLkoTuYnSDB3j0L07Xw) - Un curso completo para armar una aplicación en **lenguaje de programación lógica Clojure** para obtener información de la API de Semantic Scholar. Incluye introducción teórica y práctica con GitPod, Codespace, y VS-Code.
 
 - [Tutorial sobre uso de ChatGPT](downloads/material%20chatgpt.pdf) - Un tutorial breve sobre cómo construir prompts con **ChatGPT**, desarrollado para la materia *Sociología de la Inteligencia Artificial* por la Prof. Paula Urabayen.
-
-## Materiales docentes de Sociología
-
-Aquí listamos los materiales de apoyo que hemos elaborado para distintos cursos y encuentros de iniciación a la sociología:
-
-- [Guías del ciclo "Charlas Sociológicas"](https://drive.google.com/file/d/18g0yOfkAt43rpVTEe0xwpuZj_adtBubu/view?usp=drive_link) - Material de apoyo elaborado para el ciclo virtual y gratuito “Charlas sociológicas” (verano/2024). Prof. Micaela Ciardiello
 
 ## Proyectos de investigación
 
