@@ -5,6 +5,7 @@ title: "Recursos Socio UFLO"
 
 # Bienvenidos a los Recursos Abiertos de la Licenciatura en Sociología de UFLO
 
+
 Página web de la carrera de [Sociología de la Universidad de Flores](https://www.uflo.edu.ar/ver-info-sobre-406-licenciatura-en-sociologia.php).
 
 Nuestra carrera tiene una orientación computacional que busca, entre otros objetivos, integrar saberes digitales y nuevas tecnologías con una mirada social crítica y epistemológicamente fundada. 
@@ -12,6 +13,17 @@ Nuestra carrera tiene una orientación computacional que busca, entre otros obje
 ![UFLO diseño](./images/materias.jpg)
 
 Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflouniversidad.edu.ar*
+
+## Contenidos Abiertos
+
+1. [Publicaciones](#publicaciones)
+2. [Podcast "(Re) Pensar la Sociología desde el hoy"](#podcasts)
+3. [Clases abiertas y Eventos](#clases-abiertas-y-eventos)
+4. [Conversatorios](#conversatorios)
+5. [Módulos de nuestras asignaturas](#módulos)
+6. [Proyectos de Investigación](#proyectos-de-investigación)
+7. [Tutoriales de Sociología Computacional](#tutoriales-de-sociología-computacional)
+8. [Desarrollos y herramientas en Sociología Computacional](#desarrollos-y-herramientas)
 
 ## Publicaciones
 
@@ -47,6 +59,18 @@ El podcast **(Re) Pensar la Sociología desde el hoy** es una serie de entrevist
 Estos materiales corresponden a las asignaturas *Teoría Sociológica Clásica* y *Teoría Sociológica Contemporánea*. Para una bitácora y reflexión, podés consultar la ponencia:
 Ciardiello, M., Giordano, P. y Becerra, G. (2023). Experiencias en la producción de podcasts de teoría sociológica. *IV Jornadas Institucionales de Innovación Educativa en la Universidad - Universidad de Flores*. https://repositorio.uflo.edu.ar/entities/ponencia/be9853f1-f1c5-4744-a85a-1263ee95fb09
 
+## Clases abiertas y Eventos
+
+Algunas de las clases abiertas y gratuitas que organizamos en el marco de nuestras asignaturas.
+
+- [Clase abierta sobre historia del desarrollo/comercialización/adopción de la I.A.](https://www.youtube.com/watch?v=TJSZ87EJ_ac) - Clase abierta de la Prof. Dra. Francesca Batista dada en el marco del módulo de *Historia de la I.A.*
+
+- [Clase abierta sobre regulación de la I.A.](https://www.youtube.com/watch?v=ivGBaXMs7yI) - Clase abierta del Prof. Dr. Carlos Carretero y el Prof. Guillermo Movia sobre el marco regulatorio de la I.A., realizada en el marco del módulo *Sociología de la I.A.*
+
+- [Clase abierta sobre la vigencia de los clásicos en sociología](https://www.youtube.com/watch?v=mkuuyVLAtCw) - Clase abierta de la Prof. Micaela Ciardiello sobre la centralidad y vigencia de Marx, Durkheim y Weber en la Sociología, organizada desde la materia *Teoría Sociológica Clásica*
+
+- [500 sociólogxs dicen](https://youtu.be/ohE4kJM1DSw) - Presentación de Gastón Becerra y Christian Aiello en el marco de las 1eras Jornadas de Sociología de UFLO (Julio/2024), con datos de una encuesta realizada por la Asociación de Sociólogos de la República Argentina y el Colegio de Profesionales de Sociología
+
 ## Conversatorios
 
 En nuestros conversatorios buscamos intercambiar con colegas sobre sus experiencias y reflexiones en investigación, enseñanza y la vida profesional de un/a sociólogo/a. Aquí algunos de los encuentros que más nos gustaron.
@@ -61,7 +85,7 @@ En nuestros conversatorios buscamos intercambiar con colegas sobre sus experienc
 
 [Todos los encuentros: https://bit.ly/conversatorios-uflo](https://bit.ly/conversatorios-uflo)
 
-## Módulos de nuestas asignaturas
+## Módulos
 
 Estos son algunos de los contenidos y temas de algunas materias de la carrera. 
 Por cuestiones de privacidad, sólo listamos contenidos asincrónicos (y no las actividades sincrónicas con estaudiantes). 
@@ -99,17 +123,19 @@ En este módulo nos introducimos al proceso de investigación, a través de sus 
     - Tema 3: Objetivos de investigación - Una guía rápida para leer/ escribir un objetivo de investigación [Exposición en video](https://youtu.be/) + [Material de lectura: "Consejos y advertencias para la formación de investigadores en ciencias sociales (C.Wainerman)" ](http://www.catalinawainerman.com.ar/pdf/Consejos_y_advertencias_para_la_form_de_investigadores.pdf)
 
 
-## Clases abiertas y Videos de otros eventos
+## Proyectos de Investigación
 
-Algunas de las clases abiertas y gratuitas que organizamos en el marco de nuestras asignaturas.
+Aquí linkeamos a nuestros proyectos de investigación (completos, con marco teórico, objetivos, antecedentes, bajada metodológica y presupuesto) que ya fueron evaluados y aprobados por un comité externo.
 
-- [Clase abierta sobre historia del desarrollo/comercialización/adopción de la I.A.](https://www.youtube.com/watch?v=TJSZ87EJ_ac) - Clase abierta de la Prof. Dra. Francesca Batista dada en el marco del módulo de *Historia de la I.A.*
+- [Proyecto: Indagaciones en torno a la Equidad de Género y Diversidad Sexual](https://docs.google.com/document/d/e/2PACX-1vQxlAOlzGBGe4lbRkex1X5yYnhtH-uVUE2PxY_0HOwrHCeed4gY5t_Sk0e489eymqYPY8l0dZbrmZzg/pub) / 2024 / Proyecto empírico tendiente a transversalizar la perspectiva de género y el paradigma de los Derechos Humanos para impulsar el avance y la efectivización de derechos de mujeres, disidencias y diversidades sexuales.
 
-- [Clase abierta sobre regulación de la I.A.](https://www.youtube.com/watch?v=ivGBaXMs7yI) - Clase abierta del Prof. Dr. Carlos Carretero y el Prof. Guillermo Movia sobre el marco regulatorio de la I.A., realizada en el marco del módulo *Sociología de la I.A.*
+- [Proyecto: Recursos computacionales para investigación en torno a la Teoría de Sistemas Sociales (también llamado *DataLuhmann*)](https://docs.google.com/document/d/e/2PACX-1vQvnVTcjm8o7LkCWwTFlj7qp9A5kUIQz0od0M5Vv4VHxMNjWFInitI-tqs9GXz-EqhonNUxwkHnHW_p/pub) / 2023 / Proyecto computacional tendiente a generar recursos para la investigación en el campo de la Teoría de los Sistemas Sociales.
 
-- [Clase abierta sobre la vigencia de los clásicos en sociología](https://www.youtube.com/watch?v=mkuuyVLAtCw) - Clase abierta de la Prof. Micaela Ciardiello sobre la centralidad y vigencia de Marx, Durkheim y Weber en la Sociología, organizada desde la materia *Teoría Sociológica Clásica*
+- [Proyecto: Exploraciones empíricas y teóricas sobre problemáticas socio-tecnológicas en perspectiva psicosocial](https://docs.google.com/document/d/e/2PACX-1vQhdUFEWPUx4oEq9ambhQvsHAiii1YK-fJaoCNldkPY5N3Sb5CVGJcA5DJOwhUS6M_w9OA6oz8QiGi5/pub) / 2022 / Proyecto empírico, con perspectiva psico-social, sobre fenómenos y procesos sociales vinculados con el big data, los algoritmos y las criptomonedas.
 
-- [500 sociólogxs dicen](https://youtu.be/ohE4kJM1DSw) - Presentación de Gastón Becerra y Christian Aiello en el marco de las 1eras Jornadas de Sociología de UFLO (Julio/2024), con datos de una encuesta realizada por la Asociación de Sociólogos de la República Argentina y el Colegio de Profesionales de Sociología
+- [Proyecto: La Teoría de los Sistemas Sociales en las dicotomías de la sociología contemporánea](https://docs.google.com/document/d/e/2PACX-1vTccXsWLV5cYNQO62CM2dICtWI0sJshi2C_iVx3W9zu5E_x7WyJJxj9oxSoIHHyTR-PZTyYS9SADgde/pub) / 2022 / Proyecto teórico que busca contribuir a avanzar la elucidación de aspectos críticos y controversiales de la Teoría de los Sistemas Sociales.
+
+- [Proyecto: Incorporación de la Inteligencia Artificial en la educación universitaria](https://docs.google.com/document/d/1kTa5oWwhzRlTPxeyWUcS74SoUd3rPDxUv0FnpnSwZaw/edit?usp=sharing) / 2023 / Proyecto junto a la Comunidad Internacional de Investigación Educativa (CIIED), que vincula a investigadores de Ciencias de la Educación y las Ciencias de Sociales de Perú, Argentina, Brasil, España, Chile y Japón.
 
 ## Tutoriales de Sociología computacional
 
@@ -124,20 +150,6 @@ Aquí compilamos algunas guías de trabajo y tutoriales que elaboramos para dist
 - [Tutorial completo de arqueo bibliográfico en lenguaje Clojure](https://www.youtube.com/playlist?list=PLUxsdd9CjsoGwvfLkoTuYnSDB3j0L07Xw) - Un curso completo para armar una aplicación en **lenguaje de programación lógica Clojure** para obtener información de la API de Semantic Scholar. Incluye introducción teórica y práctica con GitPod, Codespace, y VS-Code.
 
 - [Tutorial sobre uso de ChatGPT](downloads/material%20chatgpt.pdf) - Un tutorial breve sobre cómo construir prompts con **ChatGPT**, desarrollado para la materia *Sociología de la Inteligencia Artificial* por la Prof. Paula Urabayen.
-
-## Proyectos de investigación
-
-Aquí linkeamos a nuestros proyectos de investigación (completos, con marco teórico, objetivos, antecedentes, bajada metodológica y presupuesto) que ya fueron evaluados y aprobados por un comité externo.
-
-- [Proyecto: Indagaciones en torno a la Equidad de Género y Diversidad Sexual](https://docs.google.com/document/d/e/2PACX-1vQxlAOlzGBGe4lbRkex1X5yYnhtH-uVUE2PxY_0HOwrHCeed4gY5t_Sk0e489eymqYPY8l0dZbrmZzg/pub) / 2024 / Proyecto empírico tendiente a transversalizar la perspectiva de género y el paradigma de los Derechos Humanos para impulsar el avance y la efectivización de derechos de mujeres, disidencias y diversidades sexuales.
-
-- [Proyecto: Recursos computacionales para investigación en torno a la Teoría de Sistemas Sociales (también llamado *DataLuhmann*)](https://docs.google.com/document/d/e/2PACX-1vQvnVTcjm8o7LkCWwTFlj7qp9A5kUIQz0od0M5Vv4VHxMNjWFInitI-tqs9GXz-EqhonNUxwkHnHW_p/pub) / 2023 / Proyecto computacional tendiente a generar recursos para la investigación en el campo de la Teoría de los Sistemas Sociales.
-
-- [Proyecto: Exploraciones empíricas y teóricas sobre problemáticas socio-tecnológicas en perspectiva psicosocial](https://docs.google.com/document/d/e/2PACX-1vQhdUFEWPUx4oEq9ambhQvsHAiii1YK-fJaoCNldkPY5N3Sb5CVGJcA5DJOwhUS6M_w9OA6oz8QiGi5/pub) / 2022 / Proyecto empírico, con perspectiva psico-social, sobre fenómenos y procesos sociales vinculados con el big data, los algoritmos y las criptomonedas.
-
-- [Proyecto: La Teoría de los Sistemas Sociales en las dicotomías de la sociología contemporánea](https://docs.google.com/document/d/e/2PACX-1vTccXsWLV5cYNQO62CM2dICtWI0sJshi2C_iVx3W9zu5E_x7WyJJxj9oxSoIHHyTR-PZTyYS9SADgde/pub) / 2022 / Proyecto teórico que busca contribuir a avanzar la elucidación de aspectos críticos y controversiales de la Teoría de los Sistemas Sociales.
-
-- [Proyecto: Incorporación de la Inteligencia Artificial en la educación universitaria](https://docs.google.com/document/d/1kTa5oWwhzRlTPxeyWUcS74SoUd3rPDxUv0FnpnSwZaw/edit?usp=sharing) / 2023 / Proyecto junto a la Comunidad Internacional de Investigación Educativa (CIIED), que vincula a investigadores de Ciencias de la Educación y las Ciencias de Sociales de Perú, Argentina, Brasil, España, Chile y Japón.
 
 ## Desarrollos y herramientas
 
