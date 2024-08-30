@@ -149,6 +149,8 @@ Aquí compilamos algunas guías de trabajo y tutoriales que elaboramos para dist
 
 - [Tutorial completo de arqueo bibliográfico en lenguaje Clojure](https://www.youtube.com/playlist?list=PLUxsdd9CjsoGwvfLkoTuYnSDB3j0L07Xw) - Un curso completo para armar una aplicación en **lenguaje de programación lógica Clojure** para obtener información de la API de Semantic Scholar. Incluye introducción teórica y práctica con GitPod, Codespace, y VS-Code.
 
+- [Tutorial de *webscraping* en lenguaje R](https://gastonbecerra.github.io/scraping-casa-rosada/) - Un tutorial para recuperar los discursos de Casa Rosada en **lenguaje de programación estadística R**. Lo usamos como material de apoyo en la materia *Programación*. 
+
 - [Tutorial sobre uso de ChatGPT](downloads/material%20chatgpt.pdf) - Un tutorial breve sobre cómo construir prompts con **ChatGPT**, desarrollado para la materia *Sociología de la Inteligencia Artificial* por la Prof. Paula Urabayen.
 
 ## Desarrollos y herramientas
