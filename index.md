@@ -32,6 +32,8 @@ Publicaciones y proyectos editoriales que elaboramos desde nuestros equipos de i
 - **Revista Desarrollos en Ciencias Sociales Computacionales (en desarrollo!)** - Publicación  editada por la Licenciatura en Sociología de la Universidad de Flores que busca ofrecer un espacio de difusión e intercambio del trabajo de estudiantes, docentes, investigadores/as y profesionales en el campo de las ciencias sociales computacionales. 
 Más info: [OJS de la revista DCSC](https://revistadesarrollos.uflo.edu.ar/index.php/RDCSC/about)
 
+- **La enseñanza de la investigación en sociología** - Capítulo de libro elaborado por los profs. de Metodología I y II: Publicado en J. Gómez Zeliz (Ed.), Metodología de la investigación. El desafío de su enseñanza (pp. 39–54). Editorial de la Universidad de Flores. [Ver libro completo](https://hdl.handle.net/20.500.14340/1718%0A)
+
 - **La inteligencia artificial como tecnología disruptiva y sus sentidos sociales** - Artículo elaborado por Gastón Becerra y Esteban Magnani como registro de las Jornadas de Inteligencia Artificial en la Universidad - [Descargar artículo desde la Revista El Faro](https://revistaelfaro.uflo.edu.ar/elfaro/article/view/14)
 
 - **Guías del ciclo "Charlas Sociológicas"** - Material de apoyo elaborado para el ciclo virtual y gratuito “Charlas sociológicas” (verano/2024). Prof. Micaela Ciardiello. - [Ver guías](https://drive.google.com/file/d/18g0yOfkAt43rpVTEe0xwpuZj_adtBubu/view?usp=drive_link) 
