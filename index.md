@@ -73,6 +73,10 @@ Algunas de las clases abiertas y gratuitas que organizamos en el marco de nuestr
 
 - [500 sociólogxs dicen](https://youtu.be/ohE4kJM1DSw) - Presentación de Gastón Becerra y Christian Aiello en el marco de las 1eras Jornadas de Sociología de UFLO (Julio/2024), con datos de una encuesta realizada por la Asociación de Sociólogos de la República Argentina y el Colegio de Profesionales de Sociología
 
+- [Clase abierta sobre las dimensiones sociales de la WWW](https://youtu.be/ihIzv0LyoTU) - Clase abierta del Prof. Guillermo Movia sobre la World Wide Wed y sus dimensiones sociales. Actividad organizada desde la materia *Programación* (Octubre/2024)
+
+- [Clase abierta sobre recursos educativos abiertos](https://youtu.be/ZRKf8WPkI9Y) - Presentación de Rosario Rogel y Alan Colin-Arce de la Universidad Autónoma del Estado de México sobre el desarrollo de web sociológicas. Actividad organizada desde la materia *Programación* (Octubre/2024)
+
 ## Conversatorios
 
 En nuestros conversatorios buscamos intercambiar con colegas sobre sus experiencias y reflexiones en investigación, enseñanza y la vida profesional de un/a sociólogo/a. Aquí algunos de los encuentros que más nos gustaron.
