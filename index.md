@@ -14,6 +14,8 @@ Nuestra carrera tiene una orientación computacional que busca, entre otros obje
 
 Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflouniversidad.edu.ar*
 
+Para enterarte de próximos eventos gratuitos y abiertos, podés dejarnos tu contacto en [este formulario](https://forms.gle/eFxcxuWV1c8oki5CA).
+
 ## Contenidos Abiertos
 
 1. [Publicaciones](#publicaciones)
@@ -113,7 +115,7 @@ En este módulo buscamos fomentar una mirada crítica de los desarrollos tecnol�
 En este módulo exploramos una manera de observar la ciencia como un sistema de comunicación (y no como una forma de pensamiento), y cuáles son sus canales y convenciones.
 
     - Tema 1: La ciencia como comunicación - Caracterizamos a la ciencia como un sistema de comunicación: [Exposición en video](https://youtu.be/3pG4DtKNdNA)
-    - Tema 2: Buscadores y redes científicas - Presentamos los canales típicos de la comunicación científica: [Exposición en video](https://youtu.be/Cr9cYWMr2LY) y [Listado de buscadores](https://docs.google.com/document/d/1YX85xK02GsAaltsUIHBCnm27LKXFEJ8kU967xE-iSuM/edit?usp=sharing)
+    - Tema 2: Buscadores y redes científicas - Presentamos los canales típicos de la comunicación científica: [Exposición en video](https://youtu.be/Cr9cYWMr2LY)
     - Tema 3: ¿Cómo leer artículos y ponencias? - Nos introducimos a dos géneros de la comunicación científica y leemos 2 ejemplos: [Exposición en video](https://youtu.be/Dmk2U8DgnEc), [Ejemplo 1: "Hacia una exploración de las representaciones sociales en torno al big data"](https://drive.google.com/file/d/1bOmgIK8QWZcB3Dg-4L83W2qICMguMn4z/view?usp=sharing) y [Ejemplo 2: "Adieu à Bourdieu? Asimetrías, límites y paradojas en la noción de habitus. Convergencia Revista de Ciencias Sociales"](https://drive.google.com/file/d/1YWpjhLuEuYzdmHz1RNED0_LvLVzo5u8A/view?usp=sharing)
     - Tema 4: Gestores de bibliografía - Mostramos el software Mendeley para manejar bibliografía y citado: [Exposición en video](https://youtu.be/n1UYMaLxSBQ)
 
