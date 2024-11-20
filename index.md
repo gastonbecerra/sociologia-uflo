@@ -5,12 +5,11 @@ title: "Recursos Socio UFLO"
 
 # Bienvenidos a los Recursos Abiertos de la Licenciatura en Sociología de UFLO
 
-
-Página web de la carrera de [Sociología de la Universidad de Flores](https://www.uflo.edu.ar/ver-info-sobre-406-licenciatura-en-sociologia.php).
+Página web de la carrera de [Sociología de la Universidad de Flores](https://www.uflouniversidad.edu.ar/carrera/sociologia/).
 
 Nuestra carrera tiene una orientación computacional que busca, entre otros objetivos, integrar saberes digitales y nuevas tecnologías con una mirada social crítica y epistemológicamente fundada. 
 
-![UFLO diseño](./images/materias.jpg)
+![UFLO diseño](./images/grilla%20materias%20sociologia.jpg)
 
 Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflouniversidad.edu.ar*
 
@@ -78,6 +77,8 @@ Algunas de las clases abiertas y gratuitas que organizamos en el marco de nuestr
 - [Clase abierta sobre las dimensiones sociales de la WWW](https://youtu.be/ihIzv0LyoTU) - Clase abierta del Prof. Guillermo Movia sobre la World Wide Wed y sus dimensiones sociales. Actividad organizada desde la materia *Programación* (Octubre/2024)
 
 - [Clase abierta sobre recursos educativos abiertos](https://youtu.be/ZRKf8WPkI9Y) - Presentación de Rosario Rogel y Alan Colin-Arce de la Universidad Autónoma del Estado de México sobre el desarrollo de web sociológicas. Actividad organizada desde la materia *Programación* (Octubre/2024)
+
+- []
 
 ## Conversatorios
 
