@@ -78,7 +78,7 @@ Algunas de las clases abiertas y gratuitas que organizamos en el marco de nuestr
 
 - [Clase abierta sobre recursos educativos abiertos](https://youtu.be/ZRKf8WPkI9Y) - Presentación de Rosario Rogel y Alan Colin-Arce de la Universidad Autónoma del Estado de México sobre el desarrollo de web sociológicas. Actividad organizada desde la materia *Programación* (Octubre/2024)
 
-- []
+- [Presentación sobre transición energética]() Presentación de nuestra estudiante Gabriela sobre transición energética, desde una mirada de los sistemas sociales. Actividad organizada desde la materia *Teoría Sociológica V: Sistemas sociales y complejos* en el marco de las jornadas de investigación (Junio/2024)
 
 ## Conversatorios
 
