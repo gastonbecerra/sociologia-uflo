@@ -17,7 +17,7 @@ Para enterarte de próximos eventos gratuitos y abiertos, podés dejarnos tu con
 
 ## Contenidos Abiertos
 
-1. [Publicaciones](#revista)
+1. [Revista *Desarrollos en Ciencias Sociales Computacionales*](#revista)
 2. [Publicaciones](#publicaciones)
 3. [Podcast "(Re) Pensar la Sociología desde el hoy"](#podcasts)
 4. [Clases abiertas y Eventos](#clases-abiertas-y-eventos)
