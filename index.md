@@ -17,21 +17,30 @@ Para enterarte de próximos eventos gratuitos y abiertos, podés dejarnos tu con
 
 ## Contenidos Abiertos
 
-1. [Publicaciones](#publicaciones)
-2. [Podcast "(Re) Pensar la Sociología desde el hoy"](#podcasts)
-3. [Clases abiertas y Eventos](#clases-abiertas-y-eventos)
-4. [Conversatorios](#conversatorios)
-5. [Módulos de nuestras asignaturas](#módulos)
-6. [Proyectos de Investigación](#proyectos-de-investigación)
-7. [Tutoriales de Sociología Computacional](#tutoriales-de-sociología-computacional)
-8. [Desarrollos y herramientas en Sociología Computacional](#desarrollos-y-herramientas)
+1. [Publicaciones](#revista)
+2. [Publicaciones](#publicaciones)
+3. [Podcast "(Re) Pensar la Sociología desde el hoy"](#podcasts)
+4. [Clases abiertas y Eventos](#clases-abiertas-y-eventos)
+5. [Conversatorios](#conversatorios)
+6. [Módulos de nuestras asignaturas](#módulos)
+7. [Proyectos de Investigación](#proyectos-de-investigación)
+8. [Tutoriales de Sociología Computacional](#tutoriales-de-sociología-computacional)
+9. [Desarrollos y herramientas en Sociología Computacional](#desarrollos-y-herramientas)
+
+## Revista 
+
+Desde 2024/2025 editamos la revista **Desarrollos en Ciencias Sociales Computacionales** que busca ofrecer un espacio de difusión e intercambio del trabajo de estudiantes, docentes, investigadores/as y profesionales en el campo de las ciencias sociales computacionales. La revista publica varios tipos de comunicaciones:
+
+- Herramientas y desarrollos computacionales para la investigación social (artículos breves)
+- Artículos teóricos, empíricos o pedagógicos sobre las ciencias sociales computacionales
+- Reseñas de libros sobre ciencias sociales computacionales
+- Dossiers con temáticas específicas
+
+Más info: [OJS de la revista DCSC](https://revistadesarrollos.uflo.edu.ar/index.php/RDCSC/about)
 
 ## Publicaciones
 
-Publicaciones y proyectos editoriales que elaboramos desde nuestros equipos de investigación y otros espacios de trabajo de la carrera.
-
-- **Revista Desarrollos en Ciencias Sociales Computacionales (en desarrollo!)** - Publicación  editada por la Licenciatura en Sociología de la Universidad de Flores que busca ofrecer un espacio de difusión e intercambio del trabajo de estudiantes, docentes, investigadores/as y profesionales en el campo de las ciencias sociales computacionales. 
-Más info: [OJS de la revista DCSC](https://revistadesarrollos.uflo.edu.ar/index.php/RDCSC/about)
+Publicaciones y materiales que elaboramos desde nuestros equipos de investigación y otros espacios de trabajo de la carrera.
 
 - **La enseñanza de la investigación en sociología** - Capítulo de libro elaborado por nuestros 3 profs. de Metodología I y II. Publicado en J. Gómez Zeliz (Ed.), Metodología de la investigación. El desafío de su enseñanza (pp. 39–54). Editorial de la Universidad de Flores. [Ver libro completo](https://hdl.handle.net/20.500.14340/1718%0A)
 
