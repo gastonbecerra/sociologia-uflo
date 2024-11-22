@@ -33,7 +33,7 @@ Publicaciones y proyectos editoriales que elaboramos desde nuestros equipos de i
 - **Revista Desarrollos en Ciencias Sociales Computacionales (en desarrollo!)** - Publicación  editada por la Licenciatura en Sociología de la Universidad de Flores que busca ofrecer un espacio de difusión e intercambio del trabajo de estudiantes, docentes, investigadores/as y profesionales en el campo de las ciencias sociales computacionales. 
 Más info: [OJS de la revista DCSC](https://revistadesarrollos.uflo.edu.ar/index.php/RDCSC/about)
 
-- **La enseñanza de la investigación en sociología** - Capítulo de libro elaborado por los profs. de Metodología I y II: Publicado en J. Gómez Zeliz (Ed.), Metodología de la investigación. El desafío de su enseñanza (pp. 39–54). Editorial de la Universidad de Flores. [Ver libro completo](https://hdl.handle.net/20.500.14340/1718%0A)
+- **La enseñanza de la investigación en sociología** - Capítulo de libro elaborado por nuestros 3 profs. de Metodología I y II. Publicado en J. Gómez Zeliz (Ed.), Metodología de la investigación. El desafío de su enseñanza (pp. 39–54). Editorial de la Universidad de Flores. [Ver libro completo](https://hdl.handle.net/20.500.14340/1718%0A)
 
 - **La inteligencia artificial como tecnología disruptiva y sus sentidos sociales** - Artículo elaborado por Gastón Becerra y Esteban Magnani como registro de las Jornadas de Inteligencia Artificial en la Universidad - [Descargar artículo desde la Revista El Faro](https://revistaelfaro.uflo.edu.ar/elfaro/article/view/14)
 
@@ -42,6 +42,8 @@ Más info: [OJS de la revista DCSC](https://revistadesarrollos.uflo.edu.ar/index
 - **Libro de Resúmenes de las 1eras Jornadas de Sociología de UFLO (ISBN en trámite!)** - En este libro compilamos todos los resúmenes aceptados para las 1eras Jornadas de Sociología de UFLO realizadas en Julio/2024 - [Ir al libro](https://docs.google.com/document/d/e/2PACX-1vQyAAr0M7_3d0dYpmeg5F8M7I7WPmo3ki27RDT4cyHjfi5FqVaArM-UP6xrrb0srRLHDNDh4bH0I8_p/pub)
 
 - **Registro del Coloquio Internacional *Communication in the age of technological challenges*** - Registro elaborado por Gastón Becerra y Cristina Paganoni a partir de lo charlado en un evento organizado junto a la Universidad de Varsovia (Polonia) en Mayo/2023. [Descargar artículo desde el Journal of International Legal Communication](https://doi.org/10.32612/uw.27201643.2023.9.pp.99-101)
+
+- **Material del taller de detección de sesgos de la Inteligencia Artificial** -- Ponencia elaborada para II Jornada Virtual de Inteligencia Articial de UFLO Universidad - [Descargar ponencia desde repositorio UFLO](https://repositorio.uflo.edu.ar/entities/ponencia/9179a371-db7e-4055-a7da-143d215ae792)
 
 ## Podcasts
 
@@ -78,7 +80,7 @@ Algunas de las clases abiertas y gratuitas que organizamos en el marco de nuestr
 
 - [Clase abierta sobre recursos educativos abiertos](https://youtu.be/ZRKf8WPkI9Y) - Presentación de Rosario Rogel y Alan Colin-Arce de la Universidad Autónoma del Estado de México sobre el desarrollo de web sociológicas. Actividad organizada desde la materia *Programación* (Octubre/2024)
 
-- [Presentación sobre transición energética]() Presentación de nuestra estudiante Gabriela sobre transición energética, desde una mirada de los sistemas sociales. Actividad organizada desde la materia *Teoría Sociológica V: Sistemas sociales y complejos* en el marco de las jornadas de investigación (Junio/2024)
+- [Presentación sobre transición energética](https://repositorio.uflo.edu.ar/entities/video/62d4d2a6-5215-4b4b-b147-e9d5b59caf5c) - Presentación de nuestra estudiante Gabriela sobre transición energética, desde una mirada de los sistemas sociales. Actividad organizada desde la materia *Teoría Sociológica V: Sistemas sociales y complejos* en el marco de las jornadas de investigación (Junio/2024)
 
 ## Conversatorios
 
@@ -146,7 +148,7 @@ Aquí linkeamos a nuestros proyectos de investigación (completos, con marco te�
 
 - [Proyecto: Incorporación de la Inteligencia Artificial en la educación universitaria](https://docs.google.com/document/d/1kTa5oWwhzRlTPxeyWUcS74SoUd3rPDxUv0FnpnSwZaw/edit?usp=sharing) / 2023 / Proyecto junto a la Comunidad Internacional de Investigación Educativa (CIIED), que vincula a investigadores de Ciencias de la Educación y las Ciencias de Sociales de Perú, Argentina, Brasil, España, Chile y Japón.
 
-## Tutoriales de Sociología computacional
+## Tutoriales de Sociología Computacional
 
 Aquí compilamos algunas guías de trabajo y tutoriales que elaboramos para distintas materias, cursos y talleres vinculados con los saberes computacionales.
 
