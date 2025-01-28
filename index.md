@@ -1,6 +1,8 @@
 ---
 layout: default
 title: "Recursos Socio UFLO"
+description: Recursos abiertos de la Licenciatura en Sociología de la Universidad de Flores
+image: ./images/grilla%20materias%20sociologia.jpg
 ---
 
 # Bienvenidos a los Recursos Abiertos de la Licenciatura en Sociología de UFLO
