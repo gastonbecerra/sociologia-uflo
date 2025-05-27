@@ -93,6 +93,8 @@ Algunas de las clases abiertas y gratuitas que organizamos en el marco de nuestr
 
 - [Presentación sobre transición energética](https://repositorio.uflo.edu.ar/entities/video/62d4d2a6-5215-4b4b-b147-e9d5b59caf5c) - Presentación de nuestra estudiante Gabriela sobre transición energética, desde una mirada de los sistemas sociales. Actividad organizada desde la materia *Teoría Sociológica V: Sistemas sociales y complejos* en el marco de las jornadas de investigación (Junio/2024)
 
+- [Clase abierta sobre Representaciones Sociales de la I.A.](https://youtu.be/aZl5wbBdP8Q) - Presentación con avances de investigación del equipo de "I.A. en el aula". (Mayo/2025)
+
 ## Conversatorios
 
 En nuestros conversatorios buscamos intercambiar con colegas sobre sus experiencias y reflexiones en investigación, enseñanza y la vida profesional de un/a sociólogo/a. Aquí algunos de los encuentros que más nos gustaron.
@@ -104,6 +106,8 @@ En nuestros conversatorios buscamos intercambiar con colegas sobre sus experienc
 - [El campo laboral de la Sociología](https://www.youtube.com/watch?v=pvG38Arm4rg&list=PLf1wJeC17bII6xCrew2vVjGOZV2ShisVy&index=16) - Charlamos con colegas que trabajan en gestión pública, consultoría, evaluación de políticas, e investigación de mercado. (Noviembre/2021)
 
 - [Panel on Technological Challenges from a Social Sciences Perspective](https://www.youtube.com/watch?v=BgjpTQ4Dx7c&list=PLf1wJeC17bII6xCrew2vVjGOZV2ShisVy&index=8) - Panel en el *Communication In The Age Of Technological Challenges: Research Perspectives across Disciplines* organizado con la Universidad de Varsovia (en inglés) (Mayo/2023)
+
+- [El mito de la inevitabilidad de la I.A.](https://youtu.be/tBbUAEl8jqI) - Charlamos con los profs. Mag. Guillermo Movia y Dra. Francesa Battista sobre determinismo tecnológico y visiones críticas de la adopción tecnológica (Mayo/2025)
 
 [Todos los encuentros: https://bit.ly/conversatorios-uflo](https://bit.ly/conversatorios-uflo)
 
