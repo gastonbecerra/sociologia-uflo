@@ -15,7 +15,13 @@ Nuestra carrera tiene una orientación computacional que busca, entre otros obje
 
 Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflouniversidad.edu.ar*
 
-Para enterarte de próximos eventos gratuitos y abiertos, podés dejarnos tu contacto en [este formulario](https://forms.gle/eFxcxuWV1c8oki5CA).
+<!-- Para enterarte de próximos eventos gratuitos y abiertos, podés dejarnos tu contacto en [este formulario](https://forms.gle/eFxcxuWV1c8oki5CA). -->
+
+## Próximos Eventos
+
+* [Clase abierta] **Comunidades de usuario/as de R** 📅 Jueves 19 de junio 19-20 hs. 📍Organizan las asignaturas “Análisis de datos” y “Taller de investigación con técnicas de text-mining”. [Actividad gratuita con registro previo] (https://zoom.us/meeting/register/GQM7P4WPSae6RwF3q24Xjw#/registration)
+
+* [Conversatorio] **Psicoterapia e Inteligencia Articial** 📅 Jueves 19 de junio 19-20 hs. 📍Licenciatura en Psicología y Licenciatura en Sociología [Actividad gratuita con registro previo] (https://bit.ly/psicoterapia-ia)
 
 ## Contenidos Abiertos
 
