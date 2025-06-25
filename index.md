@@ -21,7 +21,7 @@ Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflou
 
 * [Conversatorio] **Psicoterapia e Inteligencia Articial** 📅 Jueves 19 de junio 19-20 hs. 📍Licenciatura en Psicología y Licenciatura en Sociología [Actividad gratuita con registro previo](https://bit.ly/psicoterapia-ia)
 
-* [Ciclo de Charlas] **Ciencias Sociales Computacionales** 📅 Jueves 10 de julio y 📅 Jueves 17 de julio 📍 Organizado por la Carrera Profesional de Sociología de la Universidad de Flores (Argentina) y la Carrera Profesional de Ciencia Política - UARM (Perú). [Actividad gratuita con registro previo](https://bit.ly/uflo-uarm)
+* [Ciclo de Charlas] **Ciencias Sociales Computacionales** 📅 Jueves 10 de julio y 📅 Jueves 17 de julio 📍 Organizado por la Licenciatura en Sociología de la Universidad de Flores (Argentina) y la Carrera Profesional de Ciencia Política - UARM (Perú). [Actividad gratuita con registro previo](https://bit.ly/uflo-uarm)
 
 ## Contenidos Abiertos
 
