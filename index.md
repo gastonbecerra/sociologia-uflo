@@ -26,12 +26,11 @@ Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflou
 1. [Revista *Desarrollos en Ciencias Sociales Computacionales*](#revista)
 2. [Publicaciones](#publicaciones)
 3. [Podcast "(Re) Pensar la Sociología desde el hoy"](#podcasts)
-4. [Clases abiertas y Eventos](#clases-abiertas-y-eventos)
-5. [Conversatorios](#conversatorios)
-6. [Módulos de nuestras asignaturas](#módulos)
-7. [Proyectos de Investigación](#proyectos-de-investigación)
-8. [Tutoriales de Sociología Computacional](#tutoriales-de-sociología-computacional)
-9. [Desarrollos y herramientas en Sociología Computacional](#desarrollos-y-herramientas)
+4. [Clases abiertas, Conversatorios y Eventos](#eventos)
+5. [Módulos de nuestras asignaturas](#módulos)
+6. [Proyectos de Investigación](#proyectos-de-investigación)
+7. [Tutoriales de Sociología Computacional](#tutoriales-de-sociología-computacional)
+8. [Desarrollos y herramientas en Sociología Computacional](#desarrollos-y-herramientas)
 
 ## Revista 
 
@@ -79,17 +78,25 @@ El podcast **(Re) Pensar la Sociología desde el hoy** es una serie de entrevist
 Estos materiales corresponden a las asignaturas *Teoría Sociológica Clásica* y *Teoría Sociológica Contemporánea*. Para una bitácora y reflexión, podés consultar la ponencia:
 Ciardiello, M., Giordano, P. y Becerra, G. (2023). Experiencias en la producción de podcasts de teoría sociológica. *IV Jornadas Institucionales de Innovación Educativa en la Universidad - Universidad de Flores*. https://repositorio.uflo.edu.ar/entities/ponencia/be9853f1-f1c5-4744-a85a-1263ee95fb09
 
-## Clases abiertas y Eventos
+## Eventos
 
-Algunas de las clases abiertas y gratuitas que organizamos en el marco de nuestras asignaturas.
+Algunas de las clases abiertas, conversatorios y paneles que organizamos en el marco de nuestras asignaturas. 
 
 - [Clase abierta sobre historia del desarrollo/comercialización/adopción de la I.A.](https://www.youtube.com/watch?v=TJSZ87EJ_ac) - Clase abierta de la Prof. Dra. Francesca Batista dada en el marco del módulo de *Historia de la I.A.*
 
-- [Clase abierta sobre regulación de la I.A.](https://www.youtube.com/watch?v=ivGBaXMs7yI) - Clase abierta del Prof. Dr. Carlos Carretero y el Prof. Guillermo Movia sobre el marco regulatorio de la I.A., realizada en el marco del módulo *Sociología de la I.A.*
+- [Conversatorio El campo laboral de la Sociología](https://www.youtube.com/watch?v=pvG38Arm4rg&list=PLf1wJeC17bII6xCrew2vVjGOZV2ShisVy&index=16) - Charlamos con colegas que trabajan en gestión pública, consultoría, evaluación de políticas, e investigación de mercado. (Noviembre/2021)
 
-- [Clase abierta sobre la vigencia de los clásicos en sociología](https://www.youtube.com/watch?v=mkuuyVLAtCw) - Clase abierta de la Prof. Micaela Ciardiello sobre la centralidad y vigencia de Marx, Durkheim y Weber en la Sociología, organizada desde la materia *Teoría Sociológica Clásica*
+- [Conversatorio Metodologías de Investigación Social](https://www.youtube.com/watch?v=8xi8jJzBHfI&list=PLf1wJeC17bII6xCrew2vVjGOZV2ShisVy&index=12) - Charlamos sobre investigación teórica, empírica, cualitativa/cuantitativa y computacional. (Octubre/2022)
 
-- [500 sociólogxs dicen](https://youtu.be/ohE4kJM1DSw) - Presentación de Gastón Becerra y Christian Aiello en el marco de las 1eras Jornadas de Sociología de UFLO (Julio/2024), con datos de una encuesta realizada por la Asociación de Sociólogos de la República Argentina y el Colegio de Profesionales de Sociología
+- [Conversatorio Sociología en nuevos formatos](https://www.youtube.com/watch?v=h-nWH7dDmeQ&list=PLf1wJeC17bII6xCrew2vVjGOZV2ShisVy&index=7&t=688s) - Charlamos sobre comunicar y enseñar sociología via podcasts y otros formatos (Junio/2023)
+
+- [Clase abierta sobre regulación de la I.A.](https://www.youtube.com/watch?v=ivGBaXMs7yI) - Clase abierta del Prof. Dr. Carlos Carretero y el Prof. Guillermo Movia sobre el marco regulatorio de la I.A., realizada en el marco del módulo *Sociología de la I.A.* (2023)
+
+- [Clase abierta sobre la vigencia de los clásicos en sociología](https://www.youtube.com/watch?v=mkuuyVLAtCw) - Clase abierta de la Prof. Micaela Ciardiello sobre la centralidad y vigencia de Marx, Durkheim y Weber en la Sociología, organizada desde la materia *Teoría Sociológica Clásica* (2023)
+
+- [Panel on Technological Challenges from a Social Sciences Perspective](https://www.youtube.com/watch?v=BgjpTQ4Dx7c&list=PLf1wJeC17bII6xCrew2vVjGOZV2ShisVy&index=8) - Panel en el *Communication In The Age Of Technological Challenges: Research Perspectives across Disciplines* organizado con la Universidad de Varsovia (en inglés) (Mayo/2023)
+
+- [500 sociólogxs dicen](https://youtu.be/ohE4kJM1DSw) - Presentación de Gastón Becerra y Christian Aiello en el marco de las 1eras Jornadas de Sociología de UFLO, con datos de una encuesta realizada por la Asociación de Sociólogos de la República Argentina y el Colegio de Profesionales de Sociología (Julio/2024)
 
 - [Clase abierta sobre las dimensiones sociales de la WWW](https://youtu.be/ihIzv0LyoTU) - Clase abierta del Prof. Guillermo Movia sobre la World Wide Wed y sus dimensiones sociales. Actividad organizada desde la materia *Programación* (Octubre/2024)
 
@@ -103,21 +110,11 @@ Algunas de las clases abiertas y gratuitas que organizamos en el marco de nuestr
 
 - [Conversatorio Psicoterapia e Inteligencia Articial](https://youtu.be/wLRJC2e7O04) Los participantes del proyecto de libro colaborativo “Mitos y representaciones de la Inteligencia Artificial” intercambian sobre los riesgos y oportunidades que presenta la irrupción de la I.A. para la salud mental y su atención. Invitados: Karina Nuñez, Ignacio Barreira, Mirta Stepaniuk, María Cecilia Drach, Dana Grilli, Carla Avila Organizado por la Licenciatura en Psicología y Licenciatura en Sociología (Junio/2025)
 
-## Conversatorios
-
-En nuestros conversatorios buscamos intercambiar con colegas sobre sus experiencias y reflexiones en investigación, enseñanza y la vida profesional de un/a sociólogo/a. Aquí algunos de los encuentros que más nos gustaron.
-
-- [Metodologías de Investigación Social](https://www.youtube.com/watch?v=8xi8jJzBHfI&list=PLf1wJeC17bII6xCrew2vVjGOZV2ShisVy&index=12) - Charlamos sobre investigación teórica, empírica, cualitativa/cuantitativa y computacional. (Octubre/2022)
-
-- [Sociología en nuevos formatos](https://www.youtube.com/watch?v=h-nWH7dDmeQ&list=PLf1wJeC17bII6xCrew2vVjGOZV2ShisVy&index=7&t=688s) - Charlamos sobre comunicar y enseñar sociología via podcasts y otros formatos (Junio/2023)
-
-- [El campo laboral de la Sociología](https://www.youtube.com/watch?v=pvG38Arm4rg&list=PLf1wJeC17bII6xCrew2vVjGOZV2ShisVy&index=16) - Charlamos con colegas que trabajan en gestión pública, consultoría, evaluación de políticas, e investigación de mercado. (Noviembre/2021)
-
-- [Panel on Technological Challenges from a Social Sciences Perspective](https://www.youtube.com/watch?v=BgjpTQ4Dx7c&list=PLf1wJeC17bII6xCrew2vVjGOZV2ShisVy&index=8) - Panel en el *Communication In The Age Of Technological Challenges: Research Perspectives across Disciplines* organizado con la Universidad de Varsovia (en inglés) (Mayo/2023)
-
-- [El mito de la inevitabilidad de la I.A.](https://youtu.be/tBbUAEl8jqI) - Charlamos con los profs. Mag. Guillermo Movia y Dra. Francesa Battista sobre determinismo tecnológico y visiones críticas de la adopción tecnológica (Mayo/2025)
+- [Conversatorio El mito de la inevitabilidad de la I.A.](https://youtu.be/tBbUAEl8jqI) - Charlamos con los profs. Mag. Guillermo Movia y Dra. Francesa Battista sobre determinismo tecnológico y visiones críticas de la adopción tecnológica (Mayo/2025)
 
 [Todos los encuentros: https://bit.ly/conversatorios-uflo](https://bit.ly/conversatorios-uflo)
+
+Las actividades son abiertas y gratuitas. Podés sumarte en [este formulario](https://forms.gle/eFxcxuWV1c8oki5CA)
 
 ## Módulos
 
