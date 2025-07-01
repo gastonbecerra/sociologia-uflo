@@ -19,8 +19,6 @@ Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflou
 
 ## Próximos Eventos
 
-* [Conversatorio] **Psicoterapia e Inteligencia Articial** 📅 Jueves 19 de junio 19-20 hs. 📍Licenciatura en Psicología y Licenciatura en Sociología [Actividad gratuita con registro previo](https://bit.ly/psicoterapia-ia)
-
 * [Ciclo de Charlas] **Ciencias Sociales Computacionales** 📅 Jueves 10 de julio y 📅 Jueves 17 de julio 📍 Organizado por la Licenciatura en Sociología de la Universidad de Flores (Argentina) y la Carrera Profesional de Ciencia Política - UARM (Perú). [Actividad gratuita con registro previo](https://bit.ly/uflo-uarm)
 
 ## Contenidos Abiertos
@@ -101,9 +99,9 @@ Algunas de las clases abiertas y gratuitas que organizamos en el marco de nuestr
 
 - [Clase abierta sobre Representaciones Sociales de la I.A.](https://youtu.be/aZl5wbBdP8Q) - Presentación con avances de investigación del equipo de "I.A. en el aula". (Mayo/2025)
 
-<!--
-* [Clase abierta] **Comunidades de usuario/as de R** 📅 Jueves 19 de junio 19-20 hs. 📍Organizan las asignaturas “Análisis de datos” y “Taller de investigación con técnicas de text-mining”. [Actividad gratuita con registro previo](https://zoom.us/meeting/register/GQM7P4WPSae6RwF3q24Xjw#/registration)
--->
+- [Clase abierta sobre Comunidades de usuario/as de R](https://youtu.be/UGvCNwxltUg) Andrea Gomez Vargas presenta las experiencias de R-Ladies y R en Baires. Organizado por las asignaturas *Análisis de datos* y *Taller de investigación con técnicas de text-mining* (Junio/2025)
+
+- [Conversatorio Psicoterapia e Inteligencia Articial](https://youtu.be/wLRJC2e7O04) Los participantes del proyecto de libro colaborativo “Mitos y representaciones de la Inteligencia Artificial” intercambian sobre los riesgos y oportunidades que presenta la irrupción de la I.A. para la salud mental y su atención. Invitados: Karina Nuñez, Ignacio Barreira, Mirta Stepaniuk, María Cecilia Drach, Dana Grilli, Carla Avila Organizado por la Licenciatura en Psicología y Licenciatura en Sociología (Junio/2025)
 
 ## Conversatorios
 
