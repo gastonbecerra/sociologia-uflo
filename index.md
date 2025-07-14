@@ -112,6 +112,8 @@ Algunas de las clases abiertas, conversatorios y paneles que organizamos en el m
 
 - [Conversatorio El mito de la inevitabilidad de la I.A.](https://youtu.be/tBbUAEl8jqI) - Charlamos con los profs. Mag. Guillermo Movia y Dra. Francesa Battista sobre determinismo tecnológico y visiones críticas de la adopción tecnológica (Mayo/2025)
 
+- [Clase abierta sobre Ciencias Sociales Computacionales](https://youtu.be/DDNzdBjgGn0) - Presentación "Las ciencias sociales computacionales más allá del análisis de datos" en el Ciclo de Charlas de Ciencias Sociales Computacionales organizada por la Lic. en Sociología de Universidad de Flores (Argentina) y la Carrera Profesional de Ciencia Política - UARM (Perú). (julio/2025)
+
 [Todos los encuentros: https://bit.ly/conversatorios-uflo](https://bit.ly/conversatorios-uflo)
 
 Las actividades son abiertas y gratuitas. Podés sumarte en [este formulario](https://forms.gle/eFxcxuWV1c8oki5CA)
