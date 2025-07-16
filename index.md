@@ -21,6 +21,8 @@ Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflou
 
 * [Ciclo de Charlas] **Ciencias Sociales Computacionales** 📅 Jueves 10 de julio y 📅 Jueves 17 de julio 📍 Organizado por la Licenciatura en Sociología de la Universidad de Flores (Argentina) y la Carrera Profesional de Ciencia Política - UARM (Perú). [Actividad gratuita con registro previo](https://bit.ly/uflo-uarm)
 
+* [Taller] **Discusiones actuales sobre la Inteligencia Artificial** 📅 26 de agosto 📍 Semana de la Investigación 2025 de la Universidad de Flores. [Actividad gratuita con registro previo](https://zoom.us/meeting/register/eCrNKJZITbuHvkZnaLfGsg)
+
 ## Contenidos Abiertos
 
 1. [Revista *Desarrollos en Ciencias Sociales Computacionales*](#revista)
