@@ -116,10 +116,6 @@ Algunas de las clases abiertas, conversatorios y paneles que organizamos en el m
 
 - [Clase abierta sobre Ciencias Sociales Computacionales](https://youtu.be/3bbuptkVsNM) - Presentación "Ciencia Política Computacional: De los datos a la teoría (y viceversa)". Exponen Dr. (c) Leonidas Ramos (UARM) y Dr. Edwin Cohaila (UARM) en el Ciclo de Charlas de Ciencias Sociales Computacionales organizada por la Lic. en Sociología de Universidad de Flores (Argentina) y la Carrera Profesional de Ciencia Política - UARM (Perú). (julio/2025)
 
-
-* [Ciclo de Charlas] **Ciencias Sociales Computacionales** 📅 Jueves 10 de julio y 📅 Jueves 17 de julio 📍 Organizado por la Licenciatura en Sociología de la Universidad de Flores (Argentina) y la Carrera Profesional de Ciencia Política - UARM (Perú). [Actividad gratuita con registro previo](https://bit.ly/uflo-uarm)
-
-
 [Todos los encuentros: https://bit.ly/conversatorios-uflo](https://bit.ly/conversatorios-uflo)
 
 Las actividades son abiertas y gratuitas. Podés sumarte en [este formulario](https://forms.gle/eFxcxuWV1c8oki5CA)
