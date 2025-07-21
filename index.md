@@ -19,8 +19,6 @@ Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflou
 
 ## Próximos Eventos
 
-* [Ciclo de Charlas] **Ciencias Sociales Computacionales** 📅 Jueves 10 de julio y 📅 Jueves 17 de julio 📍 Organizado por la Licenciatura en Sociología de la Universidad de Flores (Argentina) y la Carrera Profesional de Ciencia Política - UARM (Perú). [Actividad gratuita con registro previo](https://bit.ly/uflo-uarm)
-
 * [Taller] **Discusiones actuales sobre la Inteligencia Artificial** 📅 26 de agosto 📍 Semana de la Investigación 2025 de la Universidad de Flores. [Actividad gratuita con registro previo](https://zoom.us/meeting/register/eCrNKJZITbuHvkZnaLfGsg)
 
 ## Contenidos Abiertos
@@ -115,6 +113,12 @@ Algunas de las clases abiertas, conversatorios y paneles que organizamos en el m
 - [Conversatorio El mito de la inevitabilidad de la I.A.](https://youtu.be/tBbUAEl8jqI) - Charlamos con los profs. Mag. Guillermo Movia y Dra. Francesa Battista sobre determinismo tecnológico y visiones críticas de la adopción tecnológica (Mayo/2025)
 
 - [Clase abierta sobre Ciencias Sociales Computacionales](https://youtu.be/DDNzdBjgGn0) - Presentación "Las ciencias sociales computacionales más allá del análisis de datos" en el Ciclo de Charlas de Ciencias Sociales Computacionales organizada por la Lic. en Sociología de Universidad de Flores (Argentina) y la Carrera Profesional de Ciencia Política - UARM (Perú). (julio/2025)
+
+- [Clase abierta sobre Ciencias Sociales Computacionales](https://youtu.be/3bbuptkVsNM) - Presentación "Ciencia Política Computacional: De los datos a la teoría (y viceversa)". Exponen Dr. (c) Leonidas Ramos (UARM) y Dr. Edwin Cohaila (UARM) en el Ciclo de Charlas de Ciencias Sociales Computacionales organizada por la Lic. en Sociología de Universidad de Flores (Argentina) y la Carrera Profesional de Ciencia Política - UARM (Perú). (julio/2025)
+
+
+* [Ciclo de Charlas] **Ciencias Sociales Computacionales** 📅 Jueves 10 de julio y 📅 Jueves 17 de julio 📍 Organizado por la Licenciatura en Sociología de la Universidad de Flores (Argentina) y la Carrera Profesional de Ciencia Política - UARM (Perú). [Actividad gratuita con registro previo](https://bit.ly/uflo-uarm)
+
 
 [Todos los encuentros: https://bit.ly/conversatorios-uflo](https://bit.ly/conversatorios-uflo)
 
