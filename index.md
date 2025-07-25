@@ -20,6 +20,8 @@ Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflou
 ## Próximos Eventos
 
 * [Taller] **Discusiones actuales sobre la Inteligencia Artificial** 📅 26 de agosto 📍 Semana de la Investigación 2025 de la Universidad de Flores. [Actividad gratuita con registro previo](https://zoom.us/meeting/register/eCrNKJZITbuHvkZnaLfGsg)
+* [Jornadas] **III Jornadas de Inteligencia Artificial y Educación 2025** 📅 10 de noviembre de 9 a 19 hs. Actividad virtual y gratuita. [Registro y novedades](https://docs.google.com/forms/d/e/1FAIpQLSfPv97REjzfrpb41_arNGpJ4FStw77Zg94I8KgzRfBy358ACA/viewform)
+* [Jornadas] **Mesas de ponencia/experiencias con IA (estudiantes, profesores, investigadores, gestión)** en III Jornadas de Inteligencia Artificial y Educación 2025 📅 10 de noviembre de 2-5pm. Actividad virtual y gratuita. [1era Circular](https://docs.google.com/forms/d/e/1FAIpQLSfPv97REjzfrpb41_arNGpJ4FStw77Zg94I8KgzRfBy358ACA/viewform)
 
 ## Contenidos Abiertos
 
