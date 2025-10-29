@@ -1,0 +1,13 @@
+---
+layout: null
+---
+[
+  { "title": "Revista", "url": "#revista", "content": "Desarrollos en Ciencias Sociales Computacionales" },
+  { "title": "Publicaciones", "url": "#publicaciones", "content": "Artículos, capítulos y guías" },
+  { "title": "Podcasts", "url": "#podcasts", "content": "Entrevistas, clases y conversaciones" },
+  { "title": "Clases", "url": "#clases-abiertas-y-eventos", "content": "Clases abiertas y eventos" },
+  { "title": "Conversatorios", "url": "#conversatorios", "content": "Encuentros y paneles" },
+  { "title": "Módulos", "url": "#modulos", "content": "Contenidos asincrónicos" },
+  { "title": "Proyectos", "url": "#proyectos-de-investigacion", "content": "Proyectos vigentes" },
+  { "title": "Tutoriales", "url": "#tutoriales-de-sociologia-computacional", "content": "Guías, notebooks y recursos" }
+]

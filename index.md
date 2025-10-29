@@ -27,6 +27,17 @@ Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflou
 * [Jornadas] **III Jornadas de Inteligencia Artificial y Educación 2025** 📅 10 de noviembre de 9 a 19 hs. Actividad virtual y gratuita. [Registro y novedades](https://docs.google.com/forms/d/e/1FAIpQLSfPv97REjzfrpb41_arNGpJ4FStw77Zg94I8KgzRfBy358ACA/viewform)
 * [Jornadas] **Mesas de ponencia/experiencias con IA (estudiantes, profesores, investigadores, gestión)** en III Jornadas de Inteligencia Artificial y Educación 2025 📅 10 de noviembre de 2-5pm. Actividad virtual y gratuita. [1era Circular](https://docs.google.com/forms/d/e/1FAIpQLSfPv97REjzfrpb41_arNGpJ4FStw77Zg94I8KgzRfBy358ACA/viewform)
 
+<input id="search-input" placeholder="Buscar…">
+<ul id="results"></ul>
+<script src="https://unpkg.com/simple-jekyll-search/dest/simple-jekyll-search.min.js"></script>
+<script>
+SimpleJekyllSearch({
+  searchInput: document.getElementById('search-input'),
+  resultsContainer: document.getElementById('results'),
+  json: '{{ "/sociologia-uflo/search.json" | relative_url }}'
+});
+</script>
+
 ## Contenidos Abiertos
 
 1. [Revista *Desarrollos en Ciencias Sociales Computacionales*](#revista)
