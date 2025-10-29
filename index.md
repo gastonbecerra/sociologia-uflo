@@ -23,29 +23,44 @@ Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflou
 * [Jornadas] **III Jornadas de Inteligencia Artificial y Educación 2025** 📅 10 de noviembre de 9 a 19 hs. Actividad virtual y gratuita. [Registro y novedades](https://docs.google.com/forms/d/e/1FAIpQLSfPv97REjzfrpb41_arNGpJ4FStw77Zg94I8KgzRfBy358ACA/viewform)
 * [Jornadas] **Mesas de ponencia/experiencias con IA (estudiantes, profesores, investigadores, gestión)** en III Jornadas de Inteligencia Artificial y Educación 2025 📅 10 de noviembre de 2-5pm. Actividad virtual y gratuita. [1era Circular](https://docs.google.com/forms/d/e/1FAIpQLSfPv97REjzfrpb41_arNGpJ4FStw77Zg94I8KgzRfBy358ACA/viewform)
 
+
+
+
+
 {% assign hoy = site.time | date: "%Y-%m-%d" %}
-{% assign futuros = site.data.eventos_futuros | where_exp: "e", "e.fecha >= hoy" | sort: "fecha" %}
+{% assign items = site.data.eventos_futuros %}
 
-<div class="cards">
-{% for e in futuros %}
-  <div class="card">
-    <h3>{{ e.titulo }}</h3>
-    <p>
-      <strong>{{ e.fecha }}</strong>
-      {% if e.hora %} · {{ e.hora }}{% endif %}
-      — {{ e.modalidad }} · {{ e.lugar }}
-    </p>
-    <p>{{ e.descripcion }}</p>
-    {% if e.formulario and e.formulario != "" %}
-      <p><a class="btn" href="{{ e.formulario }}" target="_blank" rel="noopener">Inscribirme</a></p>
-    {% endif %}
+{% if items %}
+  {% assign futuros = items | where_exp: "e", "e.fecha and e.fecha >= hoy" | sort: "fecha" %}
+
+  {% if futuros and futuros != empty %}
+  <div class="cards">
+    {% for e in futuros %}
+      <div class="card">
+        <h3>{{ e.titulo }}</h3>
+        <p>
+          <strong>{{ e.fecha }}</strong>{% if e.hora %} · {{ e.hora }}{% endif %}
+          — {{ e.modalidad }} · {{ e.lugar }}
+        </p>
+        <p>{{ e.descripcion }}</p>
+        {% if e.formulario and e.formulario != "" %}
+          <p><a class="btn" href="{{ e.formulario }}" target="_blank" rel="noopener">Inscribirme</a></p>
+        {% endif %}
+      </div>
+    {% endfor %}
   </div>
-{% endfor %}
-</div>
+  {% else %}
+    <p>No hay eventos próximos.</p>
+  {% endif %}
 
-{% if futuros == empty %}
-<p>No hay eventos próximos.</p>
+{% else %}
+  <p>No se encontró <code>_data/eventos_futuros.yml</code> o tiene un error de formato.</p>
 {% endif %}
+
+
+
+
+
 
 <a class="cta" href="https://forms.gle/eFxcxuWV1c8oki5CA" target="_blank" rel="noopener">
   📬 Recibir novedades de próximos eventos gratuitos y abiertos
