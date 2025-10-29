@@ -1,44 +1,52 @@
 ---
 layout: default
-title: "Recursos Socio UFLO"
+title: "Recursos Sociología UFLO"
 description: Recursos abiertos de la Licenciatura en Sociología de la Universidad de Flores
 image: ./images/grilla%20materias%20sociologia.jpg
 ---
 
 # Bienvenidos a los Recursos Abiertos de la Licenciatura en Sociología de UFLO
 
-Página web de la carrera de [Sociología de la Universidad de Flores](https://www.uflouniversidad.edu.ar/carrera/sociologia/).
-
-Nuestra carrera tiene una orientación computacional que busca, entre otros objetivos, integrar saberes digitales y nuevas tecnologías con una mirada social crítica y epistemológicamente fundada. 
+Bienvenidos al Repositorio de Recursos Abiertos de la [Licenciatura en Sociología de la Universidad de Flores](https://www.uflouniversidad.edu.ar/carrera/sociologia/). Nuestra carrera tiene una orientación computacional que busca, entre otros objetivos, integrar saberes digitales y nuevas tecnologías con una mirada social crítica y epistemológicamente fundada. 
 
 ![UFLO diseño](./images/grilla-materias-sociologia.jpg)
 
 Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflouniversidad.edu.ar*
 
-<!-- Para enterarte de próximos eventos gratuitos y abiertos, podés dejarnos tu contacto en [este formulario](https://forms.gle/eFxcxuWV1c8oki5CA). -->
 
-<a class="cta" href="https://forms.gle/eFxcxuWV1c8oki5CA" target="_blank" rel="noopener">
-  📬 Recibir novedades de próximos eventos gratuitos y abiertos
-</a>
 
 ## Próximos Eventos
+
+<!-- Para enterarte de próximos eventos gratuitos y abiertos, podés dejarnos tu contacto en [este formulario](https://forms.gle/eFxcxuWV1c8oki5CA). -->
 
 * [Taller] **Discusiones actuales sobre la Inteligencia Artificial** 📅 26 de agosto 📍 Semana de la Investigación 2025 de la Universidad de Flores. [Actividad gratuita con registro previo](https://zoom.us/meeting/register/eCrNKJZITbuHvkZnaLfGsg)
 * [Jornadas] **III Jornadas de Inteligencia Artificial y Educación 2025** 📅 10 de noviembre de 9 a 19 hs. Actividad virtual y gratuita. [Registro y novedades](https://docs.google.com/forms/d/e/1FAIpQLSfPv97REjzfrpb41_arNGpJ4FStw77Zg94I8KgzRfBy358ACA/viewform)
 * [Jornadas] **Mesas de ponencia/experiencias con IA (estudiantes, profesores, investigadores, gestión)** en III Jornadas de Inteligencia Artificial y Educación 2025 📅 10 de noviembre de 2-5pm. Actividad virtual y gratuita. [1era Circular](https://docs.google.com/forms/d/e/1FAIpQLSfPv97REjzfrpb41_arNGpJ4FStw77Zg94I8KgzRfBy358ACA/viewform)
 
-<input id="search-input" placeholder="Buscar…">
-<ul id="results"></ul>
+<a class="cta" href="https://forms.gle/eFxcxuWV1c8oki5CA" target="_blank" rel="noopener">
+  📬 Recibir novedades de próximos eventos gratuitos y abiertos
+</a>
+
+## Contenidos Abiertos
+
+<div id="search" class="search">
+  <input id="search-input" placeholder="Buscar…">
+  <ul id="results"></ul>
+</div>
+
 <script src="https://unpkg.com/simple-jekyll-search/dest/simple-jekyll-search.min.js"></script>
 <script>
 SimpleJekyllSearch({
   searchInput: document.getElementById('search-input'),
   resultsContainer: document.getElementById('results'),
-  json: '{{ "/sociologia-uflo/search.json" | relative_url }}'
+  json: '{{ "/search.json" | relative_url }}',
+  searchResultTemplate: '<li><a href="{url}">{title}</a><small>{content}</small></li>',
+  noResultsText: '<li>Sin resultados</li>',
+  limit: 10
 });
 </script>
 
-## Contenidos Abiertos
+
 
 1. [Revista *Desarrollos en Ciencias Sociales Computacionales*](#revista)
 2. [Publicaciones](#publicaciones)

@@ -54,9 +54,9 @@ img {
   border-radius: 0.3rem;
 }
 
-#search-input, #results, #results li { all: unset; }
-#search-input { display:block; width:100%; box-sizing:border-box; margin:1rem 0 .5rem; padding:.6rem .8rem; border:1px solid #e5e7eb; border-radius:.6rem; }
-#results { display:block; list-style:none; margin:0 0 1rem; padding:0; }
-#results li { display:block; margin:.25rem 0; }
-#results a { display:block; padding:.5rem .6rem; border:1px solid #e5e7eb; border-radius:.6rem; text-decoration:none; color:inherit; background:#fff; }
-#results a:hover { border-color:#111; }
+
+#search { margin: 1rem 0 .5rem; }
+#results { list-style: none; margin: .5rem 0 1rem; padding: 0; }
+#results li { border: 1px solid #e5e7eb; border-radius: .6rem; padding: .6rem .7rem; margin: .35rem 0; background: #fff; }
+#results a { text-decoration: none; color: inherit; }
+#results small { display: block; opacity: .7; margin-top: .25rem; }
