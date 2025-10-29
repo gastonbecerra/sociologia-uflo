@@ -18,7 +18,7 @@ Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflou
 <!-- Para enterarte de próximos eventos gratuitos y abiertos, podés dejarnos tu contacto en [este formulario](https://forms.gle/eFxcxuWV1c8oki5CA). -->
 
 <a class="cta" href="https://forms.gle/eFxcxuWV1c8oki5CA" target="_blank" rel="noopener">
-  📬 Recibir novedades
+  📬 Recibir novedades de próximos eventos gratuitos y abiertos
 </a>
 
 ## Próximos Eventos

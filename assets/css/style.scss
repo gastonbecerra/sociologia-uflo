@@ -27,3 +27,29 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+
+/* --- Fondo del encabezado principal --- */
+.page-header {
+  background-image: url('https://www.uflouniversidad.edu.ar/wp-content/uploads/2024/09/lic-en-sociologia-1536x864.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.7);
+}
+
+/* Acentuar contraste de título y descripción */
+.project-name {
+  background-color: rgba(0,0,0,0.4);
+  display: inline-block;
+  padding: 0.3rem 0.6rem;
+  border-radius: 0.4rem;
+}
+
+.project-tagline {
+  background-color: rgba(0,0,0,0.3);
+  display: inline-block;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.3rem;
+}
