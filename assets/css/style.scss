@@ -2,3 +2,28 @@
 ---
 
 @import 'jekyll-theme-cayman';
+
+
+/* --- Custom UFLO overrides --- */
+.container {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 1.2rem;
+}
+
+.cta {
+  position: sticky;
+  top: .5rem;
+  display: inline-block;
+  padding: .55rem .9rem;
+  border-radius: .6rem;
+  text-decoration: none;
+  background: #111;
+  color: #fff;
+  font-weight: 600;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

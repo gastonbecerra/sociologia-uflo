@@ -11,11 +11,15 @@ Página web de la carrera de [Sociología de la Universidad de Flores](https://w
 
 Nuestra carrera tiene una orientación computacional que busca, entre otros objetivos, integrar saberes digitales y nuevas tecnologías con una mirada social crítica y epistemológicamente fundada. 
 
-![UFLO diseño](./images/grilla%20materias%20sociologia.jpg)
+![UFLO diseño](./images/grilla-materias-sociologia.jpg)
 
 Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflouniversidad.edu.ar*
 
 <!-- Para enterarte de próximos eventos gratuitos y abiertos, podés dejarnos tu contacto en [este formulario](https://forms.gle/eFxcxuWV1c8oki5CA). -->
+
+<a class="cta" href="https://forms.gle/eFxcxuWV1c8oki5CA" target="_blank" rel="noopener">
+  📬 Recibir novedades
+</a>
 
 ## Próximos Eventos
 
