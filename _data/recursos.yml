@@ -1,0 +1,106 @@
+# --- PODCASTS ---
+- id: pod-001
+  tipo: podcast
+  episodio: 1
+  titulo: "Pierre Bourdieu"
+  entrevistado: "Dr. Joaquín Algranti"
+  yt_id: "mRdwbAdNqYE"
+  tags: ["podcast","Bourdieu","teoría sociológica"]
+
+- id: pod-002
+  tipo: podcast
+  episodio: 2
+  titulo: "Max Weber"
+  entrevistado: "Prof. Patricia Lambruschini"
+  yt_id: "mRdwbAdNqYE"
+  tags: ["podcast","Weber","teoría sociológica"]
+
+- id: pod-003
+  tipo: podcast
+  episodio: 3
+  titulo: "Talcott Parsons"
+  entrevistado: "Dr. Pedro Giordano"
+  yt_id: "mRdwbAdNqYE"
+  tags: ["podcast","Parsons","teoría sociológica"]
+
+- id: pod-004
+  tipo: podcast
+  episodio: 4
+  titulo: "Michel Foucault"
+  entrevistado: "Dra. Senda Sferco"
+  yt_id: "xTNUNDvAPhI"
+  tags: ["podcast","Foucault","teoría sociológica"]
+
+- id: pod-005
+  tipo: podcast
+  episodio: 5
+  titulo: "Niklas Luhmann"
+  entrevistado: "Dr. Sergio Pignuoli Ocampo"
+  yt_id: "AKgqvt_59SQ"
+  tags: ["podcast","Luhmann","teoría sociológica"]
+
+- id: pod-playlist
+  tipo: podcast
+  titulo: "Playlist completa"
+  url: "https://bit.ly/podcast-socio-uflo"
+  tags: ["podcast","playlist"]
+
+- id: pub-001
+  tipo: publicacion
+  subtipo: capitulo
+  titulo: "La enseñanza de la investigación en sociología"
+  autores: ["G. Becerra", "J. I. Mezzadra", "G. Movia"]
+  fuente: "En J. Gómez Zeliz (Ed.), Metodología de la investigación. El desafío de su enseñanza (pp. 39–54), Ed. UFLO"
+  anio: 2025
+  url: "https://hdl.handle.net/20.500.14340/1718"
+  tags: ["metodología","docencia","capítulo"]
+
+- id: pub-002
+  tipo: publicacion
+  subtipo: articulo
+  titulo: "La inteligencia artificial como tecnología disruptiva y sus sentidos sociales"
+  autores: ["G. Becerra", "E. Magnani"]
+  fuente: "Revista El Faro"
+  anio: 2024
+  url: "https://revistaelfaro.uflo.edu.ar/elfaro/article/view/14"
+  tags: ["IA","sociedad","artículo"]
+
+- id: pub-003
+  tipo: publicacion
+  subtipo: material
+  titulo: "Guías del ciclo “Charlas Sociológicas”"
+  autores: ["M. Ciardiello"]
+  fuente: "Material de apoyo (verano 2024)"
+  anio: 2024
+  url: "https://drive.google.com/file/d/18g0yOfkAt43rpVTEe0xwpuZj_adtBubu/view"
+  tags: ["guías","docencia"]
+
+- id: pub-004
+  tipo: publicacion
+  subtipo: libro_resumenes
+  titulo: "Libro de Resúmenes · 1eras Jornadas de Sociología UFLO"
+  autores: []
+  fuente: "Compilación de resúmenes aceptados (Jul/2024)"
+  anio: 2024
+  url: "https://docs.google.com/document/d/e/2PACX-1vQyAAr0M7_3d0dYpmeg5F8M7I7WPmo3ki27RDT4cyHjfi5FqVaArM-UP6xrrb0srRLHDNDh4bH0I8_p/pub"
+  tags: ["jornadas","UFLO","libro"]
+
+- id: pub-005
+  tipo: publicacion
+  subtipo: registro_evento
+  titulo: "Communication in the age of technological challenges — Registro"
+  autores: ["G. Becerra", "C. Paganoni"]
+  fuente: "Journal of International Legal Communication"
+  anio: 2023
+  url: "https://doi.org/10.32612/uw.27201643.2023.9.pp.99-101"
+  tags: ["registro","evento","Polonia"]
+
+- id: pub-006
+  tipo: publicacion
+  subtipo: ponencia
+  titulo: "Material del taller de detección de sesgos de la IA"
+  autores: []
+  fuente: "II Jornada Virtual de IA · UFLO"
+  anio: 2024
+  url: "https://repositorio.uflo.edu.ar/entities/ponencia/9179a371-db7e-4055-a7da-143d215ae792"
+  tags: ["sesgos","IA","ponencia"]

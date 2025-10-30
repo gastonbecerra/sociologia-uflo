@@ -13,7 +13,20 @@ En este repositorio compilamos las actividades que realizamos en la Licenciatura
 
 Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflouniversidad.edu.ar*
 
+CONTENIDOS ESTATICOS
+1. [Próximos Eventos](#próximos-eventos)
+2. [Publicaciones](#publicaciones)
 
+RECURSOS ABIERTOS
+(FILTRABLES POR TAGS / CON BUSQUEDA / CON TARJETA ADAPTADA SEGUN EL TIPO DE RECURSO)
+3. [Podcast "(Re) Pensar la Sociología desde el hoy"](#podcasts)
+4. [Clases abiertas, Conversatorios y Eventos](#eventos)
+7. [Tutoriales de Sociología Computacional](#tutoriales-de-sociología-computacional)
+8. [Desarrollos y herramientas en Sociología Computacional](#desarrollos-y-herramientas)
+
+CONTENIDOS ESTATICOS
+5. [Módulos de nuestras asignaturas](#módulos)
+6. [Proyectos de Investigación](#proyectos-de-investigación)
 
 ## Próximos Eventos
 
@@ -43,8 +56,7 @@ Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflou
 </a>
 
 
-
-## Revista Desarrollos en Ciencias Sociales Computacionales
+## Novedades editoriales
 
 <div class="revista-banner">
   <img src="https://revistadesarrollos.uflo.edu.ar/public/journals/1/pageHeaderLogoImage_es.png" alt="Logo Revista DCSC" class="revista-logo">
@@ -60,7 +72,76 @@ Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflou
   </div>
 </div>
 
-## Contenidos Abiertos
+
+<div class="libro-banner">
+  <img src="https://repositorio.uflo.edu.ar/server/api/core/bitstreams/8e25e580-b4fd-4201-9f76-ee916a5c9507/content" alt="Tapa del libro Mitos y representaciones de la IA" class="libro-portada">
+  <div class="libro-texto">
+    <h3>Mitos y representaciones de la Inteligencia Artificial</h3>
+    <p><strong>Editores:</strong> Gastón Becerra · Joaquín Ignacio Mezzadra · Guillermo Movia</p>
+    <p>
+      El presente libro es el fruto de un trabajo colectivo que involucró estudiantes, profesores e investigadores, en el que nos embarcamos a discutir cómo entendemos la inteligencia artificial (IA). El resultado es una serie de reflexiones que interpelan a la IA para visibilizar sus dimensiones sociales y discutir sus impactos.
+    </p>
+    <a class="libro-btn" href="https://repositorio.uflo.edu.ar/entities/libro/ba249a4e-a837-4003-bad7-b215cc0d3b32" target="_blank" rel="noopener">Ver en repositorio UFLO</a>
+  </div>
+</div>
+
+
+## Contenidos Abiertos y Recursos Sociológicos
+
+
+
+
+
+{% assign R = site.data.recursos %}
+
+<div class="cards">
+{% for r in R %}
+  {% assign link = r.url %}
+  {% if link == nil and r.repo %}{% assign link = r.repo %}{% endif %}
+  {% if link == nil and r.yt_id %}{% assign link = 'https://www.youtube.com/watch?v=' | append: r.yt_id %}{% endif %}
+
+  {% if r.tipo == "podcast" and r.yt_id %}
+    <div class="card card-{{ r.tipo }}" data-tags="{{ r.tags | join: ',' }}">
+      <div class="video">
+        <iframe width="100%" height="200" src="https://www.youtube.com/embed/{{ r.yt_id }}" title="{{ r.titulo }}" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <h3>Ep. {{ r.episodio }} — {{ r.titulo }}</h3>
+      {% if r.entrevistado %}<p><strong>Entrevista a:</strong> {{ r.entrevistado }}</p>{% endif %}
+      {% if r.tags %}<p>{% for t in r.tags %}<span class="badge">{{ t }}</span>{% endfor %}</p>{% endif %}
+    </div>
+  {% else %}
+    <a class="card card-{{ r.tipo }}" href="{{ link }}" target="_blank" rel="noopener" data-tags="{{ r.tags | join: ',' }}">
+      {% if r.thumb %}
+        <img src="{{ r.thumb }}" alt="{{ r.titulo }}">
+      {% endif %}
+      <h3>{{ r.titulo }}</h3>
+      <p class="meta">
+        {% if r.subtipo %}{{ r.subtipo | replace: "_", " " }}{% endif %}
+        {% if r.subtipo and r.anio %} · {% endif %}
+        {% if r.anio %}{{ r.anio }}{% endif %}
+        {% if r.autores and r.autores.size > 0 %} · {{ r.autores | join: ", " }}{% endif %}
+        {% if r.fuente %} · {{ r.fuente }}{% endif %}
+      </p>
+      {% if r.descripcion %}<p>{{ r.descripcion }}</p>{% endif %}
+      {% if r.tags %}<p>{% for t in r.tags %}<span class="badge">{{ t }}</span>{% endfor %}</p>{% endif %}
+    </a>
+  {% endif %}
+{% endfor %}
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <div id="search" class="search">
   <input id="search-input" placeholder="Buscar…">
@@ -79,32 +160,14 @@ SimpleJekyllSearch({
 });
 </script>
 
-2. [Publicaciones](#publicaciones)
-3. [Podcast "(Re) Pensar la Sociología desde el hoy"](#podcasts)
-4. [Clases abiertas, Conversatorios y Eventos](#eventos)
-5. [Módulos de nuestras asignaturas](#módulos)
-6. [Proyectos de Investigación](#proyectos-de-investigación)
-7. [Tutoriales de Sociología Computacional](#tutoriales-de-sociología-computacional)
-8. [Desarrollos y herramientas en Sociología Computacional](#desarrollos-y-herramientas)
+
+
+
+
 
 
 ## Publicaciones
 
-<div class="libro-banner">
-  <img src="https://repositorio.uflo.edu.ar/server/api/core/bitstreams/8e25e580-b4fd-4201-9f76-ee916a5c9507/content" alt="Tapa del libro Mitos y representaciones de la IA" class="libro-portada">
-  <div class="libro-texto">
-    <h3>Mitos y representaciones de la Inteligencia Artificial</h3>
-    <p><strong>Editores:</strong> Gastón Becerra · Joaquín Ignacio Mezzadra · Guillermo Movia</p>
-    <p>
-      El presente libro es el fruto de un trabajo colectivo que involucró estudiantes, profesores e investigadores,
-      en el que nos embarcamos a discutir cómo entendemos la inteligencia artificial (IA).
-      A lo largo de 2025 documentamos discursos públicos recientes, analizamos sus dimensiones sociales,
-      y discutimos sus implicancias éticas, educativas y laborales. El resultado es una serie de reflexiones que
-      interpelan a la IA como fenómeno de interés filosófico y social.
-    </p>
-    <a class="libro-btn" href="https://repositorio.uflo.edu.ar/entities/libro/ba249a4e-a837-4003-bad7-b215cc0d3b32" target="_blank" rel="noopener">Ver en repositorio UFLO</a>
-  </div>
-</div>
 
 
 Publicaciones y materiales que elaboramos desde nuestros equipos de investigación y otros espacios de trabajo de la carrera.
@@ -137,8 +200,10 @@ El podcast **(Re) Pensar la Sociología desde el hoy** es una serie de entrevist
 
 [Playlist completa: https://bit.ly/podcast-socio-uflo](https://bit.ly/podcast-socio-uflo)
 
-Estos materiales corresponden a las asignaturas *Teoría Sociológica Clásica* y *Teoría Sociológica Contemporánea*. Para una bitácora y reflexión, podés consultar la ponencia:
+Estos materiales son resultados del trabajo de nuestras asignaturas y equipos de investigación. Los **podcasts** se elaboraron en las asignaturas *Teoría Sociológica Clásica* y *Teoría Sociológica Contemporánea*. Para una bitácora y reflexión, podés consultar la ponencia:
 Ciardiello, M., Giordano, P. y Becerra, G. (2023). Experiencias en la producción de podcasts de teoría sociológica. *IV Jornadas Institucionales de Innovación Educativa en la Universidad - Universidad de Flores*. https://repositorio.uflo.edu.ar/entities/ponencia/be9853f1-f1c5-4744-a85a-1263ee95fb09
+
+
 
 ## Eventos
 
