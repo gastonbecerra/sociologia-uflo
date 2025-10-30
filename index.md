@@ -17,13 +17,6 @@ Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflou
 
 ## Próximos Eventos
 
-<!-- Para enterarte de próximos eventos gratuitos y abiertos, podés dejarnos tu contacto en [este formulario](https://forms.gle/eFxcxuWV1c8oki5CA). -->
-
-* [Taller] **Discusiones actuales sobre la Inteligencia Artificial** 📅 26 de agosto 📍 Semana de la Investigación 2025 de la Universidad de Flores. [Actividad gratuita con registro previo](https://zoom.us/meeting/register/eCrNKJZITbuHvkZnaLfGsg)
-* [Jornadas] **III Jornadas de Inteligencia Artificial y Educación 2025** 📅 10 de noviembre de 9 a 19 hs. Actividad virtual y gratuita. [Registro y novedades](https://docs.google.com/forms/d/e/1FAIpQLSfPv97REjzfrpb41_arNGpJ4FStw77Zg94I8KgzRfBy358ACA/viewform)
-* [Jornadas] **Mesas de ponencia/experiencias con IA (estudiantes, profesores, investigadores, gestión)** en III Jornadas de Inteligencia Artificial y Educación 2025 📅 10 de noviembre de 2-5pm. Actividad virtual y gratuita. [1era Circular](https://docs.google.com/forms/d/e/1FAIpQLSfPv97REjzfrpb41_arNGpJ4FStw77Zg94I8KgzRfBy358ACA/viewform)
-
-
 {% assign hoy = site.time | date: "%Y-%m-%d" %}
 {% assign items = site.data.eventos_futuros %}
 
@@ -45,13 +38,11 @@ Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflou
   <p>No se encontró <code>_data/eventos_futuros.yml</code> o tiene un error de formato.</p>
 {% endif %}
 
-
-
-
-
 <a class="cta" href="https://forms.gle/eFxcxuWV1c8oki5CA" target="_blank" rel="noopener">
   📬 Recibir novedades de próximos eventos gratuitos y abiertos
 </a>
+
+
 
 ## Contenidos Abiertos
 
