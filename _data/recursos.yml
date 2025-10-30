@@ -102,50 +102,51 @@
   url: "https://repositorio.uflo.edu.ar/entities/ponencia/9179a371-db7e-4055-a7da-143d215ae792"
   tags: ["sesgos","IA","ponencia"]
 
+
 - id: tut-001
   tipo: tutorial
   titulo: "Introducción a la ciencia de datos con R. Una guía rápida para cientistas sociales"
-  descripcion: "Compilación de tutoriales en lenguaje R usados en *Análisis de datos* y *Big Data y Ciencias de Datos*. Incluye también las slides teóricas."
+  descripcion: "Compilación de tutoriales en R usados en Análisis de datos y en el curso de Big Data y Ciencias de Datos. Incluye slides teóricas."
   lenguaje: "R"
   url: "https://bookdown.org/gaston_becerra/curso-intro-r/"
-  tags: ["R", "análisis de datos", "big data"]
+  tags: ["R","análisis de datos","big data"]
 
 - id: tut-002
   tipo: tutorial
   titulo: "Tutorial de análisis bibliométrico"
-  descripcion: "Guía práctica en lenguaje R para iniciarse en el análisis bibliométrico, usada en *Análisis de datos*."
+  descripcion: "Guía práctica en R para iniciarse en bibliometría; usada como integrador en Análisis de datos."
   lenguaje: "R"
   url: "https://rpubs.com/gastonbecerra/bibliometricos-R"
-  tags: ["R", "bibliometría", "análisis de datos"]
+  tags: ["R","bibliometría","análisis de datos"]
 
 - id: tut-003
   tipo: tutorial
-  titulo: "Guía con diferencias y similitudes entre lenguaje Clojure y R"
-  descripcion: "Comparación entre Clojure y R para vincular las asignaturas *Análisis de datos* y *Programación*."
+  titulo: "Guía con diferencias y similitudes entre Clojure y R"
+  descripcion: "Comparación Clojure vs R para vincular Análisis de datos y Programación."
   lenguaje: "Clojure, R"
   url: "https://nextjournal.com/a/RYA1HcdZkiFBJdNKYuQx7?token=CrpoWYpyyJFs2CPcpTeSSW"
-  tags: ["Clojure", "R", "programación"]
+  tags: ["Clojure","R","programación"]
 
 - id: tut-004
   tipo: tutorial
-  titulo: "Tutorial completo de arqueo bibliográfico en lenguaje Clojure"
-  descripcion: "Curso completo para crear una aplicación en Clojure que interactúe con la API de Semantic Scholar. Incluye introducción teórica y práctica."
+  titulo: "Tutorial completo de arqueo bibliográfico en Clojure"
+  descripcion: "Curso para crear una app en Clojure con la API de Semantic Scholar. Con teoría y práctica."
   lenguaje: "Clojure"
   url: "https://www.youtube.com/playlist?list=PLUxsdd9CjsoGwvfLkoTuYnSDB3j0L07Xw"
-  tags: ["Clojure", "API", "bibliometría", "video"]
+  tags: ["Clojure","API","bibliometría","video"]
 
 - id: tut-005
   tipo: tutorial
-  titulo: "Tutorial de webscraping en lenguaje R"
-  descripcion: "Material de apoyo en *Programación*. Enseña a recuperar discursos desde la web de Casa Rosada usando R."
+  titulo: "Tutorial de webscraping en R"
+  descripcion: "Recupera discursos desde Casa Rosada con R. Material de apoyo en Programación."
   lenguaje: "R"
   url: "https://gastonbecerra.github.io/scraping-casa-rosada/"
-  tags: ["R", "webscraping", "programación"]
+  tags: ["R","webscraping","programación"]
 
 - id: tut-006
   tipo: tutorial
   titulo: "Tutorial sobre uso de ChatGPT"
-  descripcion: "Tutorial breve sobre cómo construir prompts con ChatGPT, desarrollado para la materia *Sociología de la Inteligencia Artificial*."
+  descripcion: "Cómo construir prompts con ChatGPT. Material para Sociología de la IA."
   lenguaje: "ChatGPT"
   url: "downloads/material%20chatgpt.pdf"
-  tags: ["ChatGPT", "IA", "prompts", "educación"]
+  tags: ["ChatGPT","IA","prompts","educación"]

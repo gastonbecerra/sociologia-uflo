@@ -161,3 +161,12 @@ img { max-width: 100%; height: auto; }
   margin-bottom: 0.4rem;
   line-height: 1.4;
 }
+
+
+.card-tutorial { border-left-color:#10b981; }
+.card-tutorial h3 { color:#0f766e; }
+.badge-lang {
+  background:#ecfdf5; color:#065f46; font-weight:700; font-size:.8rem;
+  border:1px solid #d1fae5; padding:.2rem .5rem; border-radius:.4rem;
+}
+.descripcion { font-size:.9rem; color:#333; margin-bottom:.4rem; line-height:1.4; }

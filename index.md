@@ -27,7 +27,7 @@ Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflou
 
 {% if items %}
   {% assign ordenados = items | sort: "fecha" %}
-  <div class="card card-evento">
+  <div class="card-evento">
   {% for e in ordenados %}
     {% if e.fecha and e.fecha >= hoy %}
       <div class="card">
@@ -82,8 +82,6 @@ Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflou
 
 
 
-
-
 {% assign R = site.data.recursos %}
 
 <div class="cards">
@@ -93,18 +91,15 @@ Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflou
   {% if link == nil and r.yt_id %}{% assign link = 'https://www.youtube.com/watch?v=' | append: r.yt_id %}{% endif %}
 
   {% if r.tipo == "podcast" and r.yt_id %}
-    <div class="card card-{{ r.tipo }}" data-tags="{{ r.tags | join: ',' }}">
+    <div class="card card-podcast" data-tags="{{ r.tags | join: ',' }}">
       <div class="video">
         <iframe width="100%" height="200" src="https://www.youtube.com/embed/{{ r.yt_id }}" title="{{ r.titulo }}" frameborder="0" allowfullscreen></iframe>
       </div>
       <h3>Ep. {{ r.episodio }} — {{ r.titulo }}</h3>
-      {% if r.entrevistado %}<p><strong>Entrevista a:</strong> {{ r.entrevistado }}</p>{% endif %}
-      {% if r.tags %}
-        <div class="badges">
-          {% for t in r.tags %}<span class="badge">{{ t }}</span>{% endfor %}
-        </div>
-      {% endif %}
+      {% if r.entrevistado %}<p class="meta"><strong>Entrevista a:</strong> {{ r.entrevistado }}</p>{% endif %}
+      {% if r.tags %}<div class="badges">{% for t in r.tags %}<span class="badge">{{ t }}</span>{% endfor %}</div>{% endif %}
     </div>
+
   {% else %}
     <a class="card card-{{ r.tipo }}" href="{{ link }}" target="_blank" rel="noopener" data-tags="{{ r.tags | join: ',' }}">
       {% if r.thumb %}
@@ -115,38 +110,37 @@ Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflou
         <div class="thumb"></div>
       {% endif %}
 
-      <h3>{{ r.titulo }}</h3>
+      <h3>{% if r.tipo == "tutorial" %}💻 {% endif %}{{ r.titulo }}</h3>
 
-      {% if r.tipo == "publicacion" %}
-        <p class="meta">
-          {% if r.subtipo %}<span class="label">{{ r.subtipo | replace: "_", " " }}</span>{% endif %}
-          {% if r.anio %}{{ r.anio }}{% endif %}
-          {% if r.autores and r.autores.size > 0 %} · {{ r.autores | join: ", " }}{% endif %}
-          {% if r.fuente %} · {{ r.fuente }}{% endif %}
-        </p>
-      {% else %}
-        <p class="meta">
-          {% if r.fecha %}{{ r.fecha }}{% endif %}
-          {% if r.fecha and r.duracion %} · {% endif %}
-          {% if r.duracion %}{{ r.duracion }}{% endif %}
-          {% if r.medio %} · {{ r.medio }}{% endif %}
-        </p>
-      {% endif %}
-      {% if r.descripcion %}
-        <p class="descripcion">{{ r.descripcion }}</p>
-      {% endif %}
-      {% if r.descripcion %}<p>{{ r.descripcion }}</p>{% endif %}
-      {% if r.tags %}
-        <div class="badges">
-          {% for t in r.tags %}<span class="badge">{{ t }}</span>{% endfor %}
-        </div>
-      {% endif %}
+      {% case r.tipo %}
+        {% when "publicacion" %}
+          <p class="meta">
+            {% if r.subtipo %}<span class="label">{{ r.subtipo | replace: "_", " " }}</span>{% endif %}
+            {% if r.anio %}{{ r.anio }}{% endif %}
+            {% if r.autores and r.autores.size > 0 %} · {{ r.autores | join: ", " }}{% endif %}
+            {% if r.fuente %} · {{ r.fuente }}{% endif %}
+          </p>
+          {% if r.descripcion %}<p class="descripcion">{{ r.descripcion }}</p>{% endif %}
+
+        {% when "tutorial" %}
+          {% if r.lenguaje %}<p class="lenguaje"><span class="badge-lang">{{ r.lenguaje }}</span></p>{% endif %}
+          {% if r.descripcion %}<p class="descripcion">{{ r.descripcion }}</p>{% endif %}
+
+        {% else %}
+          <p class="meta">
+            {% if r.fecha %}{{ r.fecha }}{% endif %}
+            {% if r.fecha and r.duracion %} · {% endif %}
+            {% if r.duracion %}{{ r.duracion }}{% endif %}
+            {% if r.medio %} · {{ r.medio }}{% endif %}
+          </p>
+          {% if r.descripcion %}<p class="descripcion">{{ r.descripcion }}</p>{% endif %}
+      {% endcase %}
+
+      {% if r.tags %}<div class="badges">{% for t in r.tags %}<span class="badge">{{ t }}</span>{% endfor %}</div>{% endif %}
     </a>
   {% endif %}
 {% endfor %}
 </div>
-
-
 
 
 
