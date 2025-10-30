@@ -24,39 +24,26 @@ Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflou
 * [Jornadas] **Mesas de ponencia/experiencias con IA (estudiantes, profesores, investigadores, gestión)** en III Jornadas de Inteligencia Artificial y Educación 2025 📅 10 de noviembre de 2-5pm. Actividad virtual y gratuita. [1era Circular](https://docs.google.com/forms/d/e/1FAIpQLSfPv97REjzfrpb41_arNGpJ4FStw77Zg94I8KgzRfBy358ACA/viewform)
 
 
-
-
-
 {% assign hoy = site.time | date: "%Y-%m-%d" %}
 {% assign items = site.data.eventos_futuros %}
 
 {% if items %}
-  {% assign futuros = items | where_exp: "e", "e.fecha and e.fecha >= hoy" | sort: "fecha" %}
-
-  {% if futuros and futuros != empty %}
+  {% assign ordenados = items | sort: "fecha" %}
   <div class="cards">
-    {% for e in futuros %}
+  {% for e in ordenados %}
+    {% if e.fecha and e.fecha >= hoy %}
       <div class="card">
         <h3>{{ e.titulo }}</h3>
-        <p>
-          <strong>{{ e.fecha }}</strong>{% if e.hora %} · {{ e.hora }}{% endif %}
-          — {{ e.modalidad }} · {{ e.lugar }}
-        </p>
+        <p><strong>{{ e.fecha }}</strong>{% if e.hora %} · {{ e.hora }}{% endif %} — {{ e.modalidad }} · {{ e.lugar }}</p>
         <p>{{ e.descripcion }}</p>
-        {% if e.formulario and e.formulario != "" %}
-          <p><a class="btn" href="{{ e.formulario }}" target="_blank" rel="noopener">Inscribirme</a></p>
-        {% endif %}
+        {% if e.formulario %}<p><a class="btn" href="{{ e.formulario }}" target="_blank" rel="noopener">Inscribirme</a></p>{% endif %}
       </div>
-    {% endfor %}
+    {% endif %}
+  {% endfor %}
   </div>
-  {% else %}
-    <p>No hay eventos próximos.</p>
-  {% endif %}
-
 {% else %}
   <p>No se encontró <code>_data/eventos_futuros.yml</code> o tiene un error de formato.</p>
 {% endif %}
-
 
 
 
