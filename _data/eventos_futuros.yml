@@ -1,3 +1,10 @@
+- titulo: "[Taller] Discusiones actuales sobre la Inteligencia Artificial"
+  fecha: "2025-08-26"
+  modalidad: "Presencial"
+  lugar: "Semana de la Investigación 2025 · UFLO"
+  descripcion: "Actividad gratuita con registro previo."
+  formulario: "https://zoom.us/meeting/register/eCrNKJZITbuHvkZnaLfGsg"
+
 - titulo: "[Jornadas] III Jornadas de Inteligencia Artificial y Educación 2025"
   fecha: "2025-11-10"
   hora: "09:00–19:00"
@@ -5,7 +12,6 @@
   lugar: "Online"
   descripcion: "Actividad virtual y gratuita. Registro y novedades."
   formulario: "https://docs.google.com/forms/d/e/1FAIpQLSfPv97REjzfrpb41_arNGpJ4FStw77Zg94I8KgzRfBy358ACA/viewform"
-  tags: ["IA","educación","jornadas"]
 
 - titulo: "[Jornadas] Mesas de ponencia/experiencias con IA (estudiantes, profesores, investigadores, gestión)"
   fecha: "2025-11-10"
@@ -14,4 +20,3 @@
   lugar: "Online"
   descripcion: "En el marco de las III Jornadas de IA y Educación 2025. 1era Circular."
   formulario: "https://docs.google.com/forms/d/e/1FAIpQLSfPv97REjzfrpb41_arNGpJ4FStw77Zg94I8KgzRfBy358ACA/viewform"
-  tags: ["IA","jornadas","mesas"]
