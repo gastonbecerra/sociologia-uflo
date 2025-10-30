@@ -55,6 +55,7 @@
   titulo: "La inteligencia artificial como tecnología disruptiva y sus sentidos sociales"
   autores: ["G. Becerra", "E. Magnani"]
   fuente: "Revista El Faro"
+  descripcion: "Artículo sobre discursos sociales de la IA"
   anio: 2024
   url: "https://revistaelfaro.uflo.edu.ar/elfaro/article/view/14"
   tags: ["IA","sociedad","artículo"]
@@ -64,7 +65,7 @@
   subtipo: material
   titulo: "Guías del ciclo “Charlas Sociológicas”"
   autores: ["M. Ciardiello"]
-  fuente: "Material de apoyo (verano 2024)"
+  descripcion: "Material de apoyo sobre nociones centrales de la sociología preparado para el curso de verano de 2024"
   anio: 2024
   url: "https://drive.google.com/file/d/18g0yOfkAt43rpVTEe0xwpuZj_adtBubu/view"
   tags: ["guías","docencia"]
@@ -73,8 +74,8 @@
   tipo: publicacion
   subtipo: libro_resumenes
   titulo: "Libro de Resúmenes · 1eras Jornadas de Sociología UFLO"
-  autores: []
-  fuente: "Compilación de resúmenes aceptados (Jul/2024)"
+  autores: ["G. Becerra"]
+  descripcion: "Compilación de resúmenes aceptados las 1eras Jornadas de Sociologia (Jul/2024)"
   anio: 2024
   url: "https://docs.google.com/document/d/e/2PACX-1vQyAAr0M7_3d0dYpmeg5F8M7I7WPmo3ki27RDT4cyHjfi5FqVaArM-UP6xrrb0srRLHDNDh4bH0I8_p/pub"
   tags: ["jornadas","UFLO","libro"]
@@ -85,6 +86,7 @@
   titulo: "Communication in the age of technological challenges — Registro"
   autores: ["G. Becerra", "C. Paganoni"]
   fuente: "Journal of International Legal Communication"
+  descripcion: "Registro del evento realizado entre UFLO y Universidad de Varsovia sobre comunicación digital"
   anio: 2023
   url: "https://doi.org/10.32612/uw.27201643.2023.9.pp.99-101"
   tags: ["registro","evento","Polonia"]
@@ -93,8 +95,57 @@
   tipo: publicacion
   subtipo: ponencia
   titulo: "Material del taller de detección de sesgos de la IA"
-  autores: []
+  autores: ["G. Becerra", "P. Urabayen"]
   fuente: "II Jornada Virtual de IA · UFLO"
+  descripción: "¿Qué son los sesgos de la IA? ¿Cómo detectarlos?"
   anio: 2024
   url: "https://repositorio.uflo.edu.ar/entities/ponencia/9179a371-db7e-4055-a7da-143d215ae792"
   tags: ["sesgos","IA","ponencia"]
+
+- id: tut-001
+  tipo: tutorial
+  titulo: "Introducción a la ciencia de datos con R. Una guía rápida para cientistas sociales"
+  descripcion: "Compilación de tutoriales en lenguaje R usados en *Análisis de datos* y *Big Data y Ciencias de Datos*. Incluye también las slides teóricas."
+  lenguaje: "R"
+  url: "https://bookdown.org/gaston_becerra/curso-intro-r/"
+  tags: ["R", "análisis de datos", "big data"]
+
+- id: tut-002
+  tipo: tutorial
+  titulo: "Tutorial de análisis bibliométrico"
+  descripcion: "Guía práctica en lenguaje R para iniciarse en el análisis bibliométrico, usada en *Análisis de datos*."
+  lenguaje: "R"
+  url: "https://rpubs.com/gastonbecerra/bibliometricos-R"
+  tags: ["R", "bibliometría", "análisis de datos"]
+
+- id: tut-003
+  tipo: tutorial
+  titulo: "Guía con diferencias y similitudes entre lenguaje Clojure y R"
+  descripcion: "Comparación entre Clojure y R para vincular las asignaturas *Análisis de datos* y *Programación*."
+  lenguaje: "Clojure, R"
+  url: "https://nextjournal.com/a/RYA1HcdZkiFBJdNKYuQx7?token=CrpoWYpyyJFs2CPcpTeSSW"
+  tags: ["Clojure", "R", "programación"]
+
+- id: tut-004
+  tipo: tutorial
+  titulo: "Tutorial completo de arqueo bibliográfico en lenguaje Clojure"
+  descripcion: "Curso completo para crear una aplicación en Clojure que interactúe con la API de Semantic Scholar. Incluye introducción teórica y práctica."
+  lenguaje: "Clojure"
+  url: "https://www.youtube.com/playlist?list=PLUxsdd9CjsoGwvfLkoTuYnSDB3j0L07Xw"
+  tags: ["Clojure", "API", "bibliometría", "video"]
+
+- id: tut-005
+  tipo: tutorial
+  titulo: "Tutorial de webscraping en lenguaje R"
+  descripcion: "Material de apoyo en *Programación*. Enseña a recuperar discursos desde la web de Casa Rosada usando R."
+  lenguaje: "R"
+  url: "https://gastonbecerra.github.io/scraping-casa-rosada/"
+  tags: ["R", "webscraping", "programación"]
+
+- id: tut-006
+  tipo: tutorial
+  titulo: "Tutorial sobre uso de ChatGPT"
+  descripcion: "Tutorial breve sobre cómo construir prompts con ChatGPT, desarrollado para la materia *Sociología de la Inteligencia Artificial*."
+  lenguaje: "ChatGPT"
+  url: "downloads/material%20chatgpt.pdf"
+  tags: ["ChatGPT", "IA", "prompts", "educación"]

@@ -3,316 +3,161 @@
 
 @import 'jekyll-theme-cayman';
 
-
-/* --- Custom UFLO overrides --- */
-.container {
-  max-width: 880px;
-  margin: 0 auto;
-  padding: 1.2rem;
-}
+/* ================================
+   Base / layout
+================================ */
+.container { max-width: 880px; margin: 0 auto; padding: 1.2rem; }
+img { max-width: 100%; height: auto; }
 
 .cta {
-  position: sticky;
-  top: .5rem;
-  display: inline-block;
-  padding: .55rem .9rem;
-  border-radius: .6rem;
-  text-decoration: none;
-  background: #111;
-  color: #fff;
-  font-weight: 600;
+  position: sticky; top: .5rem;
+  display: inline-block; padding: .55rem .9rem; border-radius: .6rem;
+  text-decoration: none; background: #111; color: #fff; font-weight: 600;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
+/* ================================
+   Header con imagen de fondo
+================================ */
+.page-header{
+  background-image:url('https://www.uflouniversidad.edu.ar/wp-content/uploads/2024/09/lic-en-sociologia-1536x864.jpg');
+  background-size:cover; background-position:center; background-repeat:no-repeat;
+  color:#fff; text-shadow:0 1px 3px rgba(0,0,0,.7);
+}
+.project-name,.project-tagline{display:inline-block; border-radius:.4rem; padding:.3rem .6rem;}
+.project-name{background-color:rgba(0,0,0,.4);}
+.project-tagline{background-color:rgba(0,0,0,.3);}
+
+/* ================================
+   Buscador
+================================ */
+#search{ margin:1.5rem 0 2rem; text-align:center; }
+#search-input{
+  width:100%; max-width:420px; padding:.7rem 1rem; border:1.5px solid #ccc; border-radius:2rem;
+  font-size:1rem; transition:all .2s; background:#fff; box-shadow:0 1px 3px rgba(0,0,0,.05);
+}
+#search-input:focus{ outline:0; border-color:#008CBA; box-shadow:0 0 0 3px rgba(0,140,186,.15); }
+
+#results{ list-style:none; margin:1rem auto; padding:0; max-width:600px; text-align:left; }
+#results li{
+  margin:.4rem 0; border:1px solid #e5e7eb; border-radius:.75rem; background:#fff;
+  padding:.7rem 1rem; box-shadow:0 1px 3px rgba(0,0,0,.04); transition:all .15s;
+}
+#results li:hover{ transform:translateY(-2px); border-color:#008CBA; box-shadow:0 4px 10px rgba(0,0,0,.06); }
+#results a{ text-decoration:none; color:#111; font-weight:600; }
+#results small{ display:block; opacity:.7; margin-top:.25rem; font-size:.9rem; }
+
+/* ================================
+   Grid de tarjetas
+================================ */
+.cards{
+  display:grid; gap:1rem; grid-template-columns:repeat(auto-fill, minmax(280px, 1fr));
+  margin: 1rem 0;
 }
 
-
-/* --- Fondo del encabezado principal --- */
-.page-header {
-  background-image: url('https://www.uflouniversidad.edu.ar/wp-content/uploads/2024/09/lic-en-sociologia-1536x864.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: #fff;
-  text-shadow: 0 1px 3px rgba(0,0,0,0.7);
+/* Tarjeta base: 1 solo borde + acento lateral */
+.card{
+  display:block; text-decoration:none; color:inherit;
+  background:#fff;
+  border:1px solid #e5e7eb;           /* borde único */
+  border-left-width:6px;               /* acento lateral */
+  border-left-color:#0074A2;           /* color por defecto (se puede sobrescribir por tipo) */
+  border-radius:.8rem; padding:1rem 1.2rem;
+  box-shadow:0 2px 6px rgba(0,0,0,.05);
+  transition:transform .2s, box-shadow .2s, border-color .2s;
 }
+.card:hover{ transform:translateY(-3px); box-shadow:0 4px 12px rgba(0,0,0,.08); }
+.card h3{ color:#0074A2; margin:.1rem 0 .35rem; font-size:1.1rem; }
+.card p{ margin:.3rem 0; font-size:.95rem; color:#333; }
 
-/* Acentuar contraste de título y descripción */
-.project-name {
-  background-color: rgba(0,0,0,0.4);
-  display: inline-block;
-  padding: 0.3rem 0.6rem;
-  border-radius: 0.4rem;
+/* variantes por tipo (borde lateral) */
+.card-publicacion{ border-left-color:#334155; }
+.card-podcast{ border-left-color:#0ea5e9; }
+.card-evento_grabacion{ border-left-color:#22c55e; }
+.card-desarrollo{ border-left-color:#a855f7; }
+
+/* ================================
+   Meta, badges, labels
+================================ */
+.card .meta{ color:#555; font-size:.92rem; margin:.2rem 0 .4rem; }
+.badges{ margin-top:.4rem; display:flex; flex-wrap:wrap; gap:.35rem; }
+.badge{ display:inline-block; padding:.18rem .5rem; border:1px solid #e5e7eb; border-radius:.5rem; font-size:.82rem; background:#f8fafc; color:#111; }
+.label{ display:inline-block; font-weight:700; font-size:.85rem; padding:.18rem .5rem; border-radius:.4rem; background:#eef2ff; color:#3730a3; margin-right:.35rem; }
+
+/* Placeholder cuando no hay imagen/thumbnail */
+.card .thumb{ width:100%; height:160px; border-radius:.6rem; background:#f1f5f9; margin-bottom:.6rem; }
+.card-publicacion .thumb{ background:linear-gradient(135deg, #361e92 0%, #6d28d9 100%); }
+
+/* ================================
+   Iconos SOLO en “Próximos eventos”
+   (asegurate de usar class="card card-evento" en esa sección)
+================================ */
+.card-evento p strong::before{ content:"📅 "; margin-right:.2rem; }
+.card-evento p:nth-of-type(1)::after{ content:"  📍"; margin-left:.3rem; }
+/* opcional: icono cámara para grabaciones */
+.card-evento_grabacion h3::before{ content:"🎥 "; margin-right:.2rem; }
+
+/* ================================
+   Podcasts embebidos
+================================ */
+.podcast-grid{
+  display:grid; gap:1.5rem; grid-template-columns:repeat(auto-fill, minmax(300px, 1fr));
+  margin:1.5rem 0;
 }
-
-.project-tagline {
-  background-color: rgba(0,0,0,0.3);
-  display: inline-block;
-  padding: 0.2rem 0.5rem;
-  border-radius: 0.3rem;
+.podcast-card{
+  background:#fff; border:1px solid #e5e7eb; border-left:6px solid #0ea5e9;
+  border-radius:1rem; overflow:hidden; box-shadow:0 2px 6px rgba(0,0,0,.05);
+  transition:transform .2s;
 }
+.podcast-card:hover{ transform:translateY(-4px); }
+.podcast-card .info{ padding:.8rem 1rem; text-align:left; }
+.podcast-card h4{ margin:0 0 .4rem; font-size:1.05rem; color:#111; }
+.podcast-card p{ margin:0; font-size:.9rem; color:#333; }
 
-
-
-/* --- Caja de búsqueda moderna --- */
-#search {
-  margin: 1.5rem 0 2rem;
-  text-align: center;
+/* ================================
+   Botón genérico
+================================ */
+.btn{
+  display:inline-block; margin-top:.5rem; padding:.5rem .9rem; border-radius:.6rem;
+  text-decoration:none; background:#0074A2; color:#fff; font-weight:600;
 }
+.btn:hover{ background:#005e82; }
 
-#search-input {
-  width: 100%;
-  max-width: 420px;
-  padding: 0.7rem 1rem;
-  border: 1.5px solid #ccc;
-  border-radius: 2rem;
-  font-size: 1rem;
-  transition: all 0.2s ease-in-out;
-  background-color: #fff;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+/* ================================
+   Banners (Revista y Libro)
+================================ */
+.revista-banner{
+  display:flex; flex-wrap:wrap; align-items:center; justify-content:center; gap:1.5rem;
+  background:#361e92; color:#fff; border-radius:1rem; padding:2rem 1.5rem; margin:2rem 0;
+  box-shadow:0 4px 12px rgba(0,0,0,.15);
 }
-
-#search-input:focus {
-  outline: none;
-  border-color: #008CBA;
-  box-shadow: 0 0 0 3px rgba(0,140,186,0.15);
+.revista-logo{ max-width:180px; height:auto; filter:drop-shadow(0 2px 2px rgba(0,0,0,.3)); }
+.revista-texto{ max-width:600px; text-align:left; }
+.revista-texto h3{ margin-top:0; font-size:1.4rem; color:#fff; }
+.revista-texto p{ font-size:1rem; line-height:1.5; margin-bottom:1rem; color:#f5f5f5; }
+.revista-btn{
+  display:inline-block; background:#fff; color:#361e92; font-weight:600;
+  padding:.6rem 1rem; border-radius:.6rem; text-decoration:none; transition:all .2s;
 }
+.revista-btn:hover{ background:#e6e0ff; transform:translateY(-2px); }
 
-#results {
-  list-style: none;
-  margin: 1rem auto;
-  padding: 0;
-  max-width: 600px;
-  text-align: left;
+.libro-banner{
+  display:flex; flex-wrap:wrap; align-items:center; justify-content:center; gap:1.5rem;
+  background:#f7f7f9; color:#222; border-radius:1rem; padding:2rem 1.5rem; margin:2rem 0;
+  box-shadow:0 3px 10px rgba(0,0,0,.08);
 }
-
-#results li {
-  margin: 0.4rem 0;
-  border: 1px solid #e5e7eb;
-  border-radius: 0.75rem;
-  background: #fff;
-  padding: 0.7rem 1rem;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
-  transition: all 0.15s ease-in-out;
+.libro-portada{ max-width:200px; height:auto; border-radius:.5rem; box-shadow:0 4px 10px rgba(0,0,0,.15); }
+.libro-texto{ max-width:600px; text-align:left; }
+.libro-texto h3{ margin-top:0; font-size:1.4rem; color:#361e92; }
+.libro-texto p{ font-size:1rem; line-height:1.5; margin-bottom:1rem; }
+.libro-btn{
+  display:inline-block; background:#361e92; color:#fff; font-weight:600;
+  padding:.6rem 1rem; border-radius:.6rem; text-decoration:none; transition:all .2s;
 }
+.libro-btn:hover{ background:#29146b; transform:translateY(-2px); }
 
-#results li:hover {
-  transform: translateY(-2px);
-  border-color: #008CBA;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.06);
-}
-
-#results a {
-  text-decoration: none;
-  color: #111;
-  font-weight: 600;
-}
-
-#results small {
-  display: block;
-  opacity: 0.7;
-  margin-top: 0.25rem;
+.descripcion {
   font-size: 0.9rem;
-}
-
-
-
-
-/* --- Tarjetas de eventos: estilo B (borde lateral) --- */
-.cards {
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-}
-
-.card {
-  background: #fff;
-  border-left: 6px solid #0074A2;
-  border-radius: 0.8rem;
-  padding: 1rem 1.2rem;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-  transition: all 0.2s ease-in-out;
-}
-
-.card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-}
-
-.card h3 {
-  color: #0074A2;
-  margin-top: 0;
-  font-size: 1.1rem;
-}
-
-.card p {
-  margin: 0.3rem 0;
-  font-size: 0.95rem;
   color: #333;
+  margin-bottom: 0.4rem;
+  line-height: 1.4;
 }
-
-.btn {
-  display: inline-block;
-  margin-top: 0.5rem;
-  padding: 0.5rem 0.9rem;
-  border-radius: 0.6rem;
-  text-decoration: none;
-  background: #0074A2;
-  color: #fff;
-  font-weight: 600;
-}
-
-.btn:hover {
-  background: #005e82;
-}
-
-/* --- Íconos dentro de las tarjetas --- */
-/* Íconos solo para tarjetas de eventos futuros */
-.card-evento_futuro p strong::before {
-  content: "📅 ";
-  margin-right: 0.2rem;
-}
-
-.card-evento_futuro p:nth-of-type(1)::after {
-  content: "  📍";
-  margin-left: 0.3rem;
-}
-
-.card p strong + span::before,
-.card p:nth-of-type(1)::after {
-  content: "";
-}
-
-/* --- Banner de Revista DCSC --- */
-.revista-banner {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 1.5rem;
-  background: #361e92;
-  color: #fff;
-  border-radius: 1rem;
-  padding: 2rem 1.5rem;
-  margin: 2rem 0;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-}
-
-.revista-logo {
-  max-width: 180px;
-  height: auto;
-  filter: drop-shadow(0 2px 2px rgba(0,0,0,0.3));
-}
-
-.revista-texto {
-  max-width: 600px;
-  text-align: left;
-}
-
-.revista-texto h3 {
-  margin-top: 0;
-  font-size: 1.4rem;
-  color: #fff;
-}
-
-.revista-texto p {
-  font-size: 1rem;
-  line-height: 1.5;
-  margin-bottom: 1rem;
-  color: #f5f5f5;
-}
-
-.revista-btn {
-  display: inline-block;
-  background: #fff;
-  color: #361e92;
-  font-weight: 600;
-  padding: 0.6rem 1rem;
-  border-radius: 0.6rem;
-  text-decoration: none;
-  transition: all 0.2s ease-in-out;
-}
-
-.revista-btn:hover {
-  background: #e6e0ff;
-  transform: translateY(-2px);
-}
-
-
-/* --- Banner del libro --- */
-.libro-banner {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 1.5rem;
-  background: #f7f7f9;
-  color: #222;
-  border-radius: 1rem;
-  padding: 2rem 1.5rem;
-  margin: 2rem 0;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
-}
-
-.libro-portada {
-  max-width: 200px;
-  height: auto;
-  border-radius: 0.5rem;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-}
-
-.libro-texto {
-  max-width: 600px;
-  text-align: left;
-}
-
-.libro-texto h3 {
-  margin-top: 0;
-  font-size: 1.4rem;
-  color: #361e92;
-}
-
-.libro-texto p {
-  font-size: 1rem;
-  line-height: 1.5;
-  margin-bottom: 1rem;
-}
-
-.libro-btn {
-  display: inline-block;
-  background: #361e92;
-  color: #fff;
-  font-weight: 600;
-  padding: 0.6rem 1rem;
-  border-radius: 0.6rem;
-  text-decoration: none;
-  transition: all 0.2s ease-in-out;
-}
-
-.libro-btn:hover {
-  background: #29146b;
-  transform: translateY(-2px);
-}
-
-
-.card .meta { color:#555; font-size:.92rem; margin:.2rem 0 .4rem; }
-.card-publicacion { border-left-color:#334155; }  /* azul grisáceo sobrio */
-
-/* Badges / tags */
-.badges { margin-top: .4rem; display: flex; flex-wrap: wrap; gap: .35rem; }
-.badge { display: inline-block; padding: .18rem .5rem; border: 1px solid #e5e7eb; border-radius: .5rem; font-size: .82rem; background: #f8fafc; color: #111; }
-
-/* Meta y label para publicaciones */
-.card .meta { color:#555; font-size:.92rem; margin:.2rem 0 .4rem; }
-.label { display:inline-block; font-weight:700; font-size:.85rem; padding:.18rem .5rem; border-radius:.4rem; background:#eef2ff; color:#3730a3; margin-right:.35rem; }
-
-/* Placeholder visual para tarjetas sin imagen */
-.card .thumb { width: 100%; height: 160px; border-radius: .6rem; background: #f1f5f9; margin-bottom: .6rem; }
-.card-publicacion .thumb { background: linear-gradient(135deg, #361e92 0%, #6d28d9 100%); }
-
-/* Íconos solo en “Próximos eventos” */
-.card-evento p strong::before { content: "📅 "; margin-right: .2rem; }
-.card-evento p:nth-of-type(1)::after { content: "  📍"; margin-left: .3rem; }
-.card-evento_grabacion h3::before { content:"🎥 "; margin-right:.2rem; }

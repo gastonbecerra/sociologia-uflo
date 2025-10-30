@@ -132,7 +132,9 @@ Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflou
           {% if r.medio %} · {{ r.medio }}{% endif %}
         </p>
       {% endif %}
-
+      {% if r.descripcion %}
+        <p class="descripcion">{{ r.descripcion }}</p>
+      {% endif %}
       {% if r.descripcion %}<p>{{ r.descripcion }}</p>{% endif %}
       {% if r.tags %}
         <div class="badges">
@@ -185,35 +187,13 @@ SimpleJekyllSearch({
 
 
 
-Publicaciones y materiales que elaboramos desde nuestros equipos de investigación y otros espacios de trabajo de la carrera.
 
-- **La enseñanza de la investigación en sociología** - Capítulo de libro elaborado por nuestros 3 profs. de Metodología I y II. Publicado en J. Gómez Zeliz (Ed.), Metodología de la investigación. El desafío de su enseñanza (pp. 39–54). Editorial de la Universidad de Flores. [Ver libro completo](https://hdl.handle.net/20.500.14340/1718%0A)
 
-- **La inteligencia artificial como tecnología disruptiva y sus sentidos sociales** - Artículo elaborado por Gastón Becerra y Esteban Magnani como registro de las Jornadas de Inteligencia Artificial en la Universidad - [Descargar artículo desde la Revista El Faro](https://revistaelfaro.uflo.edu.ar/elfaro/article/view/14)
 
-- **Guías del ciclo "Charlas Sociológicas"** - Material de apoyo elaborado para el ciclo virtual y gratuito “Charlas sociológicas” (verano/2024). Prof. Micaela Ciardiello. - [Ver guías](https://drive.google.com/file/d/18g0yOfkAt43rpVTEe0xwpuZj_adtBubu/view?usp=drive_link) 
 
-- **Libro de Resúmenes de las 1eras Jornadas de Sociología de UFLO (ISBN en trámite!)** - En este libro compilamos todos los resúmenes aceptados para las 1eras Jornadas de Sociología de UFLO realizadas en Julio/2024 - [Ir al libro](https://docs.google.com/document/d/e/2PACX-1vQyAAr0M7_3d0dYpmeg5F8M7I7WPmo3ki27RDT4cyHjfi5FqVaArM-UP6xrrb0srRLHDNDh4bH0I8_p/pub)
 
-- **Registro del Coloquio Internacional *Communication in the age of technological challenges*** - Registro elaborado por Gastón Becerra y Cristina Paganoni a partir de lo charlado en un evento organizado junto a la Universidad de Varsovia (Polonia) en Mayo/2023. [Descargar artículo desde el Journal of International Legal Communication](https://doi.org/10.32612/uw.27201643.2023.9.pp.99-101)
 
-- **Material del taller de detección de sesgos de la Inteligencia Artificial** -- Ponencia elaborada para II Jornada Virtual de Inteligencia Articial de UFLO Universidad - [Descargar ponencia desde repositorio UFLO](https://repositorio.uflo.edu.ar/entities/ponencia/9179a371-db7e-4055-a7da-143d215ae792)
 
-## Podcasts
-
-El podcast **(Re) Pensar la Sociología desde el hoy** es una serie de entrevistas a profesore/as e investigadore/as de Argentina acerca de algún/a referente de la teoría sociológica. 
-
-- [Ep. 1 Pierre Bourdieu](https://www.youtube.com/watch?v=mRdwbAdNqYE&) - Entrevista al Dr. Joaquin Algranti
-
-- [Ep. 2 Max Weber](https://www.youtube.com/watch?v=mRdwbAdNqYE) - Entrevista a la Prof. Patricia Lambruschini
-
-- [Ep. 3 Talcott Parsons](https://www.youtube.com/watch?v=mRdwbAdNqYE) - Entrevista al Dr. Pedro Giordano
-
-- [Ep. 4 Michel Foucault](https://www.youtube.com/watch?v=xTNUNDvAPhI) - Entrevista a la Dra. Senda Sferco
-
-- [Ep. 5 Niklas Luhmann](https://www.youtube.com/watch?v=AKgqvt_59SQ) - Entrevista al Dr. Sergio Pignuoli Ocampo
-
-[Playlist completa: https://bit.ly/podcast-socio-uflo](https://bit.ly/podcast-socio-uflo)
 
 Estos materiales son resultados del trabajo de nuestras asignaturas y equipos de investigación. Los **podcasts** se elaboraron en las asignaturas *Teoría Sociológica Clásica* y *Teoría Sociológica Contemporánea*. Para una bitácora y reflexión, podés consultar la ponencia:
 Ciardiello, M., Giordano, P. y Becerra, G. (2023). Experiencias en la producción de podcasts de teoría sociológica. *IV Jornadas Institucionales de Innovación Educativa en la Universidad - Universidad de Flores*. https://repositorio.uflo.edu.ar/entities/ponencia/be9853f1-f1c5-4744-a85a-1263ee95fb09
@@ -313,6 +293,24 @@ Aquí linkeamos a nuestros proyectos de investigación (completos, con marco te�
 - [Proyecto: La Teoría de los Sistemas Sociales en las dicotomías de la sociología contemporánea](https://docs.google.com/document/d/e/2PACX-1vTccXsWLV5cYNQO62CM2dICtWI0sJshi2C_iVx3W9zu5E_x7WyJJxj9oxSoIHHyTR-PZTyYS9SADgde/pub) / 2022 / Proyecto teórico que busca contribuir a avanzar la elucidación de aspectos críticos y controversiales de la Teoría de los Sistemas Sociales.
 
 - [Proyecto: Incorporación de la Inteligencia Artificial en la educación universitaria](https://docs.google.com/document/d/1kTa5oWwhzRlTPxeyWUcS74SoUd3rPDxUv0FnpnSwZaw/edit?usp=sharing) / 2023 / Proyecto junto a la Comunidad Internacional de Investigación Educativa (CIIED), que vincula a investigadores de Ciencias de la Educación y las Ciencias de Sociales de Perú, Argentina, Brasil, España, Chile y Japón.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Tutoriales de Sociología Computacional
 
