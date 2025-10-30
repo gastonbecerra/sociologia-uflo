@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Recursos Sociología UFLO"
-description: Recursos abiertos de la Licenciatura en Sociología de la Universidad de Flores
+# description: Recursos abiertos de la Licenciatura en Sociología de la Universidad de Flores
 image: ./images/grilla%20materias%20sociologia.jpg
 ---
 
@@ -27,7 +27,7 @@ Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflou
 
 {% if items %}
   {% assign ordenados = items | sort: "fecha" %}
-  <div class="cards">
+  <div class="card card-evento">
   {% for e in ordenados %}
     {% if e.fecha and e.fecha >= hoy %}
       <div class="card">
@@ -99,23 +99,46 @@ Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflou
       </div>
       <h3>Ep. {{ r.episodio }} — {{ r.titulo }}</h3>
       {% if r.entrevistado %}<p><strong>Entrevista a:</strong> {{ r.entrevistado }}</p>{% endif %}
-      {% if r.tags %}<p>{% for t in r.tags %}<span class="badge">{{ t }}</span>{% endfor %}</p>{% endif %}
+      {% if r.tags %}
+        <div class="badges">
+          {% for t in r.tags %}<span class="badge">{{ t }}</span>{% endfor %}
+        </div>
+      {% endif %}
     </div>
   {% else %}
     <a class="card card-{{ r.tipo }}" href="{{ link }}" target="_blank" rel="noopener" data-tags="{{ r.tags | join: ',' }}">
       {% if r.thumb %}
         <img src="{{ r.thumb }}" alt="{{ r.titulo }}">
+      {% elsif r.yt_id %}
+        <img src="https://img.youtube.com/vi/{{ r.yt_id }}/hqdefault.jpg" alt="{{ r.titulo }}">
+      {% elsif r.tipo == "publicacion" %}
+        <div class="thumb"></div>
       {% endif %}
+
       <h3>{{ r.titulo }}</h3>
-      <p class="meta">
-        {% if r.subtipo %}{{ r.subtipo | replace: "_", " " }}{% endif %}
-        {% if r.subtipo and r.anio %} · {% endif %}
-        {% if r.anio %}{{ r.anio }}{% endif %}
-        {% if r.autores and r.autores.size > 0 %} · {{ r.autores | join: ", " }}{% endif %}
-        {% if r.fuente %} · {{ r.fuente }}{% endif %}
-      </p>
+
+      {% if r.tipo == "publicacion" %}
+        <p class="meta">
+          {% if r.subtipo %}<span class="label">{{ r.subtipo | replace: "_", " " }}</span>{% endif %}
+          {% if r.anio %}{{ r.anio }}{% endif %}
+          {% if r.autores and r.autores.size > 0 %} · {{ r.autores | join: ", " }}{% endif %}
+          {% if r.fuente %} · {{ r.fuente }}{% endif %}
+        </p>
+      {% else %}
+        <p class="meta">
+          {% if r.fecha %}{{ r.fecha }}{% endif %}
+          {% if r.fecha and r.duracion %} · {% endif %}
+          {% if r.duracion %}{{ r.duracion }}{% endif %}
+          {% if r.medio %} · {{ r.medio }}{% endif %}
+        </p>
+      {% endif %}
+
       {% if r.descripcion %}<p>{{ r.descripcion }}</p>{% endif %}
-      {% if r.tags %}<p>{% for t in r.tags %}<span class="badge">{{ t }}</span>{% endfor %}</p>{% endif %}
+      {% if r.tags %}
+        <div class="badges">
+          {% for t in r.tags %}<span class="badge">{{ t }}</span>{% endfor %}
+        </div>
+      {% endif %}
     </a>
   {% endif %}
 {% endfor %}

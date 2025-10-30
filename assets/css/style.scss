@@ -299,3 +299,20 @@ img {
 
 .card .meta { color:#555; font-size:.92rem; margin:.2rem 0 .4rem; }
 .card-publicacion { border-left-color:#334155; }  /* azul grisáceo sobrio */
+
+/* Badges / tags */
+.badges { margin-top: .4rem; display: flex; flex-wrap: wrap; gap: .35rem; }
+.badge { display: inline-block; padding: .18rem .5rem; border: 1px solid #e5e7eb; border-radius: .5rem; font-size: .82rem; background: #f8fafc; color: #111; }
+
+/* Meta y label para publicaciones */
+.card .meta { color:#555; font-size:.92rem; margin:.2rem 0 .4rem; }
+.label { display:inline-block; font-weight:700; font-size:.85rem; padding:.18rem .5rem; border-radius:.4rem; background:#eef2ff; color:#3730a3; margin-right:.35rem; }
+
+/* Placeholder visual para tarjetas sin imagen */
+.card .thumb { width: 100%; height: 160px; border-radius: .6rem; background: #f1f5f9; margin-bottom: .6rem; }
+.card-publicacion .thumb { background: linear-gradient(135deg, #361e92 0%, #6d28d9 100%); }
+
+/* Íconos solo en “Próximos eventos” */
+.card-evento p strong::before { content: "📅 "; margin-right: .2rem; }
+.card-evento p:nth-of-type(1)::after { content: "  📍"; margin-left: .3rem; }
+.card-evento_grabacion h3::before { content:"🎥 "; margin-right:.2rem; }
