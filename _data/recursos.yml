@@ -150,3 +150,140 @@
   lenguaje: "ChatGPT"
   url: "downloads/material%20chatgpt.pdf"
   tags: ["ChatGPT","IA","prompts","educación"]
+
+# --- EVENTOS GRABADOS ---
+- id: evp-ia-historia
+  tipo: evento_grabacion
+  titulo: "Clase abierta sobre historia del desarrollo/comercialización/adopción de la I.A."
+  descripcion: "Clase abierta de la Prof. Dra. Francesca Batista en el módulo Historia de la I.A."
+  fecha: "2025-05-01"
+  yt_id: "TJSZ87EJ_ac"
+  tags: ["clase abierta","IA","historia"]
+
+- id: evp-campo-laboral
+  tipo: evento_grabacion
+  titulo: "Conversatorio · El campo laboral de la Sociología"
+  descripcion: "Gestión pública, consultoría, evaluación de políticas e investigación de mercado."
+  fecha: "2021-11-01"
+  yt_id: "pvG38Arm4rg"
+  tags: ["conversatorio","carreras","mercado laboral"]
+
+- id: evp-metodologias
+  tipo: evento_grabacion
+  titulo: "Conversatorio · Metodologías de Investigación Social"
+  descripcion: "Investigación teórica, empírica, cualitativa/cuantitativa y computacional."
+  fecha: "2022-10-01"
+  yt_id: "8xi8jJzBHfI"
+  tags: ["conversatorio","metodología","investigación"]
+
+- id: evp-nuevos-formatos
+  tipo: evento_grabacion
+  titulo: "Conversatorio · Sociología en nuevos formatos"
+  descripcion: "Comunicar y enseñar sociología vía podcasts y otros formatos."
+  fecha: "2023-06-01"
+  yt_id: "h-nWH7dDmeQ"
+  tags: ["conversatorio","docencia","comunicación"]
+
+- id: evp-regulacion-ia
+  tipo: evento_grabacion
+  titulo: "Clase abierta sobre regulación de la I.A."
+  descripcion: "Clase abierta de Carlos Carretero y Guillermo Movia. Módulo Sociología de la I.A."
+  fecha: "2023-01-01"
+  yt_id: "ivGBaXMs7yI"
+  tags: ["clase abierta","regulación","IA"]
+
+- id: evp-clasicos
+  tipo: evento_grabacion
+  titulo: "Clase abierta · Vigencia de los clásicos en sociología"
+  descripcion: "Marx, Durkheim y Weber. Prof. Micaela Ciardiello. Teoría Sociológica Clásica."
+  fecha: "2023-01-01"
+  yt_id: "mkuuyVLAtCw"
+  tags: ["clase abierta","teoría sociológica","clásicos"]
+
+- id: evp-varsovia-panel
+  tipo: evento_grabacion
+  titulo: "Panel · Technological Challenges (UWarsaw)"
+  descripcion: "Panel en ‘Communication In The Age Of Technological Challenges’ (en inglés)."
+  fecha: "2023-05-01"
+  yt_id: "BgjpTQ4Dx7c"
+  tags: ["panel","internacional","tecnología"]
+
+- id: evp-500-socxs
+  tipo: evento_grabacion
+  titulo: "500 sociólogxs dicen"
+  descripcion: "Presentación con datos de encuesta ASRA y Colegio de Sociólogos (Jul/2024)."
+  fecha: "2024-07-01"
+  yt_id: "ohE4kJM1DSw"
+  tags: ["presentación","encuesta","Argentina"]
+
+- id: evp-www-dimensiones
+  tipo: evento_grabacion
+  titulo: "Clase abierta · Dimensiones sociales de la WWW"
+  descripcion: "Prof. Guillermo Movia. Materia Programación (Oct/2024)."
+  fecha: "2024-10-01"
+  yt_id: "ihIzv0LyoTU"
+  tags: ["clase abierta","web","sociedad"]
+
+- id: evp-recursos-educativos-abiertos
+  tipo: evento_grabacion
+  titulo: "Clase abierta · Recursos educativos abiertos"
+  descripcion: "Rosario Rogel y Alan Colin-Arce (UAEMéx). Materia Programación (Oct/2024)."
+  fecha: "2024-10-01"
+  yt_id: "ZRKf8WPkI9Y"
+  tags: ["clase abierta","REA","docencia"]
+
+- id: evp-transicion-energetica
+  tipo: evento_grabacion
+  titulo: "Presentación · Transición energética"
+  descripcion: "Presentación de Gabriela. Teoría Sociológica V · Jornadas de investigación (Jun/2024)."
+  fecha: "2024-06-01"
+  url: "https://repositorio.uflo.edu.ar/entities/video/62d4d2a6-5215-4b4b-b147-e9d5b59caf5c"
+  tags: ["presentación","energía","sistemas sociales"]
+
+- id: evp-rep-sociales-ia
+  tipo: evento_grabacion
+  titulo: "Clase abierta · Representaciones sociales de la I.A."
+  descripcion: "Avances del equipo ‘I.A. en el aula’ (May/2025)."
+  fecha: "2025-05-01"
+  yt_id: "aZl5wbBdP8Q"
+  tags: ["clase abierta","IA","representaciones"]
+
+- id: evp-comunidades-r
+  tipo: evento_grabacion
+  titulo: "Clase abierta · Comunidades de usuario/as de R"
+  descripcion: "Andrea Gómez Vargas presenta R-Ladies y R en Baires (Jun/2025)."
+  fecha: "2025-06-01"
+  yt_id: "UGvCNwxltUg"
+  tags: ["clase abierta","R","comunidad"]
+
+- id: evp-psicoterapia-ia
+  tipo: evento_grabacion
+  titulo: "Conversatorio · Psicoterapia e Inteligencia Artificial"
+  descripcion: "Riesgos y oportunidades de la IA para la salud mental. Proyecto del libro colaborativo."
+  fecha: "2025-06-01"
+  yt_id: "wLRJC2e7O04"
+  tags: ["conversatorio","salud mental","IA"]
+
+- id: evp-mito-inevitabilidad
+  tipo: evento_grabacion
+  titulo: "Conversatorio · El mito de la inevitabilidad de la I.A."
+  descripcion: "Con Movia y Battista. Determinismo tecnológico y visiones críticas (May/2025)."
+  fecha: "2025-05-01"
+  yt_id: "tBbUAEl8jqI"
+  tags: ["conversatorio","mitos","IA"]
+
+- id: evp-css-uflo-uarm-1
+  tipo: evento_grabacion
+  titulo: "Clase abierta · CSS: más allá del análisis de datos"
+  descripcion: "Ciclo de Charlas de CSS · UFLO & UARM (Jul/2025)."
+  fecha: "2025-07-01"
+  yt_id: "DDNzdBjgGn0"
+  tags: ["clase abierta","CSS","charlas"]
+
+- id: evp-css-uflo-uarm-2
+  tipo: evento_grabacion
+  titulo: "Clase abierta · Ciencia Política Computacional"
+  descripcion: "De los datos a la teoría (y viceversa). UARM (Jul/2025)."
+  fecha: "2025-07-01"
+  yt_id: "3bbuptkVsNM"
+  tags: ["clase abierta","ciencia política","CSS"]

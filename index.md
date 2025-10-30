@@ -198,40 +198,6 @@ Ciardiello, M., Giordano, P. y Becerra, G. (2023). Experiencias en la producció
 
 Algunas de las clases abiertas, conversatorios y paneles que organizamos en el marco de nuestras asignaturas. 
 
-- [Clase abierta sobre historia del desarrollo/comercialización/adopción de la I.A.](https://www.youtube.com/watch?v=TJSZ87EJ_ac) - Clase abierta de la Prof. Dra. Francesca Batista dada en el marco del módulo de *Historia de la I.A.*
-
-- [Conversatorio El campo laboral de la Sociología](https://www.youtube.com/watch?v=pvG38Arm4rg&list=PLf1wJeC17bII6xCrew2vVjGOZV2ShisVy&index=16) - Charlamos con colegas que trabajan en gestión pública, consultoría, evaluación de políticas, e investigación de mercado. (Noviembre/2021)
-
-- [Conversatorio Metodologías de Investigación Social](https://www.youtube.com/watch?v=8xi8jJzBHfI&list=PLf1wJeC17bII6xCrew2vVjGOZV2ShisVy&index=12) - Charlamos sobre investigación teórica, empírica, cualitativa/cuantitativa y computacional. (Octubre/2022)
-
-- [Conversatorio Sociología en nuevos formatos](https://www.youtube.com/watch?v=h-nWH7dDmeQ&list=PLf1wJeC17bII6xCrew2vVjGOZV2ShisVy&index=7&t=688s) - Charlamos sobre comunicar y enseñar sociología via podcasts y otros formatos (Junio/2023)
-
-- [Clase abierta sobre regulación de la I.A.](https://www.youtube.com/watch?v=ivGBaXMs7yI) - Clase abierta del Prof. Dr. Carlos Carretero y el Prof. Guillermo Movia sobre el marco regulatorio de la I.A., realizada en el marco del módulo *Sociología de la I.A.* (2023)
-
-- [Clase abierta sobre la vigencia de los clásicos en sociología](https://www.youtube.com/watch?v=mkuuyVLAtCw) - Clase abierta de la Prof. Micaela Ciardiello sobre la centralidad y vigencia de Marx, Durkheim y Weber en la Sociología, organizada desde la materia *Teoría Sociológica Clásica* (2023)
-
-- [Panel on Technological Challenges from a Social Sciences Perspective](https://www.youtube.com/watch?v=BgjpTQ4Dx7c&list=PLf1wJeC17bII6xCrew2vVjGOZV2ShisVy&index=8) - Panel en el *Communication In The Age Of Technological Challenges: Research Perspectives across Disciplines* organizado con la Universidad de Varsovia (en inglés) (Mayo/2023)
-
-- [500 sociólogxs dicen](https://youtu.be/ohE4kJM1DSw) - Presentación de Gastón Becerra y Christian Aiello en el marco de las 1eras Jornadas de Sociología de UFLO, con datos de una encuesta realizada por la Asociación de Sociólogos de la República Argentina y el Colegio de Profesionales de Sociología (Julio/2024)
-
-- [Clase abierta sobre las dimensiones sociales de la WWW](https://youtu.be/ihIzv0LyoTU) - Clase abierta del Prof. Guillermo Movia sobre la World Wide Wed y sus dimensiones sociales. Actividad organizada desde la materia *Programación* (Octubre/2024)
-
-- [Clase abierta sobre recursos educativos abiertos](https://youtu.be/ZRKf8WPkI9Y) - Presentación de Rosario Rogel y Alan Colin-Arce de la Universidad Autónoma del Estado de México sobre el desarrollo de web sociológicas. Actividad organizada desde la materia *Programación* (Octubre/2024)
-
-- [Presentación sobre transición energética](https://repositorio.uflo.edu.ar/entities/video/62d4d2a6-5215-4b4b-b147-e9d5b59caf5c) - Presentación de nuestra estudiante Gabriela sobre transición energética, desde una mirada de los sistemas sociales. Actividad organizada desde la materia *Teoría Sociológica V: Sistemas sociales y complejos* en el marco de las jornadas de investigación (Junio/2024)
-
-- [Clase abierta sobre Representaciones Sociales de la I.A.](https://youtu.be/aZl5wbBdP8Q) - Presentación con avances de investigación del equipo de "I.A. en el aula". (Mayo/2025)
-
-- [Clase abierta sobre Comunidades de usuario/as de R](https://youtu.be/UGvCNwxltUg) Andrea Gomez Vargas presenta las experiencias de R-Ladies y R en Baires. Organizado por las asignaturas *Análisis de datos* y *Taller de investigación con técnicas de text-mining* (Junio/2025)
-
-- [Conversatorio Psicoterapia e Inteligencia Articial](https://youtu.be/wLRJC2e7O04) Los participantes del proyecto de libro colaborativo “Mitos y representaciones de la Inteligencia Artificial” intercambian sobre los riesgos y oportunidades que presenta la irrupción de la I.A. para la salud mental y su atención. Invitados: Karina Nuñez, Ignacio Barreira, Mirta Stepaniuk, María Cecilia Drach, Dana Grilli, Carla Avila Organizado por la Licenciatura en Psicología y Licenciatura en Sociología (Junio/2025)
-
-- [Conversatorio El mito de la inevitabilidad de la I.A.](https://youtu.be/tBbUAEl8jqI) - Charlamos con los profs. Mag. Guillermo Movia y Dra. Francesa Battista sobre determinismo tecnológico y visiones críticas de la adopción tecnológica (Mayo/2025)
-
-- [Clase abierta sobre Ciencias Sociales Computacionales](https://youtu.be/DDNzdBjgGn0) - Presentación "Las ciencias sociales computacionales más allá del análisis de datos" en el Ciclo de Charlas de Ciencias Sociales Computacionales organizada por la Lic. en Sociología de Universidad de Flores (Argentina) y la Carrera Profesional de Ciencia Política - UARM (Perú). (julio/2025)
-
-- [Clase abierta sobre Ciencias Sociales Computacionales](https://youtu.be/3bbuptkVsNM) - Presentación "Ciencia Política Computacional: De los datos a la teoría (y viceversa)". Exponen Dr. (c) Leonidas Ramos (UARM) y Dr. Edwin Cohaila (UARM) en el Ciclo de Charlas de Ciencias Sociales Computacionales organizada por la Lic. en Sociología de Universidad de Flores (Argentina) y la Carrera Profesional de Ciencia Política - UARM (Perú). (julio/2025)
-
 [Todos los encuentros: https://bit.ly/conversatorios-uflo](https://bit.ly/conversatorios-uflo)
 
 Las actividades son abiertas y gratuitas. Podés sumarte en [este formulario](https://forms.gle/eFxcxuWV1c8oki5CA)
@@ -301,26 +267,6 @@ Aquí linkeamos a nuestros proyectos de investigación (completos, con marco te�
 
 
 
-
-
-
-
-
-## Tutoriales de Sociología Computacional
-
-Aquí compilamos algunas guías de trabajo y tutoriales que elaboramos para distintas materias, cursos y talleres vinculados con los saberes computacionales.
-
-- [Introducción a la ciencia de datos con R. Una guía rápida para cientistas sociales](https://bookdown.org/gaston_becerra/curso-intro-r/) - Una compilación de algunos tutoriales en **lenguaje R** que usamos en la asignatura *Análisis de datos* y en el curso *Introducción teórica y práctica al big data y las ciencias de datos*. Acá también están las [slides de la parte teórica](https://www.academia.edu/48345036/Sociolog%C3%ADa_y_epistemolog%C3%ADa_del_Big_data).
-
-- [Tutorial de análisis bibliométrico](https://rpubs.com/gastonbecerra/bibliometricos-R) - Un tutorial en **lenguaje R** para introducirse al análisis bibliométrico. Lo usamos como ejercicio integrador en la asignatura *Análisis de datos*.
-
-- [Guía con diferencias y similitudes entre lenguaje Clojure y R](https://nextjournal.com/a/RYA1HcdZkiFBJdNKYuQx7?token=CrpoWYpyyJFs2CPcpTeSSW) - Una guía para políglotas interesados en ver las diferencias entre **lenguaje de programación lógica Clojure** y el **lenguaje de programación estadística R**. Lo usamos como material para vincular las asignaturas *Análisis de datos* y *Programación*. 
-
-- [Tutorial completo de arqueo bibliográfico en lenguaje Clojure](https://www.youtube.com/playlist?list=PLUxsdd9CjsoGwvfLkoTuYnSDB3j0L07Xw) - Un curso completo para armar una aplicación en **lenguaje de programación lógica Clojure** para obtener información de la API de Semantic Scholar. Incluye introducción teórica y práctica con GitPod, Codespace, y VS-Code.
-
-- [Tutorial de *webscraping* en lenguaje R](https://gastonbecerra.github.io/scraping-casa-rosada/) - Un tutorial para recuperar los discursos de Casa Rosada en **lenguaje de programación estadística R**. Lo usamos como material de apoyo en la materia *Programación*. 
-
-- [Tutorial sobre uso de ChatGPT](downloads/material%20chatgpt.pdf) - Un tutorial breve sobre cómo construir prompts con **ChatGPT**, desarrollado para la materia *Sociología de la Inteligencia Artificial* por la Prof. Paula Urabayen.
 
 ## Desarrollos y herramientas
 
