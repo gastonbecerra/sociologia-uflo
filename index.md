@@ -27,7 +27,7 @@ Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflou
 
 {% if items %}
   {% assign ordenados = items | sort: "fecha" %}
-  <div class="card-evento">
+  <div class="cards">
   {% for e in ordenados %}
     {% if e.fecha and e.fecha >= hoy %}
       <div class="card">
@@ -81,29 +81,63 @@ Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflou
 ## Recursos Abiertos
 
 {% assign R = site.data.recursos %}
+{% assign R = site.data.recursos %}
 
 <div id="recursos-filtros">
   <input id="filtro-texto" type="search" placeholder="Buscar por título, autor, descripción">
-  <div id="filtro-tags" class="chips">
-    {% assign tags_raw = "" %}
-    {% for r in R %}
-      {% if r.tags %}
-        {% for t in r.tags %}
-          {% unless tags_raw contains '|' | append: t | append: '|' %}
-            {% capture tags_raw %}{{ tags_raw }}|{{ t }}|{% endcapture %}
-          {% endunless %}
-        {% endfor %}
-      {% endif %}
-    {% endfor %}
-    {% assign tags_array = tags_raw | split:'|' | uniq | sort %}
-    {% for t in tags_array %}
-      {% unless t == "" %}
-        <button class="chip" data-tag="{{ t | strip }}">{{ t }}</button>
-      {% endunless %}
-    {% endfor %}
+
+  <div class="filtros-grupo">
+    <span class="filtros-titulo">Tipos:</span>
+    <div id="filtro-tipos" class="chips">
+      {% assign tipos_raw = "" %}
+      {% for r in R %}
+        {% unless tipos_raw contains '|' | append: r.tipo | append: '|' %}
+          {% capture tipos_raw %}{{ tipos_raw }}|{{ r.tipo }}|{% endcapture %}
+        {% endunless %}
+      {% endfor %}
+      {% assign tipos = tipos_raw | split:'|' | uniq | sort %}
+      {% for t in tipos %}
+        {% unless t == "" %}
+          {% capture label %}
+            {% case t %}
+              {% when "podcast" %}Podcast{% endcase %}
+              {% case t %}{% when "tutorial" %}Tutorial{% endcase %}
+              {% case t %}{% when "evento_grabacion" %}Evento (grabado){% endcase %}
+              {% case t %}{% when "publicacion" %}Publicación{% endcase %}
+              {% case t %}{% when "desarrollo" %}Desarrollo{% endcase %}
+              {% if label == blank %}{{ t | capitalize }}{% endif %}
+          {% endcapture %}
+          <button class="chip chip-type" data-type="{{ t | strip }}">{{ label | strip }}</button>
+        {% endunless %}
+      {% endfor %}
+    </div>
   </div>
+
+  <div class="filtros-grupo">
+    <span class="filtros-titulo">Tags:</span>
+    <div id="filtro-tags" class="chips">
+      {% assign tags_raw = "" %}
+      {% for r in R %}
+        {% if r.tags %}
+          {% for t in r.tags %}
+            {% unless tags_raw contains '|' | append: t | append: '|' %}
+              {% capture tags_raw %}{{ tags_raw }}|{{ t }}|{% endcapture %}
+            {% endunless %}
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+      {% assign tags = tags_raw | split:'|' | uniq | sort %}
+      {% for t in tags %}
+        {% unless t == "" %}
+          <button class="chip chip-tag" data-tag="{{ t | strip }}">{{ t }}</button>
+        {% endunless %}
+      {% endfor %}
+    </div>
+  </div>
+
   <button id="filtro-clear" class="btn">Limpiar</button>
 </div>
+
 
 <div class="cards">
 {% for r in R %}
@@ -112,7 +146,7 @@ Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflou
   {% if link == nil and r.yt_id %}{% assign link = 'https://www.youtube.com/watch?v=' | append: r.yt_id %}{% endif %}
 
   {% if r.tipo == "podcast" and r.yt_id %}
-    <div class="card card-podcast" data-tags="{{ r.tags | join: ',' }}">
+    <div class="card card-podcast" data-type="podcast" data-tags="{{ r.tags | join: ',' }}">
       <div class="video">
         <iframe width="100%" height="200" src="https://www.youtube.com/embed/{{ r.yt_id }}" title="{{ r.titulo }}" frameborder="0" allowfullscreen></iframe>
       </div>
@@ -122,7 +156,9 @@ Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflou
     </div>
 
   {% else %}
-    <a class="card card-{{ r.tipo }}" href="{{ link }}" target="_blank" rel="noopener" data-tags="{{ r.tags | join: ',' }}">
+
+    <a class="card card-{{ r.tipo }}" href="{{ link }}" target="_blank" rel="noopener"
+      data-type="{{ r.tipo }}" data-tags="{{ r.tags | join: ',' }}">
       {% if r.thumb %}
         <img src="{{ r.thumb }}" alt="{{ r.titulo }}">
       {% elsif r.yt_id %}
@@ -163,33 +199,49 @@ Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflou
 {% endfor %}
 </div>
 
-
 <script>
 (function(){
   const q = document.getElementById('filtro-texto');
-  const chips = Array.from(document.querySelectorAll('#filtro-tags .chip'));
-  const clearBtn = document.getElementById('filtro-clear');
-  const cards = Array.from(document.querySelectorAll('.cards .card'));
-  const selected = new Set();
+  const typeChips = Array.from(document.querySelectorAll('#filtro-tipos .chip-type'));
+  const tagChips  = Array.from(document.querySelectorAll('#filtro-tags .chip-tag'));
+  const clearBtn  = document.getElementById('filtro-clear');
+  const cards     = Array.from(document.querySelectorAll('.cards .card'));
 
-  function norm(s){ return (s||'').toLowerCase(); }
+  const selTypes = new Set();
+  const selTags  = new Set();
+
+  const norm = s => (s||'').toLowerCase();
 
   function visible(card){
-    const text = norm(card.textContent);
-    const tags = norm(card.dataset.tags||'').split(',').map(s=>s.trim()).filter(Boolean);
-    if(q.value && !text.includes(norm(q.value))) return false;
-    for(const t of selected){ if(!tags.includes(norm(t))) return false; }
+    const text  = norm(card.textContent);
+    const ctype = norm(card.dataset.type || '');
+    const tags  = norm(card.dataset.tags || '').split(',').map(s=>s.trim()).filter(Boolean);
+
+    if (q.value && !text.includes(norm(q.value))) return false;
+
+    if (selTypes.size > 0 && !selTypes.has(ctype)) return false;
+
+    for (const t of selTags){ if (!tags.includes(norm(t))) return false; }
+
     return true;
   }
 
   function apply(){
-    cards.forEach(c=>{ c.style.display = visible(c) ? '' : 'none'; });
+    cards.forEach(c => { c.style.display = visible(c) ? '' : 'none'; });
   }
 
-  chips.forEach(b=>{
+  typeChips.forEach(b=>{
+    b.addEventListener('click', ()=>{
+      const t = norm(b.dataset.type);
+      if (b.classList.toggle('active')) selTypes.add(t); else selTypes.delete(t);
+      apply();
+    });
+  });
+
+  tagChips.forEach(b=>{
     b.addEventListener('click', ()=>{
       const t = b.dataset.tag;
-      if(b.classList.toggle('active')) selected.add(t); else selected.delete(t);
+      if (b.classList.toggle('active')) selTags.add(t); else selTags.delete(t);
       apply();
     });
   });
@@ -198,12 +250,13 @@ Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflou
 
   clearBtn.addEventListener('click', ()=>{
     q.value = '';
-    selected.clear();
-    chips.forEach(b=>b.classList.remove('active'));
+    selTypes.clear(); selTags.clear();
+    [...typeChips, ...tagChips].forEach(b=>b.classList.remove('active'));
     apply();
   });
 })();
 </script>
+
 
 [Todos los encuentros: https://bit.ly/conversatorios-uflo](https://bit.ly/conversatorios-uflo)
 

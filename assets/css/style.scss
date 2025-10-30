@@ -181,3 +181,16 @@ img { max-width: 100%; height: auto; }
 
 
 
+#recursos-filtros{ display:flex; flex-direction:column; gap:.6rem; margin:1rem 0 1.2rem; }
+#filtro-texto{ max-width:420px; padding:.5rem .8rem; border:1px solid #e5e7eb; border-radius:.6rem; }
+.filtros-grupo{ display:flex; gap:.6rem; align-items:center; flex-wrap:wrap; }
+.filtros-titulo{ font-weight:700; color:#111; }
+
+.chips{ display:flex; flex-wrap:wrap; gap:.4rem; }
+.chip{ padding:.28rem .6rem; border:1px solid #e5e7eb; border-radius:.6rem; background:#fff; font-size:.85rem; cursor:pointer; }
+
+/* Tipos: violeta */
+.chip-type.active{ background:#f3e8ff; border-color:#d8b4fe; color:#6b21a8; font-weight:600; }
+
+/* Tags: azul/gris */
+.chip-tag.active{ background:#eef2ff; border-color:#c7d2fe; color:#3730a3; font-weight:600; }
