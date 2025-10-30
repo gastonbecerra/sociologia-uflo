@@ -240,3 +240,59 @@ img {
   background: #e6e0ff;
   transform: translateY(-2px);
 }
+
+
+/* --- Banner del libro --- */
+.libro-banner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  background: #f7f7f9;
+  color: #222;
+  border-radius: 1rem;
+  padding: 2rem 1.5rem;
+  margin: 2rem 0;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.libro-portada {
+  max-width: 200px;
+  height: auto;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.libro-texto {
+  max-width: 600px;
+  text-align: left;
+}
+
+.libro-texto h3 {
+  margin-top: 0;
+  font-size: 1.4rem;
+  color: #361e92;
+}
+
+.libro-texto p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.libro-btn {
+  display: inline-block;
+  background: #361e92;
+  color: #fff;
+  font-weight: 600;
+  padding: 0.6rem 1rem;
+  border-radius: 0.6rem;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.libro-btn:hover {
+  background: #29146b;
+  transform: translateY(-2px);
+}

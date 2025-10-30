@@ -79,9 +79,6 @@ SimpleJekyllSearch({
 });
 </script>
 
-
-
-1. [Revista *Desarrollos en Ciencias Sociales Computacionales*](#revista)
 2. [Publicaciones](#publicaciones)
 3. [Podcast "(Re) Pensar la Sociología desde el hoy"](#podcasts)
 4. [Clases abiertas, Conversatorios y Eventos](#eventos)
@@ -92,6 +89,23 @@ SimpleJekyllSearch({
 
 
 ## Publicaciones
+
+<div class="libro-banner">
+  <img src="https://repositorio.uflo.edu.ar/server/api/core/bitstreams/8e25e580-b4fd-4201-9f76-ee916a5c9507/content" alt="Tapa del libro Mitos y representaciones de la IA" class="libro-portada">
+  <div class="libro-texto">
+    <h3>Mitos y representaciones de la Inteligencia Artificial</h3>
+    <p><strong>Editores:</strong> Gastón Becerra · Joaquín Ignacio Mezzadra · Guillermo Movia</p>
+    <p>
+      El presente libro es el fruto de un trabajo colectivo que involucró estudiantes, profesores e investigadores,
+      en el que nos embarcamos a discutir cómo entendemos la inteligencia artificial (IA).
+      A lo largo de 2025 documentamos discursos públicos recientes, analizamos sus dimensiones sociales,
+      y discutimos sus implicancias éticas, educativas y laborales. El resultado es una serie de reflexiones que
+      interpelan a la IA como fenómeno de interés filosófico y social.
+    </p>
+    <a class="libro-btn" href="https://repositorio.uflo.edu.ar/entities/libro/ba249a4e-a837-4003-bad7-b215cc0d3b32" target="_blank" rel="noopener">Ver en repositorio UFLO</a>
+  </div>
+</div>
+
 
 Publicaciones y materiales que elaboramos desde nuestros equipos de investigación y otros espacios de trabajo de la carrera.
 

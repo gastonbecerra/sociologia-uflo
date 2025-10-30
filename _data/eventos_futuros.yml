@@ -37,14 +37,6 @@
   modalidad: "Virtual"
   lugar: "UFLO · Online"
   descripcion: "Conversatorio con Leticia Torre e Ileana Temu sobre oportunidades y desafíos en la incorporación de IA en organizaciones públicas y privadas de CABA y la Patagonia."
-  formulario: ""
+  formulario: "https://zoom.us/meeting/register/eypSWyWUQJulUqPYo8j5Uw"
   tags: ["IA", "organizaciones", "Patagonia", "CABA"]
-
-- titulo: "[Jornadas] III Jornadas de Inteligencia Artificial y Educación 2025"
-  fecha: "2025-11-10"
-  hora: "09:00–19:00"
-  modalidad: "Virtual"
-  lugar: "Online"
-  descripcion: "Encuentro de docentes, investigadores y estudiantes para debatir sobre IA y educación. Actividad virtual y gratuita. Registro y novedades."
-  formulario: "https://docs.google.com/forms/d/e/1FAIpQLSfPv97REjzfrpb41_arNGpJ4FStw77Zg94I8KgzRfBy358ACA/viewform"
-  tags: ["IA", "educación", "jornadas"]
+  
