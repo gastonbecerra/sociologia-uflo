@@ -170,3 +170,14 @@ img { max-width: 100%; height: auto; }
   border:1px solid #d1fae5; padding:.2rem .5rem; border-radius:.4rem;
 }
 .descripcion { font-size:.9rem; color:#333; margin-bottom:.4rem; line-height:1.4; }
+
+
+#recursos-filtros{ display:flex; flex-wrap:wrap; gap:.6rem; align-items:center; margin:1rem 0 1.2rem; }
+#filtro-texto{ flex:1 1 260px; max-width:420px; padding:.5rem .8rem; border:1px solid #e5e7eb; border-radius:.6rem; }
+.chips{ display:flex; flex-wrap:wrap; gap:.4rem; }
+.chip{ padding:.28rem .6rem; border:1px solid #e5e7eb; border-radius:.6rem; background:#fff; font-size:.85rem; cursor:pointer; }
+.chip.active{ background:#eef2ff; border-color:#c7d2fe; color:#3730a3; font-weight:600; }
+
+
+
+

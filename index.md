@@ -1,11 +1,11 @@
 ---
 layout: default
 title: "Recursos Sociología UFLO"
-# description: Recursos abiertos de la Licenciatura en Sociología de la Universidad de Flores
+# description: Repositorio de recursos abiertos de la Licenciatura en Sociología de la Universidad de Flores
 image: ./images/grilla%20materias%20sociologia.jpg
 ---
 
-# Bienvenidos a los Recursos Abiertos de la Licenciatura en Sociología de UFLO
+# Bienvenidos!
 
 En este repositorio compilamos las actividades que realizamos en la Licenciatura en Sociología de UFLO.  Nuestra carrera tiene una orientación computacional que busca, entre otros objetivos, integrar saberes digitales y nuevas tecnologías con una mirada social crítica y epistemológicamente fundada. 
 
@@ -15,7 +15,7 @@ Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflou
 
 1. [Próximos Eventos](#próximos-eventos)
 2. [Publicaciones](#publicaciones)
-3. [Recursos abiertos](#recursos)
+3. [Recursos abiertos: eventos, clases, tutoriales, materiales didácticos](#recursos-abiertos)
 4. [Módulos de nuestras asignaturas](#módulos)
 5. [Proyectos de Investigación](#proyectos-de-investigación)
 6. [Desarrollos y herramientas en Sociología Computacional](#desarrollos-y-herramientas)
@@ -48,7 +48,7 @@ Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflou
 </a>
 
 
-## Novedades editoriales
+## Publicaciones
 
 <div class="revista-banner">
   <img src="https://revistadesarrollos.uflo.edu.ar/public/journals/1/pageHeaderLogoImage_es.png" alt="Logo Revista DCSC" class="revista-logo">
@@ -78,11 +78,51 @@ Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflou
 </div>
 
 
-## Contenidos Abiertos y Recursos Sociológicos
+## Recursos Abiertos
 
 
+
+<div id="search" class="search">
+  <input id="search-input" placeholder="Buscar…">
+  <ul id="results"></ul>
+</div>
+
+<script src="https://unpkg.com/simple-jekyll-search/dest/simple-jekyll-search.min.js"></script>
+<script>
+SimpleJekyllSearch({
+  searchInput: document.getElementById('search-input'),
+  resultsContainer: document.getElementById('results'),
+  json: '{{ "/search.json" | relative_url }}',
+  searchResultTemplate: '<li><a href="{url}">{title}</a><small>{content}</small></li>',
+  noResultsText: '<li>Sin resultados</li>',
+  limit: 10
+});
+</script>
 
 {% assign R = site.data.recursos %}
+
+<div id="recursos-filtros">
+  <input id="filtro-texto" type="search" placeholder="Buscar por título, autor, descripción">
+  <div id="filtro-tags" class="chips">
+    {% assign tags_raw = "" %}
+    {% for r in R %}
+      {% if r.tags %}
+        {% for t in r.tags %}
+          {% unless tags_raw contains '|' | append: t | append: '|' %}
+            {% capture tags_raw %}{{ tags_raw }}|{{ t }}|{% endcapture %}
+          {% endunless %}
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
+    {% assign tags_array = tags_raw | split:'|' | uniq | sort %}
+    {% for t in tags_array %}
+      {% unless t == "" %}
+        <button class="chip" data-tag="{{ t | strip }}">{{ t }}</button>
+      {% endunless %}
+    {% endfor %}
+  </div>
+  <button id="filtro-clear" class="btn">Limpiar</button>
+</div>
 
 <div class="cards">
 {% for r in R %}
@@ -143,64 +183,52 @@ Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflou
 </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-<div id="search" class="search">
-  <input id="search-input" placeholder="Buscar…">
-  <ul id="results"></ul>
-</div>
-
-<script src="https://unpkg.com/simple-jekyll-search/dest/simple-jekyll-search.min.js"></script>
 <script>
-SimpleJekyllSearch({
-  searchInput: document.getElementById('search-input'),
-  resultsContainer: document.getElementById('results'),
-  json: '{{ "/search.json" | relative_url }}',
-  searchResultTemplate: '<li><a href="{url}">{title}</a><small>{content}</small></li>',
-  noResultsText: '<li>Sin resultados</li>',
-  limit: 10
-});
+(function(){
+  const q = document.getElementById('filtro-texto');
+  const chips = Array.from(document.querySelectorAll('#filtro-tags .chip'));
+  const clearBtn = document.getElementById('filtro-clear');
+  const cards = Array.from(document.querySelectorAll('.cards .card'));
+  const selected = new Set();
+
+  function norm(s){ return (s||'').toLowerCase(); }
+
+  function visible(card){
+    const text = norm(card.textContent);
+    const tags = norm(card.dataset.tags||'').split(',').map(s=>s.trim()).filter(Boolean);
+    if(q.value && !text.includes(norm(q.value))) return false;
+    for(const t of selected){ if(!tags.includes(norm(t))) return false; }
+    return true;
+  }
+
+  function apply(){
+    cards.forEach(c=>{ c.style.display = visible(c) ? '' : 'none'; });
+  }
+
+  chips.forEach(b=>{
+    b.addEventListener('click', ()=>{
+      const t = b.dataset.tag;
+      if(b.classList.toggle('active')) selected.add(t); else selected.delete(t);
+      apply();
+    });
+  });
+
+  q.addEventListener('input', apply);
+
+  clearBtn.addEventListener('click', ()=>{
+    q.value = '';
+    selected.clear();
+    chips.forEach(b=>b.classList.remove('active'));
+    apply();
+  });
+})();
 </script>
-
-
-
-
-
-
-
-## Publicaciones
-
-
-
-
-
-
-
-
-
 
 
 Estos materiales son resultados del trabajo de nuestras asignaturas y equipos de investigación. Los **podcasts** se elaboraron en las asignaturas *Teoría Sociológica Clásica* y *Teoría Sociológica Contemporánea*. Para una bitácora y reflexión, podés consultar la ponencia:
 Ciardiello, M., Giordano, P. y Becerra, G. (2023). Experiencias en la producción de podcasts de teoría sociológica. *IV Jornadas Institucionales de Innovación Educativa en la Universidad - Universidad de Flores*. https://repositorio.uflo.edu.ar/entities/ponencia/be9853f1-f1c5-4744-a85a-1263ee95fb09
 
-
-
-## Eventos
-
-Algunas de las clases abiertas, conversatorios y paneles que organizamos en el marco de nuestras asignaturas. 
-
 [Todos los encuentros: https://bit.ly/conversatorios-uflo](https://bit.ly/conversatorios-uflo)
-
-Las actividades son abiertas y gratuitas. Podés sumarte en [este formulario](https://forms.gle/eFxcxuWV1c8oki5CA)
 
 ## Módulos
 
@@ -253,19 +281,6 @@ Aquí linkeamos a nuestros proyectos de investigación (completos, con marco te�
 - [Proyecto: La Teoría de los Sistemas Sociales en las dicotomías de la sociología contemporánea](https://docs.google.com/document/d/e/2PACX-1vTccXsWLV5cYNQO62CM2dICtWI0sJshi2C_iVx3W9zu5E_x7WyJJxj9oxSoIHHyTR-PZTyYS9SADgde/pub) / 2022 / Proyecto teórico que busca contribuir a avanzar la elucidación de aspectos críticos y controversiales de la Teoría de los Sistemas Sociales.
 
 - [Proyecto: Incorporación de la Inteligencia Artificial en la educación universitaria](https://docs.google.com/document/d/1kTa5oWwhzRlTPxeyWUcS74SoUd3rPDxUv0FnpnSwZaw/edit?usp=sharing) / 2023 / Proyecto junto a la Comunidad Internacional de Investigación Educativa (CIIED), que vincula a investigadores de Ciencias de la Educación y las Ciencias de Sociales de Perú, Argentina, Brasil, España, Chile y Japón.
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ## Desarrollos y herramientas
