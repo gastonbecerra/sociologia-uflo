@@ -13,10 +13,38 @@
   descripcion: "Actividad virtual y gratuita. Registro y novedades."
   formulario: "https://docs.google.com/forms/d/e/1FAIpQLSfPv97REjzfrpb41_arNGpJ4FStw77Zg94I8KgzRfBy358ACA/viewform"
 
-- titulo: "[Jornadas] Mesas de ponencia/experiencias con IA (estudiantes, profesores, investigadores, gestión)"
+- titulo: "[Ciclo de Charlas] Adolescentes y tecnología: educación, crianza y vínculos en la era digital — Encuentro 1"
+  fecha: "2025-12-02"
+  hora: "19:00"
+  modalidad: "Virtual"
+  lugar: "UFLO · Zoom"
+  descripcion: "Primer encuentro del ciclo. Tema: Cómo las tecnologías moldean la subjetividad y los vínculos en la adolescencia. Actividad gratuita con registro previo."
+  formulario: "https://zoom.us/meeting/register/QfpdLXcfSPSQXDsJM-nB_Q"
+  tags: ["IA", "adolescencia", "tecnología", "educación"]
+
+- titulo: "[Ciclo de Charlas] Adolescentes y tecnología: educación, crianza y vínculos en la era digital — Encuentro 2"
+  fecha: "2025-12-04"
+  hora: "19:00"
+  modalidad: "Virtual"
+  lugar: "UFLO · Zoom"
+  descripcion: "Segundo encuentro del ciclo. Tema: Criar y educar en la era digital. Actividad gratuita con registro previo."
+  formulario: "https://zoom.us/meeting/register/pYRPzkI6QqOd5KOXKI7C1Q"
+  tags: ["IA", "adolescencia", "tecnología", "educación"]
+
+- titulo: "[Conversatorio] La incorporación de la IA en organizaciones públicas y privadas entre CABA y Patagonia"
+  fecha: "2025-11-12"
+  hora: "19:00–20:30"
+  modalidad: "Virtual"
+  lugar: "UFLO · Online"
+  descripcion: "Conversatorio con Leticia Torre e Ileana Temu sobre oportunidades y desafíos en la incorporación de IA en organizaciones públicas y privadas de CABA y la Patagonia."
+  formulario: ""
+  tags: ["IA", "organizaciones", "Patagonia", "CABA"]
+
+- titulo: "[Jornadas] III Jornadas de Inteligencia Artificial y Educación 2025"
   fecha: "2025-11-10"
-  hora: "14:00–17:00"
+  hora: "09:00–19:00"
   modalidad: "Virtual"
   lugar: "Online"
-  descripcion: "En el marco de las III Jornadas de IA y Educación 2025. 1era Circular."
+  descripcion: "Encuentro de docentes, investigadores y estudiantes para debatir sobre IA y educación. Actividad virtual y gratuita. Registro y novedades."
   formulario: "https://docs.google.com/forms/d/e/1FAIpQLSfPv97REjzfrpb41_arNGpJ4FStw77Zg94I8KgzRfBy358ACA/viewform"
+  tags: ["IA", "educación", "jornadas"]

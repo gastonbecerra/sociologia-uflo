@@ -7,7 +7,7 @@ image: ./images/grilla%20materias%20sociologia.jpg
 
 # Bienvenidos a los Recursos Abiertos de la Licenciatura en Sociología de UFLO
 
-Bienvenidos al Repositorio de Recursos Abiertos de la [Licenciatura en Sociología de la Universidad de Flores](https://www.uflouniversidad.edu.ar/carrera/sociologia/). Nuestra carrera tiene una orientación computacional que busca, entre otros objetivos, integrar saberes digitales y nuevas tecnologías con una mirada social crítica y epistemológicamente fundada. 
+En este repositorio compilamos las actividades que realizamos en la Licenciatura en Sociología de UFLO.  Nuestra carrera tiene una orientación computacional que busca, entre otros objetivos, integrar saberes digitales y nuevas tecnologías con una mirada social crítica y epistemológicamente fundada. 
 
 ![UFLO diseño](./images/grilla-materias-sociologia.jpg)
 
@@ -44,6 +44,22 @@ Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflou
 
 
 
+## Revista Desarrollos en Ciencias Sociales Computacionales
+
+<div class="revista-banner">
+  <img src="https://revistadesarrollos.uflo.edu.ar/public/journals/1/pageHeaderLogoImage_es.png" alt="Logo Revista DCSC" class="revista-logo">
+  <div class="revista-texto">
+    <h3>Desarrollos en Ciencias Sociales Computacionales</h3>
+    <p>
+      Desde 2024/2025 editamos la revista <strong>Desarrollos en Ciencias Sociales Computacionales (DCSC)</strong>, 
+      un espacio de difusión e intercambio del trabajo de estudiantes, docentes, investigadores/as y profesionales 
+      en el campo de las ciencias sociales computacionales. Publica artículos teóricos, empíricos y pedagógicos, 
+      herramientas computacionales, reseñas y dossiers temáticos.
+    </p>
+    <a class="revista-btn" href="https://revistadesarrollos.uflo.edu.ar/" target="_blank" rel="noopener">Ver OJS de la revista</a>
+  </div>
+</div>
+
 ## Contenidos Abiertos
 
 <div id="search" class="search">
@@ -74,16 +90,6 @@ SimpleJekyllSearch({
 7. [Tutoriales de Sociología Computacional](#tutoriales-de-sociología-computacional)
 8. [Desarrollos y herramientas en Sociología Computacional](#desarrollos-y-herramientas)
 
-## Revista 
-
-Desde 2024/2025 editamos la revista **Desarrollos en Ciencias Sociales Computacionales** que busca ofrecer un espacio de difusión e intercambio del trabajo de estudiantes, docentes, investigadores/as y profesionales en el campo de las ciencias sociales computacionales. La revista publica varios tipos de comunicaciones:
-
-- Herramientas y desarrollos computacionales para la investigación social (artículos breves)
-- Artículos teóricos, empíricos o pedagógicos sobre las ciencias sociales computacionales
-- Reseñas de libros sobre ciencias sociales computacionales
-- Dossiers con temáticas específicas
-
-Más info: [OJS de la revista DCSC](https://revistadesarrollos.uflo.edu.ar/index.php/RDCSC/about)
 
 ## Publicaciones
 
