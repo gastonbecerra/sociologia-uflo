@@ -80,25 +80,6 @@ Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflou
 
 ## Recursos Abiertos
 
-
-
-<div id="search" class="search">
-  <input id="search-input" placeholder="Buscar…">
-  <ul id="results"></ul>
-</div>
-
-<script src="https://unpkg.com/simple-jekyll-search/dest/simple-jekyll-search.min.js"></script>
-<script>
-SimpleJekyllSearch({
-  searchInput: document.getElementById('search-input'),
-  resultsContainer: document.getElementById('results'),
-  json: '{{ "/search.json" | relative_url }}',
-  searchResultTemplate: '<li><a href="{url}">{title}</a><small>{content}</small></li>',
-  noResultsText: '<li>Sin resultados</li>',
-  limit: 10
-});
-</script>
-
 {% assign R = site.data.recursos %}
 
 <div id="recursos-filtros">
@@ -223,10 +204,6 @@ SimpleJekyllSearch({
   });
 })();
 </script>
-
-
-Estos materiales son resultados del trabajo de nuestras asignaturas y equipos de investigación. Los **podcasts** se elaboraron en las asignaturas *Teoría Sociológica Clásica* y *Teoría Sociológica Contemporánea*. Para una bitácora y reflexión, podés consultar la ponencia:
-Ciardiello, M., Giordano, P. y Becerra, G. (2023). Experiencias en la producción de podcasts de teoría sociológica. *IV Jornadas Institucionales de Innovación Educativa en la Universidad - Universidad de Flores*. https://repositorio.uflo.edu.ar/entities/ponencia/be9853f1-f1c5-4744-a85a-1263ee95fb09
 
 [Todos los encuentros: https://bit.ly/conversatorios-uflo](https://bit.ly/conversatorios-uflo)
 
