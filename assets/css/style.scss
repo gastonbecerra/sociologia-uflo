@@ -169,22 +169,21 @@ img {
 }
 
 /* --- Íconos dentro de las tarjetas --- */
-.card p strong::before {
+/* Íconos solo para tarjetas de eventos futuros */
+.card-evento_futuro p strong::before {
   content: "📅 ";
   margin-right: 0.2rem;
+}
+
+.card-evento_futuro p:nth-of-type(1)::after {
+  content: "  📍";
+  margin-left: 0.3rem;
 }
 
 .card p strong + span::before,
 .card p:nth-of-type(1)::after {
   content: "";
 }
-
-/* Ícono de lugar */
-.card p:nth-of-type(1)::after {
-  content: "  📍";
-  margin-left: 0.3rem;
-}
-
 
 /* --- Banner de Revista DCSC --- */
 .revista-banner {

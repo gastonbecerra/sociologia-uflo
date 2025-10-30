@@ -13,20 +13,12 @@ En este repositorio compilamos las actividades que realizamos en la Licenciatura
 
 Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflouniversidad.edu.ar*
 
-CONTENIDOS ESTATICOS
 1. [Próximos Eventos](#próximos-eventos)
 2. [Publicaciones](#publicaciones)
-
-RECURSOS ABIERTOS
-(FILTRABLES POR TAGS / CON BUSQUEDA / CON TARJETA ADAPTADA SEGUN EL TIPO DE RECURSO)
-3. [Podcast "(Re) Pensar la Sociología desde el hoy"](#podcasts)
-4. [Clases abiertas, Conversatorios y Eventos](#eventos)
-7. [Tutoriales de Sociología Computacional](#tutoriales-de-sociología-computacional)
-8. [Desarrollos y herramientas en Sociología Computacional](#desarrollos-y-herramientas)
-
-CONTENIDOS ESTATICOS
-5. [Módulos de nuestras asignaturas](#módulos)
-6. [Proyectos de Investigación](#proyectos-de-investigación)
+3. [Recursos abiertos](#recursos)
+4. [Módulos de nuestras asignaturas](#módulos)
+5. [Proyectos de Investigación](#proyectos-de-investigación)
+6. [Desarrollos y herramientas en Sociología Computacional](#desarrollos-y-herramientas)
 
 ## Próximos Eventos
 

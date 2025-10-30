@@ -39,12 +39,6 @@
   yt_id: "AKgqvt_59SQ"
   tags: ["podcast","Luhmann","teoría sociológica"]
 
-- id: pod-playlist
-  tipo: podcast
-  titulo: "Playlist completa"
-  url: "https://bit.ly/podcast-socio-uflo"
-  tags: ["podcast","playlist"]
-
 - id: pub-001
   tipo: publicacion
   subtipo: capitulo
