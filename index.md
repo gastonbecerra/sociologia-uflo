@@ -22,28 +22,23 @@ Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflou
 
 ## Próximos Eventos
 
+{%- comment -%} ==== SECCIÓN: PRÓXIMOS EVENTOS ==== {%- endcomment -%}
+{% assign eventos_items = site.data.eventos_futuros | sort: "fecha" %}
 {% assign ahora_ts = site.time | date: "%s" %}
-{% assign items = site.data.eventos_futuros | sort: "fecha" %}
 
 <div class="cards">
-{% for e in items %}
-  {% assign fecha_ts = e.fecha | date: "%s" %}
-  {% if fecha_ts >= ahora_ts %}
-    <div class="card card-evento">
-      <h3>{{ e.titulo }}</h3>
-      <p><strong>{{ e.fecha }}</strong>{% if e.hora %} · {{ e.hora }}{% endif %} — {{ e.modalidad }}</p>
-      {% if e.arancel == "gratuito" %}
-        <p>Actividad gratuita</p>
-      {% elsif e.arancel == "arancelado" %}
-        <p>Actividad arancelada</p>
-      {% endif %}
-      {% if e.descripcion %}<p>{{ e.descripcion }}</p>{% endif %}
-      {% if e.formulario %}
-        <p><a class="btn" href="{{ e.formulario }}" target="_blank" rel="noopener">Inscribirme</a></p>
-      {% endif %}
-    </div>
-  {% endif %}
-{% endfor %}
+  {% for e in eventos_items %}
+    {% assign fecha_ts = e.fecha | date: "%s" %}
+    {% if fecha_ts >= ahora_ts %}
+      <div class="card card-evento">
+        <h3>{{ e.titulo }}</h3>
+        <p><strong>{{ e.fecha }}</strong>{% if e.hora %} · {{ e.hora }}{% endif %} — {{ e.modalidad }}</p>
+        {% if e.arancel == "gratuito" %}<p>Actividad gratuita</p>{% endif %}
+        {% if e.descripcion %}<p>{{ e.descripcion }}</p>{% endif %}
+        {% if e.formulario %}<p><a class="btn" href="{{ e.formulario }}" target="_blank" rel="noopener">Inscribirme</a></p>{% endif %}
+      </div>
+    {% endif %}
+  {% endfor %}
 </div>
 
 <a class="cta" href="https://forms.gle/eFxcxuWV1c8oki5CA" target="_blank" rel="noopener">
@@ -83,91 +78,85 @@ Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflou
 
 ## Recursos Abiertos
 
-{% assign R = site.data.recursos %}
-
-{% assign R_typed = R | where_exp: "x", "x.tipo" %}
-{% assign tipos = R_typed | map: "tipo" | uniq | sort %}
-
-<div id="filtro-tipos-wrap">
-  <div id="recursos-busqueda">
-    <input id="filtro-texto" type="search" placeholder="Buscar recursos…">
+{%- comment -%} ==== SECCIÓN: RECURSOS ABIERTOS ==== {%- endcomment -%}
+{% assign recursos = site.data.recursos %}
+{% if recursos and recursos.size > 0 %}
+  {% assign recursos_tipos = recursos | map: "tipo" | uniq | sort %}
+  <div id="filtro-tipos-wrap">
+    <div id="recursos-busqueda">
+      <input id="filtro-texto" type="search" placeholder="Buscar recursos…">
+    </div>
+    <div id="filtro-tipos" class="chips">
+      {% for t in recursos_tipos %}
+        {% if t %}
+          {% capture label %}
+            {% case t %}
+              {% when "podcast" %}Podcast
+              {% when "tutorial" %}Tutorial
+              {% when "evento_grabacion" %}Grabación
+              {% when "publicacion" %}Publicación
+              {% when "desarrollo" %}Desarrollo
+              {% else %}{{ t | capitalize }}
+            {% endcase %}
+          {% endcapture %}
+          <button class="chip chip-type" data-type="{{ t | strip }}">{{ label | strip }}</button>
+        {% endif %}
+      {% endfor %}
+    </div>
+    <button id="filtro-clear" class="btn">Limpiar</button>
   </div>
-  <div id="filtro-tipos" class="chips">
-    {% for t in tipos %}
-      {% capture label %}
-        {% case t %}
-          {% when "podcast" %}Podcast
-          {% when "tutorial" %}Tutorial
-          {% when "evento_grabacion" %}Grabación
-          {% when "publicacion" %}Publicación
-          {% when "desarrollo" %}Desarrollo
-          {% else %}{{ t | capitalize }}
-        {% endcase %}
-      {% endcapture %}
-      <button class="chip chip-type" data-type="{{ t | strip }}">{{ label | strip }}</button>
+
+  <div class="cards">
+    {% for r in recursos %}
+      {% assign link = r.url %}
+      {% if link == nil and r.repo %}{% assign link = r.repo %}{% endif %}
+      {% if link == nil and r.yt_id %}{% assign link = 'https://www.youtube.com/watch?v=' | append: r.yt_id %}{% endif %}
+
+      {% if r.tipo == "podcast" and r.yt_id %}
+        <div class="card card-podcast" data-type="podcast">
+          <div class="video">
+            <iframe width="100%" height="200" src="https://www.youtube.com/embed/{{ r.yt_id }}" title="{{ r.titulo }}" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <h3>Ep. {{ r.episodio }} — {{ r.titulo }}</h3>
+          {% if r.entrevistado %}<p class="meta"><strong>Entrevista a:</strong> {{ r.entrevistado }}</p>{% endif %}
+        </div>
+      {% else %}
+        <a class="card card-{{ r.tipo }}" href="{{ link }}" target="_blank" rel="noopener" data-type="{{ r.tipo }}">
+          {% if r.thumb %}
+            <img src="{{ r.thumb }}" alt="{{ r.titulo }}">
+          {% elsif r.yt_id %}
+            <img src="https://img.youtube.com/vi/{{ r.yt_id }}/hqdefault.jpg" alt="{{ r.titulo }}">
+          {% elsif r.tipo == "publicacion" %}
+            <div class="thumb"></div>
+          {% endif %}
+
+          <h3>{% if r.tipo == "tutorial" %}💻 {% endif %}{{ r.titulo }}</h3>
+
+          {% case r.tipo %}
+            {% when "publicacion" %}
+              <p class="meta">
+                {% if r.subtipo %}<span class="label">{{ r.subtipo | replace: "_", " " }}</span>{% endif %}
+                {% if r.anio %}{{ r.anio }}{% endif %}
+                {% if r.autores and r.autores.size > 0 %} · {{ r.autores | join: ", " }}{% endif %}
+                {% if r.fuente %} · {{ r.fuente }}{% endif %}
+              </p>
+              {% if r.descripcion %}<p class="descripcion">{{ r.descripcion }}</p>{% endif %}
+
+            {% when "tutorial" %}
+              {% if r.lenguaje %}<p class="lenguaje"><span class="badge-lang">{{ r.lenguaje }}</span></p>{% endif %}
+              {% if r.descripcion %}<p class="descripcion">{{ r.descripcion }}</p>{% endif %}
+
+            {% else %}
+              {% if r.descripcion %}<p class="descripcion">{{ r.descripcion }}</p>{% endif %}
+          {% endcase %}
+        </a>
+      {% endif %}
     {% endfor %}
   </div>
-  <button id="filtro-clear" class="btn">Limpiar</button>
-</div>
+{% else %}
+  <p>No se encontraron recursos en <code>_data/recursos.yml</code>.</p>
+{% endif %}
 
-
-
-<div class="cards">
-{% for r in R %}
-  {% assign link = r.url %}
-  {% if link == nil and r.repo %}{% assign link = r.repo %}{% endif %}
-  {% if link == nil and r.yt_id %}{% assign link = 'https://www.youtube.com/watch?v=' | append: r.yt_id %}{% endif %}
-
-  {% if r.tipo == "podcast" and r.yt_id %}
-    <div class="card card-podcast" data-type="podcast">
-      <div class="video">
-        <iframe width="100%" height="200" src="https://www.youtube.com/embed/{{ r.yt_id }}" title="{{ r.titulo }}" frameborder="0" allowfullscreen></iframe>
-      </div>
-      <h3>Ep. {{ r.episodio }} — {{ r.titulo }}</h3>
-      {% if r.entrevistado %}<p class="meta"><strong>Entrevista a:</strong> {{ r.entrevistado }}</p>{% endif %}
-    </div>
-
-  {% else %}
-
-    <a class="card card-{{ r.tipo }}" href="{{ link }}" target="_blank" rel="noopener" data-type="{{ r.tipo }}">
-      {% if r.thumb %}
-        <img src="{{ r.thumb }}" alt="{{ r.titulo }}">
-      {% elsif r.yt_id %}
-        <img src="https://img.youtube.com/vi/{{ r.yt_id }}/hqdefault.jpg" alt="{{ r.titulo }}">
-      {% elsif r.tipo == "publicacion" %}
-        <div class="thumb"></div>
-      {% endif %}
-
-      <h3>{% if r.tipo == "tutorial" %}💻 {% endif %}{{ r.titulo }}</h3>
-
-      {% case r.tipo %}
-        {% when "publicacion" %}
-          <p class="meta">
-            {% if r.subtipo %}<span class="label">{{ r.subtipo | replace: "_", " " }}</span>{% endif %}
-            {% if r.anio %}{{ r.anio }}{% endif %}
-            {% if r.autores and r.autores.size > 0 %} · {{ r.autores | join: ", " }}{% endif %}
-            {% if r.fuente %} · {{ r.fuente }}{% endif %}
-          </p>
-          {% if r.descripcion %}<p class="descripcion">{{ r.descripcion }}</p>{% endif %}
-
-        {% when "tutorial" %}
-          {% if r.lenguaje %}<p class="lenguaje"><span class="badge-lang">{{ r.lenguaje }}</span></p>{% endif %}
-          {% if r.descripcion %}<p class="descripcion">{{ r.descripcion }}</p>{% endif %}
-
-        {% else %}
-          <p class="meta">
-            {% if r.fecha %}{{ r.fecha }}{% endif %}
-            {% if r.fecha and r.duracion %} · {% endif %}
-            {% if r.duracion %}{{ r.duracion }}{% endif %}
-            {% if r.medio %} · {{ r.medio }}{% endif %}
-          </p>
-          {% if r.descripcion %}<p class="descripcion">{{ r.descripcion }}</p>{% endif %}
-      {% endcase %}
-
-    </a>
-  {% endif %}
-{% endfor %}
-</div>
 
 <script>
 (function(){
