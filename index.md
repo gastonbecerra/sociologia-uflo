@@ -82,31 +82,24 @@ Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflou
 
 {% assign R = site.data.recursos %}
 
+{% assign R_typed = R | where_exp: "x", "x.tipo" %}
+{% assign tipos = R_typed | map: "tipo" | uniq | sort %}
+
 <div id="filtro-tipos-wrap">
   <span class="filtros-titulo">Filtrar por tipo:</span>
   <div id="filtro-tipos" class="chips">
-    {% assign tipos_raw = "" %}
-    {% for r in R %}
-      {% unless tipos_raw contains '|' | append: r.tipo | append: '|' %}
-        {% capture tipos_raw %}{{ tipos_raw }}|{{ r.tipo }}|{% endcapture %}
-      {% endunless %}
-    {% endfor %}
-    {% assign tipos = tipos_raw | split:'|' | uniq | sort %}
-
     {% for t in tipos %}
-      {% unless t == "" %}
-        {% capture label %}
-          {% case t %}
-            {% when "podcast" %}Podcast
-            {% when "tutorial" %}Tutorial
-            {% when "evento_grabacion" %}Grabación
-            {% when "publicacion" %}Publicación
-            {% when "desarrollo" %}Desarrollo
-            {% else %}{{ t | capitalize }}
-          {% endcase %}
-        {% endcapture %}
-        <button class="chip chip-type" data-type="{{ t | strip }}">{{ label | strip }}</button>
-      {% endunless %}
+      {% capture label %}
+        {% case t %}
+          {% when "podcast" %}Podcast
+          {% when "tutorial" %}Tutorial
+          {% when "evento_grabacion" %}Grabación
+          {% when "publicacion" %}Publicación
+          {% when "desarrollo" %}Desarrollo
+          {% else %}{{ t | capitalize }}
+        {% endcase %}
+      {% endcapture %}
+      <button class="chip chip-type" data-type="{{ t | strip }}">{{ label | strip }}</button>
     {% endfor %}
   </div>
   <button id="filtro-clear" class="btn">Limpiar</button>
@@ -205,6 +198,7 @@ Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflou
   });
 })();
 </script>
+
 
 [Todos los encuentros: https://bit.ly/conversatorios-uflo](https://bit.ly/conversatorios-uflo)
 
