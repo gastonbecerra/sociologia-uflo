@@ -86,6 +86,9 @@ Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflou
 {% assign tipos = R_typed | map: "tipo" | uniq | sort %}
 
 <div id="filtro-tipos-wrap">
+  <div id="recursos-busqueda">
+    <input id="filtro-texto" type="search" placeholder="Buscar recursos…">
+  </div>
   <span class="filtros-titulo">Filtrar por tipo:</span>
   <div id="filtro-tipos" class="chips">
     {% for t in tipos %}
@@ -166,22 +169,23 @@ Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflou
 
 <script>
 (function(){
+  const q         = document.getElementById('filtro-texto');
   const typeChips = Array.from(document.querySelectorAll('#filtro-tipos .chip-type'));
   const clearBtn  = document.getElementById('filtro-clear');
   const cards     = Array.from(document.querySelectorAll('.cards .card'));
-  const selTypes  = new Set();
 
+  const selTypes  = new Set();
   const norm = s => (s||'').toLowerCase();
 
   function visible(card){
+    const text  = norm(card.textContent);
     const ctype = norm(card.dataset.type || '');
-    if (selTypes.size === 0) return true;
-    return selTypes.has(ctype);
+    if (q && q.value && !text.includes(norm(q.value))) return false;
+    if (selTypes.size > 0 && !selTypes.has(ctype))    return false;
+    return true;
   }
 
-  function apply(){
-    cards.forEach(c => { c.style.display = visible(c) ? '' : 'none'; });
-  }
+  function apply(){ cards.forEach(c => c.style.display = visible(c) ? '' : 'none'); }
 
   typeChips.forEach(b=>{
     b.addEventListener('click', ()=>{
@@ -191,13 +195,17 @@ Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflou
     });
   });
 
+  if (q) q.addEventListener('input', apply);
+
   clearBtn.addEventListener('click', ()=>{
+    if (q) q.value = '';
     selTypes.clear();
     typeChips.forEach(b=>b.classList.remove('active'));
     apply();
   });
 })();
 </script>
+
 
 
 [Todos los encuentros: https://bit.ly/conversatorios-uflo](https://bit.ly/conversatorios-uflo)
