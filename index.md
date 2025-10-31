@@ -89,7 +89,6 @@ Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflou
   <div id="recursos-busqueda">
     <input id="filtro-texto" type="search" placeholder="Buscar recursos…">
   </div>
-  <span class="filtros-titulo">Filtrar por tipo:</span>
   <div id="filtro-tipos" class="chips">
     {% for t in tipos %}
       {% capture label %}
