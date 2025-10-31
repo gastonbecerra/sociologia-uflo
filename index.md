@@ -80,15 +80,17 @@ Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflou
 
 {%- comment -%} ==== SECCIÓN: RECURSOS ABIERTOS ==== {%- endcomment -%}
 {% assign recursos = site.data.recursos %}
+
 {% if recursos and recursos.size > 0 %}
   {% assign recursos_tipos = recursos | map: "tipo" | uniq | sort %}
+
   <div id="filtro-tipos-wrap">
     <div id="recursos-busqueda">
       <input id="filtro-texto" type="search" placeholder="Buscar recursos…">
     </div>
     <div id="filtro-tipos" class="chips">
       {% for t in recursos_tipos %}
-        {% if t %}
+        {% if t and t != "" %}
           {% capture label %}
             {% case t %}
               {% when "podcast" %}Podcast
@@ -108,6 +110,7 @@ Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflou
 
   <div class="cards">
     {% for r in recursos %}
+      {% unless r.tipo %}{% continue %}{% endunless %}
       {% assign link = r.url %}
       {% if link == nil and r.repo %}{% assign link = r.repo %}{% endif %}
       {% if link == nil and r.yt_id %}{% assign link = 'https://www.youtube.com/watch?v=' | append: r.yt_id %}{% endif %}
@@ -135,7 +138,7 @@ Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflou
           {% case r.tipo %}
             {% when "publicacion" %}
               <p class="meta">
-                {% if r.subtipo %}<span class="label">{{ r.subtipo | replace: "_", " " }}</span>{% endif %}
+                {% if r.subtipo %}<span class="label">{{ r.subtipo | replace: "_"," " }}</span>{% endif %}
                 {% if r.anio %}{{ r.anio }}{% endif %}
                 {% if r.autores and r.autores.size > 0 %} · {{ r.autores | join: ", " }}{% endif %}
                 {% if r.fuente %} · {{ r.fuente }}{% endif %}
@@ -156,7 +159,6 @@ Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflou
 {% else %}
   <p>No se encontraron recursos en <code>_data/recursos.yml</code>.</p>
 {% endif %}
-
 
 <script>
 (function(){
