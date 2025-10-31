@@ -92,7 +92,7 @@ img { max-width: 100%; height: auto; }
    (asegurate de usar class="card card-evento" en esa sección)
 ================================ */
 .card-evento p strong::before{ content:"📅 "; margin-right:.2rem; }
-.card-evento p:nth-of-type(1)::after{ content:"  📍"; margin-left:.3rem; }
+
 /* opcional: icono cámara para grabaciones */
 .card-evento_grabacion h3::before{ content:"🎥 "; margin-right:.2rem; }
 
