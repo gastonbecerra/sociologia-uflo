@@ -22,26 +22,29 @@ Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflou
 
 ## Próximos Eventos
 
-{% assign hoy = site.time | date: "%Y-%m-%d" %}
-{% assign items = site.data.eventos_futuros %}
+{% assign ahora_ts = site.time | date: "%s" %}
+{% assign items = site.data.eventos_futuros | sort: "fecha" %}
 
-{% if items %}
-  {% assign ordenados = items | sort: "fecha" %}
-  <div class="cards">
-  {% for e in ordenados %}
-    {% if e.fecha and e.fecha >= hoy %}
-      <div class="card">
-        <h3>{{ e.titulo }}</h3>
-        <p><strong>{{ e.fecha }}</strong>{% if e.hora %} · {{ e.hora }}{% endif %} — {{ e.modalidad }} · {{ e.lugar }}</p>
-        <p>{{ e.descripcion }}</p>
-        {% if e.formulario %}<p><a class="btn" href="{{ e.formulario }}" target="_blank" rel="noopener">Inscribirme</a></p>{% endif %}
-      </div>
-    {% endif %}
-  {% endfor %}
-  </div>
-{% else %}
-  <p>No se encontró <code>_data/eventos_futuros.yml</code> o tiene un error de formato.</p>
-{% endif %}
+<div class="cards">
+{% for e in items %}
+  {% assign fecha_ts = e.fecha | date: "%s" %}
+  {% if fecha_ts >= ahora_ts %}
+    <div class="card card-evento">
+      <h3>{{ e.titulo }}</h3>
+      <p><strong>{{ e.fecha }}</strong>{% if e.hora %} · {{ e.hora }}{% endif %} — {{ e.modalidad }}</p>
+      {% if e.arancel == "gratuito" %}
+        <p class="meta">💸 <strong>Actividad gratuita</strong></p>
+      {% elsif e.arancel == "arancelado" %}
+        <p class="meta">💰 Actividad arancelada</p>
+      {% endif %}
+      {% if e.descripcion %}<p>{{ e.descripcion }}</p>{% endif %}
+      {% if e.formulario %}
+        <p><a class="btn" href="{{ e.formulario }}" target="_blank" rel="noopener">Inscribirme</a></p>
+      {% endif %}
+    </div>
+  {% endif %}
+{% endfor %}
+</div>
 
 <a class="cta" href="https://forms.gle/eFxcxuWV1c8oki5CA" target="_blank" rel="noopener">
   📬 Recibir novedades de próximos eventos gratuitos y abiertos

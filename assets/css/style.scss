@@ -194,3 +194,12 @@ img { max-width: 100%; height: auto; }
 
 /* Tags: azul/gris */
 .chip-tag.active{ background:#eef2ff; border-color:#c7d2fe; color:#3730a3; font-weight:600; }
+
+.card-evento .meta {
+  font-size: 0.9rem;
+  color: #444;
+  margin: 0.3rem 0 0.6rem;
+}
+.card-evento .meta strong {
+  color: #0d9488;
+}

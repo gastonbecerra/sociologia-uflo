@@ -2,6 +2,7 @@
   fecha: "2025-08-26"
   modalidad: "Presencial"
   lugar: "Semana de la Investigación 2025 · UFLO"
+  arancel: "gratuito"
   descripcion: "Actividad gratuita con registro previo."
   formulario: "https://zoom.us/meeting/register/eCrNKJZITbuHvkZnaLfGsg"
 
@@ -10,6 +11,7 @@
   hora: "09:00–19:00"
   modalidad: "Virtual"
   lugar: "Online"
+  arancel: "gratuito"
   descripcion: "Conferencias magistrales, conversatorios y paneles con expertos de diversas disciplinas y la participación de organismos nacionales e internacionales, asociaciones y redes, laboratorios."
   formulario: "https://docs.google.com/forms/d/e/1FAIpQLSfPv97REjzfrpb41_arNGpJ4FStw77Zg94I8KgzRfBy358ACA/viewform"
 
@@ -17,7 +19,8 @@
   fecha: "2025-12-02"
   hora: "19:00"
   modalidad: "Virtual"
-  lugar: "UFLO · Zoom"
+  lugar: "UFLO Virtual"
+  arancel: "gratuito"
   descripcion: "Primer encuentro del ciclo. Tema: Cómo las tecnologías moldean la subjetividad y los vínculos en la adolescencia. Actividad gratuita con registro previo."
   formulario: "https://zoom.us/meeting/register/QfpdLXcfSPSQXDsJM-nB_Q"
   tags: ["IA", "adolescencia", "tecnología", "educación"]
@@ -26,7 +29,8 @@
   fecha: "2025-12-04"
   hora: "19:00"
   modalidad: "Virtual"
-  lugar: "UFLO · Zoom"
+  lugar: "UFLO Virtual"
+  arancel: "gratuito"
   descripcion: "Segundo encuentro del ciclo. Tema: Criar y educar en la era digital. Actividad gratuita con registro previo."
   formulario: "https://zoom.us/meeting/register/pYRPzkI6QqOd5KOXKI7C1Q"
   tags: ["IA", "adolescencia", "tecnología", "educación"]
@@ -35,8 +39,8 @@
   fecha: "2025-11-12"
   hora: "19:00–20:30"
   modalidad: "Virtual"
-  lugar: "UFLO · Online"
+  lugar: "UFLO Virtual"
+  arancel: "gratuito"
   descripcion: "Conversatorio con Leticia Torre e Ileana Temu sobre oportunidades y desafíos en la incorporación de IA en organizaciones públicas y privadas de CABA y la Patagonia."
   formulario: "https://zoom.us/meeting/register/eypSWyWUQJulUqPYo8j5Uw"
   tags: ["IA", "organizaciones", "Patagonia", "CABA"]
-  

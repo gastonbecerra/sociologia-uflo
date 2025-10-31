@@ -1,289 +1,46 @@
-# --- PODCASTS ---
-- id: pod-001
-  tipo: podcast
-  episodio: 1
-  titulo: "Pierre Bourdieu"
-  entrevistado: "Dr. Joaquín Algranti"
-  yt_id: "mRdwbAdNqYE"
-  tags: ["podcast","Bourdieu","teoría sociológica"]
+- titulo: "[Taller] Discusiones actuales sobre la Inteligencia Artificial"
+  fecha: "2025-08-26"
+  modalidad: "Presencial"
+  lugar: "Semana de la Investigación 2025 · UFLO"
+  arancel: "gratuito"
+  descripcion: "Actividad gratuita con registro previo."
+  formulario: "https://zoom.us/meeting/register/eCrNKJZITbuHvkZnaLfGsg"
 
-- id: pod-002
-  tipo: podcast
-  episodio: 2
-  titulo: "Max Weber"
-  entrevistado: "Prof. Patricia Lambruschini"
-  yt_id: "mRdwbAdNqYE"
-  tags: ["podcast","Weber","teoría sociológica"]
+- titulo: "[Jornadas] III Jornadas de Inteligencia Artificial y Educación 2025"
+  fecha: "2025-11-10"
+  hora: "09:00–19:00"
+  modalidad: "Virtual"
+  lugar: "Online"
+  arancel: "gratuito"
+  descripcion: "Conferencias magistrales, conversatorios y paneles con expertos de diversas disciplinas y la participación de organismos nacionales e internacionales, asociaciones y redes, laboratorios."
+  formulario: "https://docs.google.com/forms/d/e/1FAIpQLSfPv97REjzfrpb41_arNGpJ4FStw77Zg94I8KgzRfBy358ACA/viewform"
 
-- id: pod-003
-  tipo: podcast
-  episodio: 3
-  titulo: "Talcott Parsons"
-  entrevistado: "Dr. Pedro Giordano"
-  yt_id: "mRdwbAdNqYE"
-  tags: ["podcast","Parsons","teoría sociológica"]
+- titulo: "[Ciclo de Charlas] Adolescentes y tecnología: educación, crianza y vínculos en la era digital — Encuentro 1"
+  fecha: "2025-12-02"
+  hora: "19:00"
+  modalidad: "Virtual"
+  lugar: "UFLO Virtual"
+  arancel: "gratuito"
+  descripcion: "Primer encuentro del ciclo. Tema: Cómo las tecnologías moldean la subjetividad y los vínculos en la adolescencia. Actividad gratuita con registro previo."
+  formulario: "https://zoom.us/meeting/register/QfpdLXcfSPSQXDsJM-nB_Q"
+  tags: ["IA", "adolescencia", "tecnología", "educación"]
 
-- id: pod-004
-  tipo: podcast
-  episodio: 4
-  titulo: "Michel Foucault"
-  entrevistado: "Dra. Senda Sferco"
-  yt_id: "xTNUNDvAPhI"
-  tags: ["podcast","Foucault","teoría sociológica"]
+- titulo: "[Ciclo de Charlas] Adolescentes y tecnología: educación, crianza y vínculos en la era digital — Encuentro 2"
+  fecha: "2025-12-04"
+  hora: "19:00"
+  modalidad: "Virtual"
+  lugar: "UFLO Virtual"
+  arancel: "gratuito"
+  descripcion: "Segundo encuentro del ciclo. Tema: Criar y educar en la era digital. Actividad gratuita con registro previo."
+  formulario: "https://zoom.us/meeting/register/pYRPzkI6QqOd5KOXKI7C1Q"
+  tags: ["IA", "adolescencia", "tecnología", "educación"]
 
-- id: pod-005
-  tipo: podcast
-  episodio: 5
-  titulo: "Niklas Luhmann"
-  entrevistado: "Dr. Sergio Pignuoli Ocampo"
-  yt_id: "AKgqvt_59SQ"
-  tags: ["podcast","Luhmann","teoría sociológica"]
-
-- id: pub-001
-  tipo: publicacion
-  subtipo: capitulo
-  titulo: "La enseñanza de la investigación en sociología"
-  autores: ["G. Becerra", "J. I. Mezzadra", "G. Movia"]
-  fuente: "En J. Gómez Zeliz (Ed.), Metodología de la investigación. El desafío de su enseñanza (pp. 39–54), Ed. UFLO"
-  anio: 2025
-  url: "https://hdl.handle.net/20.500.14340/1718"
-  tags: ["metodología","docencia","capítulo"]
-
-- id: pub-002
-  tipo: publicacion
-  subtipo: articulo
-  titulo: "La inteligencia artificial como tecnología disruptiva y sus sentidos sociales"
-  autores: ["G. Becerra", "E. Magnani"]
-  fuente: "Revista El Faro"
-  descripcion: "Artículo sobre discursos sociales de la IA"
-  anio: 2024
-  url: "https://revistaelfaro.uflo.edu.ar/elfaro/article/view/14"
-  tags: ["IA","sociedad","artículo"]
-
-- id: pub-003
-  tipo: publicacion
-  subtipo: material
-  titulo: "Guías del ciclo “Charlas Sociológicas”"
-  autores: ["M. Ciardiello"]
-  descripcion: "Material de apoyo sobre nociones centrales de la sociología preparado para el curso de verano de 2024"
-  anio: 2024
-  url: "https://drive.google.com/file/d/18g0yOfkAt43rpVTEe0xwpuZj_adtBubu/view"
-  tags: ["guías","docencia"]
-
-- id: pub-004
-  tipo: publicacion
-  subtipo: libro_resumenes
-  titulo: "Libro de Resúmenes · 1eras Jornadas de Sociología UFLO"
-  autores: ["G. Becerra"]
-  descripcion: "Compilación de resúmenes aceptados las 1eras Jornadas de Sociologia (Jul/2024)"
-  anio: 2024
-  url: "https://docs.google.com/document/d/e/2PACX-1vQyAAr0M7_3d0dYpmeg5F8M7I7WPmo3ki27RDT4cyHjfi5FqVaArM-UP6xrrb0srRLHDNDh4bH0I8_p/pub"
-  tags: ["jornadas","UFLO","libro"]
-
-- id: pub-005
-  tipo: publicacion
-  subtipo: registro_evento
-  titulo: "Communication in the age of technological challenges — Registro"
-  autores: ["G. Becerra", "C. Paganoni"]
-  fuente: "Journal of International Legal Communication"
-  descripcion: "Registro del evento realizado entre UFLO y Universidad de Varsovia sobre comunicación digital"
-  anio: 2023
-  url: "https://doi.org/10.32612/uw.27201643.2023.9.pp.99-101"
-  tags: ["registro","evento","Polonia"]
-
-- id: pub-006
-  tipo: publicacion
-  subtipo: ponencia
-  titulo: "Material del taller de detección de sesgos de la IA"
-  autores: ["G. Becerra", "P. Urabayen"]
-  fuente: "II Jornada Virtual de IA · UFLO"
-  descripción: "¿Qué son los sesgos de la IA? ¿Cómo detectarlos?"
-  anio: 2024
-  url: "https://repositorio.uflo.edu.ar/entities/ponencia/9179a371-db7e-4055-a7da-143d215ae792"
-  tags: ["sesgos","IA","ponencia"]
-
-
-- id: tut-001
-  tipo: tutorial
-  titulo: "Introducción a la ciencia de datos con R. Una guía rápida para cientistas sociales"
-  descripcion: "Compilación de tutoriales en R usados en Análisis de datos y en el curso de Big Data y Ciencias de Datos. Incluye slides teóricas."
-  lenguaje: "R"
-  url: "https://bookdown.org/gaston_becerra/curso-intro-r/"
-  tags: ["R","análisis de datos","big data"]
-
-- id: tut-002
-  tipo: tutorial
-  titulo: "Tutorial de análisis bibliométrico"
-  descripcion: "Guía práctica en R para iniciarse en bibliometría; usada como integrador en Análisis de datos."
-  lenguaje: "R"
-  url: "https://rpubs.com/gastonbecerra/bibliometricos-R"
-  tags: ["R","bibliometría","análisis de datos"]
-
-- id: tut-003
-  tipo: tutorial
-  titulo: "Guía con diferencias y similitudes entre Clojure y R"
-  descripcion: "Comparación Clojure vs R para vincular Análisis de datos y Programación."
-  lenguaje: "Clojure, R"
-  url: "https://nextjournal.com/a/RYA1HcdZkiFBJdNKYuQx7?token=CrpoWYpyyJFs2CPcpTeSSW"
-  tags: ["Clojure","R","programación"]
-
-- id: tut-004
-  tipo: tutorial
-  titulo: "Tutorial completo de arqueo bibliográfico en Clojure"
-  descripcion: "Curso para crear una app en Clojure con la API de Semantic Scholar. Con teoría y práctica."
-  lenguaje: "Clojure"
-  url: "https://www.youtube.com/playlist?list=PLUxsdd9CjsoGwvfLkoTuYnSDB3j0L07Xw"
-  tags: ["Clojure","API","bibliometría","video"]
-
-- id: tut-005
-  tipo: tutorial
-  titulo: "Tutorial de webscraping en R"
-  descripcion: "Recupera discursos desde Casa Rosada con R. Material de apoyo en Programación."
-  lenguaje: "R"
-  url: "https://gastonbecerra.github.io/scraping-casa-rosada/"
-  tags: ["R","webscraping","programación"]
-
-- id: tut-006
-  tipo: tutorial
-  titulo: "Tutorial sobre uso de ChatGPT"
-  descripcion: "Cómo construir prompts con ChatGPT. Material para Sociología de la IA."
-  lenguaje: "ChatGPT"
-  url: "downloads/material%20chatgpt.pdf"
-  tags: ["ChatGPT","IA","prompts","educación"]
-
-# --- EVENTOS GRABADOS ---
-- id: evp-ia-historia
-  tipo: evento_grabacion
-  titulo: "Clase abierta sobre historia del desarrollo/comercialización/adopción de la I.A."
-  descripcion: "Clase abierta de la Prof. Dra. Francesca Batista en el módulo Historia de la I.A."
-  fecha: "2025-05-01"
-  yt_id: "TJSZ87EJ_ac"
-  tags: ["clase abierta","IA","historia"]
-
-- id: evp-campo-laboral
-  tipo: evento_grabacion
-  titulo: "Conversatorio · El campo laboral de la Sociología"
-  descripcion: "Gestión pública, consultoría, evaluación de políticas e investigación de mercado."
-  fecha: "2021-11-01"
-  yt_id: "pvG38Arm4rg"
-  tags: ["conversatorio","carreras","mercado laboral"]
-
-- id: evp-metodologias
-  tipo: evento_grabacion
-  titulo: "Conversatorio · Metodologías de Investigación Social"
-  descripcion: "Investigación teórica, empírica, cualitativa/cuantitativa y computacional."
-  fecha: "2022-10-01"
-  yt_id: "8xi8jJzBHfI"
-  tags: ["conversatorio","metodología","investigación"]
-
-- id: evp-nuevos-formatos
-  tipo: evento_grabacion
-  titulo: "Conversatorio · Sociología en nuevos formatos"
-  descripcion: "Comunicar y enseñar sociología vía podcasts y otros formatos."
-  fecha: "2023-06-01"
-  yt_id: "h-nWH7dDmeQ"
-  tags: ["conversatorio","docencia","comunicación"]
-
-- id: evp-regulacion-ia
-  tipo: evento_grabacion
-  titulo: "Clase abierta sobre regulación de la I.A."
-  descripcion: "Clase abierta de Carlos Carretero y Guillermo Movia. Módulo Sociología de la I.A."
-  fecha: "2023-01-01"
-  yt_id: "ivGBaXMs7yI"
-  tags: ["clase abierta","regulación","IA"]
-
-- id: evp-clasicos
-  tipo: evento_grabacion
-  titulo: "Clase abierta · Vigencia de los clásicos en sociología"
-  descripcion: "Marx, Durkheim y Weber. Prof. Micaela Ciardiello. Teoría Sociológica Clásica."
-  fecha: "2023-01-01"
-  yt_id: "mkuuyVLAtCw"
-  tags: ["clase abierta","teoría sociológica","clásicos"]
-
-- id: evp-varsovia-panel
-  tipo: evento_grabacion
-  titulo: "Panel · Technological Challenges (UWarsaw)"
-  descripcion: "Panel en ‘Communication In The Age Of Technological Challenges’ (en inglés)."
-  fecha: "2023-05-01"
-  yt_id: "BgjpTQ4Dx7c"
-  tags: ["panel","internacional","tecnología"]
-
-- id: evp-500-socxs
-  tipo: evento_grabacion
-  titulo: "500 sociólogxs dicen"
-  descripcion: "Presentación con datos de encuesta ASRA y Colegio de Sociólogos (Jul/2024)."
-  fecha: "2024-07-01"
-  yt_id: "ohE4kJM1DSw"
-  tags: ["presentación","encuesta","Argentina"]
-
-- id: evp-www-dimensiones
-  tipo: evento_grabacion
-  titulo: "Clase abierta · Dimensiones sociales de la WWW"
-  descripcion: "Prof. Guillermo Movia. Materia Programación (Oct/2024)."
-  fecha: "2024-10-01"
-  yt_id: "ihIzv0LyoTU"
-  tags: ["clase abierta","web","sociedad"]
-
-- id: evp-recursos-educativos-abiertos
-  tipo: evento_grabacion
-  titulo: "Clase abierta · Recursos educativos abiertos"
-  descripcion: "Rosario Rogel y Alan Colin-Arce (UAEMéx). Materia Programación (Oct/2024)."
-  fecha: "2024-10-01"
-  yt_id: "ZRKf8WPkI9Y"
-  tags: ["clase abierta","REA","docencia"]
-
-- id: evp-transicion-energetica
-  tipo: evento_grabacion
-  titulo: "Presentación · Transición energética"
-  descripcion: "Presentación de Gabriela. Teoría Sociológica V · Jornadas de investigación (Jun/2024)."
-  fecha: "2024-06-01"
-  url: "https://repositorio.uflo.edu.ar/entities/video/62d4d2a6-5215-4b4b-b147-e9d5b59caf5c"
-  tags: ["presentación","energía","sistemas sociales"]
-
-- id: evp-rep-sociales-ia
-  tipo: evento_grabacion
-  titulo: "Clase abierta · Representaciones sociales de la I.A."
-  descripcion: "Avances del equipo ‘I.A. en el aula’ (May/2025)."
-  fecha: "2025-05-01"
-  yt_id: "aZl5wbBdP8Q"
-  tags: ["clase abierta","IA","representaciones"]
-
-- id: evp-comunidades-r
-  tipo: evento_grabacion
-  titulo: "Clase abierta · Comunidades de usuario/as de R"
-  descripcion: "Andrea Gómez Vargas presenta R-Ladies y R en Baires (Jun/2025)."
-  fecha: "2025-06-01"
-  yt_id: "UGvCNwxltUg"
-  tags: ["clase abierta","R","comunidad"]
-
-- id: evp-psicoterapia-ia
-  tipo: evento_grabacion
-  titulo: "Conversatorio · Psicoterapia e Inteligencia Artificial"
-  descripcion: "Riesgos y oportunidades de la IA para la salud mental. Proyecto del libro colaborativo."
-  fecha: "2025-06-01"
-  yt_id: "wLRJC2e7O04"
-  tags: ["conversatorio","salud mental","IA"]
-
-- id: evp-mito-inevitabilidad
-  tipo: evento_grabacion
-  titulo: "Conversatorio · El mito de la inevitabilidad de la I.A."
-  descripcion: "Con Movia y Battista. Determinismo tecnológico y visiones críticas (May/2025)."
-  fecha: "2025-05-01"
-  yt_id: "tBbUAEl8jqI"
-  tags: ["conversatorio","mitos","IA"]
-
-- id: evp-css-uflo-uarm-1
-  tipo: evento_grabacion
-  titulo: "Clase abierta · CSS: más allá del análisis de datos"
-  descripcion: "Ciclo de Charlas de CSS · UFLO & UARM (Jul/2025)."
-  fecha: "2025-07-01"
-  yt_id: "DDNzdBjgGn0"
-  tags: ["clase abierta","CSS","charlas"]
-
-- id: evp-css-uflo-uarm-2
-  tipo: evento_grabacion
-  titulo: "Clase abierta · Ciencia Política Computacional"
-  descripcion: "De los datos a la teoría (y viceversa). UARM (Jul/2025)."
-  fecha: "2025-07-01"
-  yt_id: "3bbuptkVsNM"
-  tags: ["clase abierta","ciencia política","CSS"]
+- titulo: "[Conversatorio] La incorporación de la IA en organizaciones públicas y privadas entre CABA y Patagonia"
+  fecha: "2025-11-12"
+  hora: "19:00–20:30"
+  modalidad: "Virtual"
+  lugar: "UFLO Virtual"
+  arancel: "gratuito"
+  descripcion: "Conversatorio con Leticia Torre e Ileana Temu sobre oportunidades y desafíos en la incorporación de IA en organizaciones públicas y privadas de CABA y la Patagonia."
+  formulario: "https://zoom.us/meeting/register/eypSWyWUQJulUqPYo8j5Uw"
+  tags: ["IA", "organizaciones", "Patagonia", "CABA"]
