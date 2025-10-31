@@ -33,9 +33,9 @@ Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflou
       <h3>{{ e.titulo }}</h3>
       <p><strong>{{ e.fecha }}</strong>{% if e.hora %} · {{ e.hora }}{% endif %} — {{ e.modalidad }}</p>
       {% if e.arancel == "gratuito" %}
-        <p class="meta">💸 <strong>Actividad gratuita</strong></p>
+        <p><strong>Actividad gratuita</strong></p>
       {% elsif e.arancel == "arancelado" %}
-        <p class="meta">💰 Actividad arancelada</p>
+        <p>Actividad arancelada</p>
       {% endif %}
       {% if e.descripcion %}<p>{{ e.descripcion }}</p>{% endif %}
       {% if e.formulario %}
