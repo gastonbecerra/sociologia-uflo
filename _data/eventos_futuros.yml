@@ -44,3 +44,23 @@
   descripcion: "Conversatorio con Leticia Torre e Ileana Temu sobre oportunidades y desafíos en la incorporación de IA en organizaciones públicas y privadas de CABA y la Patagonia."
   formulario: "https://zoom.us/meeting/register/eypSWyWUQJulUqPYo8j5Uw"
   tags: ["IA", "organizaciones", "Patagonia", "CABA"]
+
+- titulo: "Charlas informativas acerca de la carrera de Sociología"
+  fecha: "2025-11-26"
+  hora: "18:00–19:00"
+  modalidad: "Virtual"
+  lugar: "UFLO Virtual"
+  arancel: "gratuito"
+  descripcion: "Presentamos nuestra carrera y atendemos consultas de interesados."
+  formulario: "https://zoom.us/meeting/register/DVIhPyPvTvSoNYNvMc5WZg"
+  tags: ["IA", "ingresantes"]
+
+- titulo: "Charlas informativas acerca de la carrera de Sociología"
+  fecha: "2025-12-9"
+  hora: "18:00–19:00"
+  modalidad: "Virtual"
+  lugar: "UFLO Virtual"
+  arancel: "gratuito"
+  descripcion: "Presentamos nuestra carrera y atendemos consultas de interesados."
+  formulario: "https://zoom.us/meeting/register/DVIhPyPvTvSoNYNvMc5WZg"
+  tags: ["IA", "ingresantes"]
