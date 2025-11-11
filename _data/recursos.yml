@@ -295,3 +295,11 @@
   fecha: "2025-07-01"
   yt_id: "sn-I2ya1kBA"
   tags: ["clase abierta", "ciencia política", "CSS"]
+
+- id: jj-ia-iii
+  tipo: evento_grabacion
+  titulo: "Jornadas · Actividades en torno a la IA con una mirada colectiva"
+  descripcion: "En las III Jornadas de IA y Educación de UFLO presentamos nuestro libro y coordinamos un panel con coletivos organizados en torno a la IA"
+  fecha: "2025-11-10"
+  yt_id: "XYLXexqO-yA"
+  tags: ["IA", "libro", "colectivo"]
