@@ -240,7 +240,7 @@ En este módulo nos introducimos al proceso de investigación, a través de sus 
 
 - **Asignatura**: *Psicología Social* - [Programa de la materia](https://docs.google.com/document/d/1yEDpOwUg71krRfVKmG6GRbYB1lS1dcnTZ2F50JDiCUk/edit?tab=t.0) <br />
 **Tramo**: Ciencias sociales - Estudiantes de 3er año <br />
-Exposiciones de las clases de Psicología Social. La materia está diseña para presentar el campo de la PS y sus tensiones epistemológicas. A la vez, explora las nuevas tecnologías desde la mirada de la PS.
+Exposiciones de las clases de Psicología Social. La materia está diseñada para presentar el campo de la PS y sus tensiones epistemológicas. A la vez, explora las nuevas tecnologías desde la mirada de la PS.
     - Unidad 1: El campo de la PS. 
     - Unidad 2: Socialización / Subjetivación en la psicopolítica
     - Unidad 3: Aportes de Freud y  Pichon-Riviere a la PS 
