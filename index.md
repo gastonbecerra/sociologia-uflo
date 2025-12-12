@@ -240,6 +240,19 @@ En este módulo nos introducimos al proceso de investigación, a través de sus 
     - Tema 2: El marco teórico - Nuestros anteojos sociológicos para hacer preguntas [Exposición en video parte 1](https://youtu.be/8Zp6wNq7MJI) + [Exposición en video parte 2](https://youtu.be/nTdm6yzuLRw) + Un ejemplo: la teoría de las representaciones sociales [Exposición en video](https://youtu.be/XVN3shrWgA4)
     - Tema 3: Objetivos de investigación - Una guía rápida para leer/ escribir un objetivo de investigación [Exposición en video](https://youtu.be/) + [Material de lectura: "Consejos y advertencias para la formación de investigadores en ciencias sociales (C.Wainerman)" ](http://www.catalinawainerman.com.ar/pdf/Consejos_y_advertencias_para_la_form_de_investigadores.pdf)
 
+<br />
+
+- **Asignatura**: *Psicología Social* - [Programa de la materia](https://docs.google.com/document/d/1yEDpOwUg71krRfVKmG6GRbYB1lS1dcnTZ2F50JDiCUk/edit?tab=t.0) <br />
+**Tramo**: Ciencias sociales - Estudiantes de 3er año <br />
+Exposiciones de las clases de Psicología Social. La materia está diseña para presentar el campo de la PS y sus tensiones epistemológicas. A la vez, explora las nuevas tecnologías desde la mirada de la PS.
+    - Unidad 1: El campo de la PS. 
+    - Unidad 2: Socialización / Subjetivación en la psicopolítica
+    - Unidad 3: Aportes de Freud y  Pichon-Riviere a la PS 
+    - Unidad 4: Teoría de las Representaciones Sociales / Imaginarios sobre la IA
+    - Unidad 5: Actitudes / Actitudes hacia la IA
+    - Unidad 6: Identidad y self / Quantified self
+    - Unidad 7: Obediencia / Algoritmos sociales
+     [Playlist de exposiciones completa](https://www.youtube.com/playlist?list=PLf1wJeC17bILuM-hq0kf0ZJj2t_7MwWzb)
 
 ## Proyectos de Investigación
 

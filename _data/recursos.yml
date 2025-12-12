@@ -303,3 +303,19 @@
   fecha: "2025-11-10"
   yt_id: "XYLXexqO-yA"
   tags: ["IA", "libro", "colectivo"]
+
+  id: dana-i
+  tipo: evento_grabacion
+  titulo: "Clase abierta · Adolescentes y tecnología: educación, crianza y vínculos en la era digital - Encuentro 1"
+  descripcion: "Taller de reflexión sobre el impacto de las nuevas tecnologías en los adolescentes."
+  fecha: "2025-12-5"
+  yt_id: "Cr0EFYCdnMA"
+  tags: ["IA", "adolescencia", "era digital"]
+
+  id: dana-ii
+  tipo: evento_grabacion
+  titulo: "Clase abierta y tecnología: educación, crianza y vínculos en la era digital - Encuentro 2"
+  descripcion: "Taller de reflexión sobre el impacto de las nuevas tecnologías en los adolescentes."
+  fecha: "2025-12-5"
+  yt_id: "stij42LcZSk"
+  tags: ["IA", "adolescencia", "era digital"]
