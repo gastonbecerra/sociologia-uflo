@@ -199,10 +199,6 @@ Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflou
 })();
 </script>
 
-
-
-[Todos los encuentros: https://bit.ly/conversatorios-uflo](https://bit.ly/conversatorios-uflo)
-
 ## Módulos
 
 Estos son algunos de los contenidos y temas de algunas materias de la carrera. 
@@ -252,7 +248,8 @@ Exposiciones de las clases de Psicología Social. La materia está diseña para 
     - Unidad 5: Actitudes / Actitudes hacia la IA
     - Unidad 6: Identidad y self / Quantified self
     - Unidad 7: Obediencia / Algoritmos sociales
-     [Playlist de exposiciones completa](https://www.youtube.com/playlist?list=PLf1wJeC17bILuM-hq0kf0ZJj2t_7MwWzb)
+  
+  [Playlist de exposiciones completa](https://www.youtube.com/playlist?list=PLf1wJeC17bILuM-hq0kf0ZJj2t_7MwWzb)
 
 ## Proyectos de Investigación
 
