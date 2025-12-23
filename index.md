@@ -45,6 +45,9 @@ Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflou
   📬 Recibir novedades de próximos eventos gratuitos y abiertos
 </a>
 
+<a class="cta" href="https://x.com/recursossocio" target="_blank" rel="noopener">
+  🐦 Seguinos en X para novedades, recursos y actividades abiertas
+</a>
 
 ## Publicaciones
 
