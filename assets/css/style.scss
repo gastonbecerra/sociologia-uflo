@@ -48,7 +48,9 @@ h1, h2, h3, h4 {
 }
 
 .page-header {
-  background-image: linear-gradient(120deg, #3A007A, #8F2BFF);
+  /* background-image: linear-gradient(120deg, #3A007A, #8F2BFF); */
+  background-color: white;
+  padding: 1.2rem 1rem 0.8rem;
 }
 
 .main-content h1:after,

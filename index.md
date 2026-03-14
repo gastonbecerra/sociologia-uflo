@@ -19,24 +19,14 @@ image: ./assets/images/iso_cuadrado_blanco.jpg
 
 <section class="career-strip">
 
-<h2>¿Dónde estudiar Sociología Computacional?</h2>
+<h2>¿Dónde estudiar Sociología y Ciencias Sociales Computacionales?</h2>
 
-<p>
-La Licenciatura en Sociología de UFLO incorpora formación en análisis de datos,
-programación, inteligencia artificial y métodos computacionales aplicados a las ciencias sociales.
-Nuestro plan de estudios combina teoría sociológica, investigación empírica y herramientas
-digitales para analizar fenómenos sociales contemporáneos.
-</p>
+<p>Las <em>ciencias sociales computacionales</em> constituyen un campo de encuentro entre las ciencias sociales y los desarrollos informáticos. Se trata de un campo de exploración, experimentación y reflexión orientado a potenciar la investigación social y su capacidad de comprender y transformar una sociedad cada vez más mediada por tecnologías digitales.</p>
 
-<p>
-Formamos sociólogos capaces de trabajar con datos, algoritmos y tecnologías digitales
-para investigar problemas sociales, comprender transformaciones culturales y participar
-en equipos interdisciplinarios.
-</p>
+<p>Podés estudiar Sociología Computacional en la <em>Licenciatura en Sociología de UFLO</em>: 💻 Modalidad 100% virtual 📊 Incluye materias como programación, bases de datos, analisis de datos, inteligencia artificial, entre otras, pensadas para sociólogo/as 🎓 Dos títulos oficiales del Ministerio de Educación: Analista Social de Datos y Licenciado/a en Sociología </p>
 
 <div class="career-actions">
-<a class="btn-career" href="https://www.uflo.edu.ar/licenciatura-en-sociologia/">Conocer la carrera</a>
-<a class="btn-career-outline" href="#">Ver plan de estudios</a>
+<a class="btn-career" href="https://www.uflouniversidad.edu.ar/carrera/sociologia/">Conocer la carrera</a>
 </div>
 
 </section>
