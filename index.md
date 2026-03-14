@@ -2,14 +2,14 @@
 layout: default
 title: "Recursos Sociología UFLO"
 # description: Repositorio de recursos abiertos de la Licenciatura en Sociología de la Universidad de Flores
-image: ./images/grilla%20materias%20sociologia.jpg
+image: ./assets/iso_cuadrado_blanco.jpg
 ---
 
 # Bienvenidos!
 
 En este repositorio compilamos las actividades que realizamos en la Licenciatura en Sociología de UFLO.  Nuestra carrera tiene una orientación computacional que busca, entre otros objetivos, integrar saberes digitales y nuevas tecnologías con una mirada social crítica y epistemológicamente fundada. 
 
-![UFLO diseño](./images/grilla-materias-sociologia.jpg)
+![UFLO diseño](./assets/grilla-materias-sociologia.jpg)
 
 Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflouniversidad.edu.ar*
 

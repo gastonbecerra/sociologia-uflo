@@ -11,5 +11,5 @@ plugins:
   - jekyll-feed
 
 # opcional: datos globales para OG
-logo: /sociologia-uflo/assets/ufloiso-150x150.png
-image: /sociologia-uflo/images/grilla-materias-sociologia.jpg
+logo: /assets/ufloiso-150x150.png
+image: /images/grilla-materias-sociologia.jpg

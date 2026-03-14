@@ -18,6 +18,7 @@ img { max-width: 100%; height: auto; }
 /* ================================
    Header con imagen de fondo
 ================================ */
+/*
 .page-header{
   background-image:url('https://www.uflouniversidad.edu.ar/wp-content/uploads/2024/09/lic-en-sociologia-1536x864.jpg');
   background-size:cover; background-position:center; background-repeat:no-repeat;
@@ -26,6 +27,43 @@ img { max-width: 100%; height: auto; }
 .project-name,.project-tagline{display:inline-block; border-radius:.4rem; padding:.3rem .6rem;}
 .project-name{background-color:rgba(0,0,0,.4);}
 .project-tagline{background-color:rgba(0,0,0,.3);}
+*/
+
+/* ================================
+   Header recursos sociologicos
+================================ */
+
+.site-header {
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2.5rem 1rem 2rem;
+}
+
+.site-logo {
+  width: 110px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.site-title {
+  margin: 0;
+  font-size: 2.2rem;
+  font-weight: 650;
+  letter-spacing: 0.02em;
+}
+
+.site-subtitle {
+  margin-top: 0.35rem;
+  font-size: 1.05rem;
+  opacity: 0.75;
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
 
 /* ================================
    Buscador
