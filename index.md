@@ -6,6 +6,24 @@ image: ./assets/images/iso_cuadrado_blanco.jpg
 ---
 
 
+<div class="carrera-banner">
+  <img src="/assets/images/grilla-materias-sociologia.jpg" alt="Licenciatura en Sociología UFLO" class="carrera-logo">
+  <div class="carrera-texto">
+    <h3>Licenciatura en Sociología UFLO</h3>
+    <p>
+      En UFLO podés formarte en sociología incorporando herramientas de análisis de datos,
+      programación e inteligencia artificial aplicadas al estudio de los fenómenos sociales.
+    </p>
+    <ul class="carrera-destacados">
+      <li>💻 Modalidad <strong>100% virtual</strong></li>
+      <li>🌙 Clases sincrónicas nocturnas + materias asincrónicas</li>
+      <li>📊 Formación en análisis de datos y programación aplicada a investigación social</li>
+      <li>🎓 Dos títulos oficiales: Analista Social de Datos y Lic. en Sociología</li>
+      <li>🔄 Reconocimiento de estudios previos y trayectorias personalizadas</li>
+    </ul>
+    <a class="carrera-btn" href="#" target="_blank" rel="noopener">Conocer la carrera</a>
+  </div>
+</div>
 
 # Recursos Abiertos
 
@@ -16,20 +34,6 @@ image: ./assets/images/iso_cuadrado_blanco.jpg
 5. [Proyectos de Investigación](#proyectos-de-investigación)
 6. [Desarrollos y herramientas en Sociología Computacional](#desarrollos-y-herramientas)
 
-
-<section class="career-strip">
-
-<h2>¿Dónde estudiar Sociología y Ciencias Sociales Computacionales?</h2>
-
-<p>Las <em>ciencias sociales computacionales</em> constituyen un campo de encuentro entre las ciencias sociales y los desarrollos informáticos. Se trata de un campo de exploración, experimentación y reflexión orientado a potenciar la investigación social y su capacidad de comprender y transformar una sociedad cada vez más mediada por tecnologías digitales.</p>
-
-<p>Podés estudiar Sociología Computacional en la <em>Licenciatura en Sociología de UFLO</em>: 💻 Modalidad 100% virtual 📊 Incluye materias como programación, bases de datos, analisis de datos, inteligencia artificial, entre otras, pensadas para sociólogo/as 🎓 Dos títulos oficiales del Ministerio de Educación: Analista Social de Datos y Licenciado/a en Sociología </p>
-
-<div class="career-actions">
-<a class="btn-career" href="https://www.uflouniversidad.edu.ar/carrera/sociologia/">Conocer la carrera</a>
-</div>
-
-</section>
 
 ## Próximos Eventos
 
