@@ -1,7 +1,7 @@
 title: "Recursos abiertos de la Licenciatura en Sociología de UFLO"
 description: "Un listado de algunos recursos y materiales didácticos que elaboramos en la carrera de Sociología de la Universidad de Flores (Argentina)."
-url: "https://gastonbecerra.github.io"
-baseurl: "/sociologia-uflo"
+url: https://www.recursossociologicos.ar
+baseurl: ""
 
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
