@@ -5,13 +5,9 @@ title: "Recursos Sociología UFLO"
 image: ./assets/images/iso_cuadrado_blanco.jpg
 ---
 
-# Bienvenidos!
 
-En este repositorio compilamos las actividades que realizamos en la Licenciatura en Sociología de UFLO.  Nuestra carrera tiene una orientación computacional que busca, entre otros objetivos, integrar saberes digitales y nuevas tecnologías con una mirada social crítica y epistemológicamente fundada. 
 
-![UFLO diseño](./assets/images/grilla-materias-sociologia.jpg)
-
-Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflouniversidad.edu.ar*
+# Recursos Abiertos
 
 1. [Próximos Eventos](#próximos-eventos)
 2. [Publicaciones](#publicaciones)
@@ -19,6 +15,31 @@ Cualquier consulta o comentario, nos podes escribir a *sociologia (arroba) uflou
 4. [Módulos de nuestras asignaturas](#módulos)
 5. [Proyectos de Investigación](#proyectos-de-investigación)
 6. [Desarrollos y herramientas en Sociología Computacional](#desarrollos-y-herramientas)
+
+
+<section class="career-strip">
+
+<h2>¿Dónde estudiar Sociología Computacional?</h2>
+
+<p>
+La Licenciatura en Sociología de UFLO incorpora formación en análisis de datos,
+programación, inteligencia artificial y métodos computacionales aplicados a las ciencias sociales.
+Nuestro plan de estudios combina teoría sociológica, investigación empírica y herramientas
+digitales para analizar fenómenos sociales contemporáneos.
+</p>
+
+<p>
+Formamos sociólogos capaces de trabajar con datos, algoritmos y tecnologías digitales
+para investigar problemas sociales, comprender transformaciones culturales y participar
+en equipos interdisciplinarios.
+</p>
+
+<div class="career-actions">
+<a class="btn-career" href="https://www.uflo.edu.ar/licenciatura-en-sociologia/">Conocer la carrera</a>
+<a class="btn-career-outline" href="#">Ver plan de estudios</a>
+</div>
+
+</section>
 
 ## Próximos Eventos
 

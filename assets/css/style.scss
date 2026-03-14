@@ -15,6 +15,48 @@ img { max-width: 100%; height: auto; }
   text-decoration: none; background: #111; color: #fff; font-weight: 600;
 }
 
+
+
+/* ================================
+   Theme
+================================ */
+
+h1, h2, h3, h4 {
+  color: #3A007A;
+}
+
+.btn {
+  background-color: #6B1BCF;
+  border-color: #6B1BCF;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #3A007A;
+  border-color: #3A007A;
+}
+
+.btn {
+  background-color: #6B1BCF;
+  border-color: #6B1BCF;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #3A007A;
+  border-color: #3A007A;
+}
+
+.page-header {
+  background-image: linear-gradient(120deg, #3A007A, #8F2BFF);
+}
+
+.main-content h1:after,
+.main-content h2:after {
+  background: #8F2BFF;
+}
+
+
 /* ================================
    Header con imagen de fondo
 ================================ */
@@ -32,10 +74,6 @@ img { max-width: 100%; height: auto; }
 /* ================================
    Header recursos sociologicos
 ================================ */
-
-.page-header {
-  background: white;
-}
 
 .site-header {
   text-align: center;
@@ -88,6 +126,50 @@ a {
 a:hover {
   color: #3A007A;
 }
+
+
+/* ================================
+   Strip de la carrera UFLO
+================================ */
+
+
+
+.career-strip {
+  margin: 3rem 0;
+  padding: 2rem;
+  background: #F4F2FA;
+  border-left: 5px solid #6B1BCF;
+  border-radius: 6px;
+}
+
+.career-strip h2 {
+  color: #3A007A;
+  margin-top: 0;
+}
+
+.career-actions {
+  margin-top: 1.2rem;
+}
+
+.btn-career {
+  display: inline-block;
+  padding: 0.6rem 1.1rem;
+  background: #6B1BCF;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-right: 0.6rem;
+}
+
+.btn-career-outline {
+  display: inline-block;
+  padding: 0.6rem 1.1rem;
+  border: 2px solid #6B1BCF;
+  color: #6B1BCF;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
 
 
 
