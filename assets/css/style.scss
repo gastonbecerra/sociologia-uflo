@@ -21,10 +21,6 @@ img { max-width: 100%; height: auto; }
    Theme
 ================================ */
 
-h1, h2, h3, h4 {
-  color: #3A007A;
-}
-
 .btn {
   background-color: #6B1BCF;
   border-color: #6B1BCF;
@@ -60,6 +56,33 @@ h1, h2, h3, h4 {
 
 .page-header {
   background: #ffffff !important;
+}
+
+
+
+/* ================================
+   Paleta recursos sociologicos
+================================ */
+
+
+.site-title {
+  color: #3A007A;
+}
+
+.site-subtitle {
+  color: #6B1BCF;
+}
+
+a {
+  color: #8F2BFF;
+}
+
+a:hover {
+  color: #3A007A;
+}
+
+h1, h2, h3, h4 {
+  color: #3A007A !important;
 }
 
 
@@ -114,46 +137,32 @@ h1, h2, h3, h4 {
 
 
 /* ================================
-   Paleta recursos sociologicos
-================================ */
-
-
-.site-title {
-  color: #3A007A;
-}
-
-.site-subtitle {
-  color: #6B1BCF;
-}
-
-a {
-  color: #8F2BFF;
-}
-
-a:hover {
-  color: #3A007A;
-}
-
-
-/* ================================
    Strip de la carrera UFLO
 ================================ */
 
 .carrera-banner {
-  display: flex;
-  align-items: center;
-  gap: 1.5rem;
+  display: block;
   margin: 2rem 0;
   padding: 1.5rem;
   background: #f7f4fc;
   border: 1px solid #e6dcf7;
   border-radius: 10px;
+  text-align: center;
 }
 
 .carrera-logo {
-  width: 140px;
+  display: block;
+  width: 100%;
+  max-width: 420px;
   height: auto;
-  flex-shrink: 0;
+  margin: 0 auto 1rem auto;
+  border-radius: 6px;
+}
+
+.carrera-texto {
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: left;
 }
 
 .carrera-texto h3 {
@@ -190,12 +199,11 @@ a:hover {
 
 @media (max-width: 768px) {
   .carrera-banner {
-    flex-direction: column;
-    align-items: flex-start;
+    padding: 1rem;
   }
 
   .carrera-logo {
-    width: 100px;
+    max-width: 100%;
   }
 }
 

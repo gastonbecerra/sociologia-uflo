@@ -7,11 +7,11 @@ image: ./assets/images/iso_cuadrado_blanco.jpg
 
 
 <div class="carrera-banner">
-  <img src="/assets/images/grilla-materias-sociologia.jpg" alt="Licenciatura en Sociología UFLO" class="carrera-logo">
+  <img src="/assets/images/materias.jpg" alt="Licenciatura en Sociología UFLO" class="carrera-logo">
   <div class="carrera-texto">
     <h3>Licenciatura en Sociología UFLO</h3>
     <p>
-      En UFLO podés formarte en sociología incorporando herramientas de análisis de datos,
+      En UFLO podés formarte en <em>Sociología Computacional</em> con un plan de estudios innovador que incorpora herramientas de análisis de datos,
       programación e inteligencia artificial aplicadas al estudio de los fenómenos sociales.
     </p>
     <ul class="carrera-destacados">
