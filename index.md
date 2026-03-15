@@ -21,7 +21,7 @@ image: ./assets/images/iso_cuadrado_blanco.jpg
       <li>🎓 Dos títulos oficiales: Analista Social de Datos y Lic. en Sociología</li>
       <li>🔄 Reconocimiento de estudios previos y trayectorias personalizadas</li>
     </ul>
-    <a class="carrera-btn" href="#" target="_blank" rel="noopener">Conocer la carrera</a>
+    <a class="carrera-btn" href="https://www.uflouniversidad.edu.ar/carrera/sociologia/" target="_blank" rel="noopener">Conocer la carrera</a>
   </div>
 </div>
 
