@@ -7,7 +7,7 @@ image: ./assets/images/iso_cuadrado_blanco.jpg
 
 
 <div class="carrera-banner">
-  <img src="/assets/images/materias.jpg" alt="Licenciatura en Sociología UFLO" class="carrera-logo">
+  <img src="/assets/images/plan-uflo.png" alt="Licenciatura en Sociología UFLO" class="carrera-logo">
   <div class="carrera-texto">
     <h3>Licenciatura en Sociología UFLO</h3>
     <p>
