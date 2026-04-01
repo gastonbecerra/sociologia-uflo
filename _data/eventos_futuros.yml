@@ -94,3 +94,25 @@
   descripcion: "Se viene la última reunión del 📚 Club de lectura “Datos, algoritmos e IA” y vamos a leer nuestro libro y charlar con los autores"
   formulario: "https://zoom.us/meeting/register/ef0ywrrZRLygMxsIUJE5WQ#/registration"
   tags: ["IA"]
+
+  
+- titulo: "Sociólogo/as que trabajan con tecnologías digitales"
+  fecha: "2026-4-21"
+  hora: "19:00–20:00"
+  modalidad: "Virtual"
+  lugar: "UFLO Virtual"
+  arancel: "gratuito"
+  descripcion: "Conversatorio con Lucrecia Faraoni (Lic. en Sociología y BI Developer) y Pablo Ayala (Lic. en Sociología y Data Product Manager), colegas que trabajan con tecnologías digitales"
+  formulario: "https://zoom.us/meeting/register/7j_k6g06R9yy_yh8RSwh3Q#/registration"
+  tags: ["Sociología", "Campo laboral"]
+
+  
+- titulo: "Ciencias Sociales Computacionales: trayectorias, aplicaciones y desafíos"
+  fecha: "2026-4-23"
+  hora: "19:00–20:00"
+  modalidad: "Virtual"
+  lugar: "UFLO Virtual"
+  arancel: "gratuito"
+  descripcion: "La clase ofrece una introducción a las Ciencias Sociales Computacionales desde una perspectiva amplia e histórica."
+  formulario: "https://www.youtube.com/live/CjGVHbu6q80"
+  tags: ["IA"]

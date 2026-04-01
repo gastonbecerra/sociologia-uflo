@@ -319,3 +319,12 @@
   fecha: "2025-12-5"
   yt_id: "stij42LcZSk"
   tags: ["IA", "adolescencia", "era digital"]
+
+
+- id: conversatorio-libro
+  tipo: evento_grabacion
+  titulo: "Conversatorio con autores del libro Mitos y Representaciones de la IA"
+  descripcion: "Charlamos sobre qué estamos discutiendo cuando hablamos de IA"
+  fecha: "2026-3-5"
+  yt_id: "1KIAlE1KtYI"
+  tags: ["IA", "psicología social"]
