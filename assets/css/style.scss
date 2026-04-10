@@ -15,7 +15,44 @@ img { max-width: 100%; height: auto; }
   text-decoration: none; background: #111; color: #fff; font-weight: 600;
 }
 
+.cta-wrap {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0 2.5rem;
+}
 
+.cta-social {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: .45rem;
+  max-width: 720px;
+  padding: .9rem 1.4rem;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #5b21b6, #7c3aed);
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.05rem;
+  text-align: center;
+  box-shadow: 0 8px 22px rgba(91, 33, 182, .22);
+  transition: transform .18s ease, box-shadow .18s ease, background .18s ease;
+}
+
+.cta-social:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(91, 33, 182, .3);
+  background: linear-gradient(135deg, #6d28d9, #8b5cf6);
+}
+
+.cta-social:active {
+  transform: translateY(0);
+}
+
+.cta-social:focus-visible {
+  outline: 3px solid rgba(124, 58, 237, .3);
+  outline-offset: 3px;
+}
 
 /* ================================
    Theme

@@ -5,9 +5,11 @@ title: "Recursos Sociología UFLO"
 image: ./assets/images/iso_cuadrado_blanco.jpg
 ---
 
-<a class="cta" href="https://linktr.ee/recursossociologicos" target="_blank" rel="noopener">
-  🐦 Seguinos en nuestras redes sociales para enterarte de eventos y nuevos recursos.
-</a>
+<div class="cta-wrap">
+  <a class="cta-social" href="https://linktr.ee/recursossociologicos" target="_blank" rel="noopener">
+    🔗 Seguinos en redes para enterarte de eventos y nuevos recursos
+  </a>
+</div>
 
 <div class="carrera-banner">
   <img src="/assets/images/plan-uflo.png" alt="Licenciatura en Sociología UFLO" class="carrera-logo">
