@@ -5,6 +5,9 @@ title: "Recursos Sociología UFLO"
 image: ./assets/images/iso_cuadrado_blanco.jpg
 ---
 
+<a class="cta" href="https://linktr.ee/recursossociologicos" target="_blank" rel="noopener">
+  🐦 Seguinos en nuestras redes sociales para enterarte de eventos y nuevos recursos.
+</a>
 
 <div class="carrera-banner">
   <img src="/assets/images/plan-uflo.png" alt="Licenciatura en Sociología UFLO" class="carrera-logo">
@@ -77,16 +80,12 @@ image: ./assets/images/iso_cuadrado_blanco.jpg
   📬 Recibir novedades de próximos eventos gratuitos y abiertos
 </a>
 
-<a class="cta" href="https://x.com/recursossocio" target="_blank" rel="noopener">
-  🐦 Seguinos en X para novedades, recursos y actividades abiertas
-</a>
-
 ## Publicaciones
 
 <div class="revista-banner">
   <img src="https://revistadesarrollos.uflo.edu.ar/public/journals/1/pageHeaderLogoImage_es.png" alt="Logo Revista DCSC" class="revista-logo">
   <div class="revista-texto">
-    <h3>Desarrollos en Ciencias Sociales Computacionales</h3>
+    <h3 style="color: white !important">Desarrollos en Ciencias Sociales Computacionales</h3>
     <p>
       Desde 2024/2025 editamos la revista <strong>Desarrollos en Ciencias Sociales Computacionales (DCSC)</strong>, 
       un espacio de difusión e intercambio del trabajo de estudiantes, docentes, investigadores/as y profesionales 
