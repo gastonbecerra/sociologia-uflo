@@ -13,10 +13,12 @@ image: ./assets/images/iso_cuadrado_blanco.jpg
 
 <div class="carrera-banner">
 
+  <!--
   <a href="{{ '/assets/images/plan-uflo.png' | relative_url }}" class="promo-thumb" target="_blank" rel="noopener">
     <img src="{{ '/assets/images/plan-uflo.png' | relative_url }}" alt="Licenciatura en Sociología UFLO">
     <span>Click para ampliar</span>
   </a>
+  -->
 
   <div class="carrera-texto">
     <h3>Licenciatura en Sociología UFLO</h3>
@@ -37,12 +39,7 @@ image: ./assets/images/iso_cuadrado_blanco.jpg
 
 <div class="carrera-banner">
 
-<!--  <img src="/assets/images/flyer-diplo-uca.png" alt="Diplomatura CSC UCA" class="carrera-logo"> ->
-
-<a href="{{ '/assets/images/flyer-diplo-uca.png' | relative_url }}" class="promo-thumb" target="_blank" rel="noopener">
-  <img src="{{ '/assets/images/flyer-diplo-uca.png' | relative_url }}" alt="Diplomatura en Ciencias Sociales Computacionales UFLO + UCA">
-  <span>Click para ampliar</span>
-</a>
+ <img src="/assets/images/flyer-diplo-uca.png" alt="Diplomatura CSC UCA" class="carrera-logo">
 
   <div class="carrera-texto">
     <h3>Diplomatura en Ciencias Sociales Computacionales UFLO + UCA</h3>
