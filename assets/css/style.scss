@@ -54,6 +54,31 @@ img { max-width: 100%; height: auto; }
   outline-offset: 3px;
 }
 
+
+.promo-thumb {
+  display: block;
+  max-width: 520px;
+  margin: 0 auto 1rem auto;
+  text-align: center;
+  text-decoration: none;
+}
+
+.promo-thumb img {
+  display: block;
+  width: 100%;
+  max-height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+}
+
+.promo-thumb span {
+  display: inline-block;
+  margin-top: .5rem;
+  font-size: .9rem;
+}
+
+
 /* ================================
    Theme
 ================================ */
