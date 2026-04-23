@@ -328,3 +328,12 @@
   fecha: "2026-3-5"
   yt_id: "1KIAlE1KtYI"
   tags: ["IA", "psicología social"]
+
+
+- id: tecnosociologos-i
+  tipo: evento_grabacion
+  titulo: "Conversatorio con Sociólogos que trabajan en tecnologías digitales"
+  descripcion: "Charlamos sobre nuevos roles laborales de la sociología"
+  fecha: "2026-4-21"
+  yt_id: "uzHQoJtGXQE"
+  tags: ["IA", "psicología social"]
