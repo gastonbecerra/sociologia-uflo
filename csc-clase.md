@@ -30,7 +30,7 @@ Desde esta perspectiva, las CSC permiten, por ejemplo:
 
 ## 2. Una historia breve de las Ciencias Sociales Computacionales
 
-<img src="/assets/materiales/csc/historia-csc.png" alt="Historia de las Ciencias Sociales Computacionales" style="max-width:100%; border-radius:12px;">
+<img src="/assets/images/historia-csc.png" alt="Historia de las Ciencias Sociales Computacionales" style="max-width:100%; border-radius:12px;">
 
 La clase propone una lectura histórica de las ciencias sociales computacionales a partir de cuatro momentos: la incorporación de las computadoras, la expansión de internet y la digitalización de la vida social, la consolidación del big data y la analítica de datos, y la emergencia reciente de la inteligencia artificial. Esta historia no debe entenderse como una sucesión lineal de técnicas, sino como una transformación progresiva de los modos de construir, modelar, analizar y discutir datos sobre la vida social.
 
