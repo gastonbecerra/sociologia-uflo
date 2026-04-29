@@ -14,11 +14,11 @@ La propuesta no es aprender una técnica aislada, sino comprender cómo las herr
 
 ---
 
-## 1. Idea central
+## 1. ¿Qué son las Ciencias Sociales Computacionales?
 
 Las **ciencias sociales computacionales** pueden pensarse como un campo híbrido entre las ciencias sociales y los desarrollos informáticos. No se reducen al uso de software, ni al análisis de grandes volúmenes de datos, ni a la inteligencia artificial. Más bien, abren un espacio de experimentación metodológica y reflexión crítica sobre la producción de conocimiento social y sobre los modos en que nos desempeñamos laboralmente en contextos crecientemente digitalizados.
 
-Desde esta perspectiva, las CSC permiten:
+Desde esta perspectiva, las CSC permiten, por ejemplo:
 
 - formalizar hipótesis sociales mediante modelos y simulaciones;
 - recolectar y analizar datos digitales;
@@ -26,19 +26,40 @@ Desde esta perspectiva, las CSC permiten:
 - explorar nuevas formas de visualización y comunicación;
 - discutir críticamente los procesos de datificación, automatización e inteligencia artificial.
 
-Estos logros
+---
 
+## 2. Una historia breve de las Ciencias Sociales Computacionales
+
+<img src="/assets/materiales/csc/historia-csc.png" alt="Historia de las Ciencias Sociales Computacionales" style="max-width:100%; border-radius:12px;">
+
+La clase propone una lectura histórica de las ciencias sociales computacionales a partir de cuatro momentos: la incorporación de las computadoras, la expansión de internet y la digitalización de la vida social, la consolidación del big data y la analítica de datos, y la emergencia reciente de la inteligencia artificial. Esta historia no debe entenderse como una sucesión lineal de técnicas, sino como una transformación progresiva de los modos de construir, modelar, analizar y discutir datos sobre la vida social.
+
+### 80-90s: computadoras, simulación y modelos sociales
+
+La incorporación de las computadoras abrió la posibilidad de formalizar teorías sociales mediante modelos, reglas y simulaciones. En este contexto, cobraron fuerza los enfoques de modelado basado en agentes, que permiten explorar cómo interacciones locales entre individuos pueden producir patrones colectivos complejos. El interés sociológico no está sólo en “programar” una sociedad, sino en hacer explícitas las reglas, supuestos y mecanismos que una teoría propone. El ejemplo del **modelo de segregación de NetLogo** permite observar cómo preferencias individuales relativamente simples pueden generar patrones agregados de segregación, incluso cuando ningún agente busca producir ese resultado de manera directa.
+
+### 2000s: internet, digitalidad y nuevas huellas sociales
+
+Con la expansión de internet, una parte creciente de la vida social comenzó a dejar registros digitales: publicaciones, comentarios, imágenes, enlaces, archivos, interacciones y trazas de navegación. Esto modificó las fuentes disponibles para la investigación social y abrió nuevas preguntas metodológicas: qué tipo de datos producen las plataformas, quién los controla, cómo se archivan, qué queda visible y qué queda excluido. En este momento, las ciencias sociales computacionales empiezan a dialogar con métodos digitales, archivos colaborativos, visualizaciones interactivas y nuevas formas de participación en línea. Más que reemplazar a los métodos clásicos, estas fuentes obligan a discutir cómo se construyen los datos en entornos mediados por plataformas.
+
+### 2010s: big data, analítica de datos y webscraping
+
+La década de 2010 estuvo marcada por la expansión del big data y de la ciencia de datos. Las ciencias sociales se encontraron frente a fuentes masivas, heterogéneas y dinámicas, pero también frente a una narrativa problemática: la idea de que más datos implican automáticamente mejor conocimiento. Frente a ese supuesto, las CSC permiten recuperar una pregunta metodológica central: cómo se construyen los datos. El **tutorial de webscraping con R sobre discursos de Casa Rosada** muestra justamente este proceso: una página web no es todavía un corpus; para transformarla en datos analizables hay que inspeccionar su estructura, identificar patrones, recuperar contenidos, limpiar textos y documentar decisiones.
+
+### 2020s: inteligencia artificial y tecnologías epistémicas
+
+En los años recientes, la inteligencia artificial reconfiguró nuevamente el campo. Las herramientas generativas pueden asistir en tareas de búsqueda, síntesis, codificación, análisis, visualización y escritura, pero también introducen nuevos problemas de opacidad, sesgo, validación y dependencia técnica. Para las ciencias sociales computacionales, la IA no es sólo una herramienta que acelera tareas: es también un objeto de investigación y una tecnología epistémica que interviene en la producción de conocimiento. El desafío actual consiste en aprender a usar estas herramientas sin abandonar la vigilancia metodológica: controlar procedimientos, explicitar criterios, revisar resultados y sostener una mirada crítica sobre los procesos de automatización.
 
 ---
 
-## 2. Mapa de la clase
+## 3. Dos ejemplos para explorar
 
-| Momento | Problema central | Herramientas y ejemplos |
+Los dos ejemplos de esta clase permiten recorrer dos momentos clave de esta historia: la simulación social y la construcción de datos digitales.
+
+| Momento histórico | Ejemplo | Qué permite discutir |
 |---|---|---|
-| 1980-1990 | Computadoras, artificialidad y dinámicas complejas | Modelado y simulación basada en agentes |
-| 2000s | Internet, digitalización y archivo colaborativo | Plataformas, registros digitales, herramientas abiertas |
-| 2010s | Big data, ciencia de datos y crisis metodológica | Webscraping, APIs, R, Python, visualización |
-| 2020s | Inteligencia artificial y automatización | Codificación asistida, síntesis, prototipado, reportes |
+| 80-90s: computadoras y simulación | Modelo de segregación en NetLogo | Emergencia, relación micro/macro, modelado basado en agentes |
+| 2010s: big data y analítica de datos | Webscraping con R | Construcción de datos, HTML, corpus digitales, reproducibilidad |
 
 ---
 
