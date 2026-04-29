@@ -32,11 +32,27 @@ Desde esta perspectiva, las CSC permiten, por ejemplo:
 
 <img src="/assets/images/historia-csc.png" alt="Historia de las Ciencias Sociales Computacionales" style="max-width:100%; border-radius:12px;">
 
-La clase propone una lectura histórica de las ciencias sociales computacionales a partir de cuatro momentos: la incorporación de las computadoras, la expansión de internet y la digitalización de la vida social, la consolidación del big data y la analítica de datos, y la emergencia reciente de la inteligencia artificial. Esta historia no debe entenderse como una sucesión lineal de técnicas, sino como una transformación progresiva de los modos de construir, modelar, analizar y discutir datos sobre la vida social.
+Estos logros y posibilidades se fueron conquistando a lo largo de la trayectoria del campo de las CSC, que podemos ver en cuatro momentos: (los 80 y 90) la incorporación de las computadoras, (los años 2000) la expansión de internet y la digitalización de la vida social, (la década del 10) la consolidación del big data y la analítica de datos, y la emergencia reciente de la inteligencia artificial. Esta historia no debe entenderse como una sucesión lineal de técnicas, sino como una transformación progresiva de los modos de construir, modelar, analizar y discutir datos sobre la vida social.
 
 ### 80-90s: computadoras, simulación y modelos sociales
 
-La incorporación de las computadoras abrió la posibilidad de formalizar teorías sociales mediante modelos, reglas y simulaciones. En este contexto, cobraron fuerza los enfoques de modelado basado en agentes, que permiten explorar cómo interacciones locales entre individuos pueden producir patrones colectivos complejos. El interés sociológico no está sólo en “programar” una sociedad, sino en hacer explícitas las reglas, supuestos y mecanismos que una teoría propone. El ejemplo del **modelo de segregación de NetLogo** permite observar cómo preferencias individuales relativamente simples pueden generar patrones agregados de segregación, incluso cuando ningún agente busca producir ese resultado de manera directa.
+La incorporación de las computadoras abrió la posibilidad de formalizar teorías sociales mediante modelos, reglas y simulaciones. En este contexto, cobraron fuerza los enfoques de modelado basado en agentes, que permiten explorar cómo interacciones locales entre individuos pueden producir patrones colectivos complejos. El interés sociológico no está sólo en “programar” una sociedad, sino en hacer explícitas las reglas, supuestos y mecanismos que una teoría propone. 
+
+#### Ejemplo: modelo de segregación en NetLogo
+
+Un buen ejemplo de simulación es el **modelo de segregación espacial**, que permite observar cómo preferencias individuales relativamente simples pueden generar patrones agregados de segregación, incluso cuando ningún agente busca producir ese resultado de manera directa. El modelo trabaja con agentes ubicados en una grilla. Cada agente evalúa su entorno inmediato y se mueve si no encuentra una proporción suficiente de vecinos similares. A partir de esa regla local, se puede observar cómo emerge un patrón agregado.
+
+Podemos correr este modelo en **NetLogo**, un entorno de programación especialmente diseñado para construir simulaciones basadas en agentes. NetLogo permite definir reglas de comportamiento para agentes individuales, modificar parámetros del modelo mediante controles visuales y observar cómo evoluciona el sistema en el tiempo. En este caso, el modelo permite cambiar variables como la densidad de agentes o el porcentaje de vecinos similares que cada agente considera aceptable. Además, muestra la evolución de la simulación en una grilla y ofrece gráficos para comparar el estado inicial con el resultado final.
+
+[Ejecutar el Segregation Model en NetLogo Web](https://www.netlogoweb.org/launch#http://ccl.northwestern.edu/netlogo/models/models/Sample%20Models/Social%20Science/Segregation.nlogox)
+
+Cuando entres al modelo:
+
+1. Hacé clic en **setup** para generar una distribución inicial de agentes.
+2. Hacé clic en **go** para iniciar la simulación.
+3. Observá cómo los agentes se mueven hasta alcanzar una situación relativamente estable.
+4. Modificá el control **%-similar-wanted** para cambiar el nivel de similitud deseado.
+5. Volvé a ejecutar el modelo y compará los resultados.
 
 ### 2000s: internet, digitalidad y nuevas huellas sociales
 
@@ -67,43 +83,7 @@ Los dos ejemplos de esta clase permiten recorrer dos momentos clave de esta hist
 
 ### Qué es
 
-El **Segregation Model** de NetLogo es un modelo basado en agentes inspirado en los trabajos de Thomas Schelling sobre segregación residencial. Permite observar cómo decisiones individuales relativamente simples pueden producir patrones colectivos de segregación.
 
-El modelo trabaja con agentes ubicados en una grilla. Cada agente evalúa su entorno inmediato y se mueve si no encuentra una proporción suficiente de vecinos similares. A partir de esa regla local, se puede observar cómo emerge un patrón agregado.
-
-### Por qué es relevante para las CSC
-
-Este ejemplo permite discutir varios problemas clásicos de las ciencias sociales computacionales:
-
-- la relación entre nivel micro y nivel macro;
-- la emergencia de patrones colectivos;
-- la formalización de hipótesis sociales;
-- el uso de simulaciones para explorar mecanismos sociales;
-- la diferencia entre explicar un fenómeno y reproducirlo mediante un modelo.
-
-No se trata de asumir que el modelo representa directamente una sociedad real. Su valor está en permitirnos pensar cómo ciertas reglas simples pueden producir efectos colectivos no evidentes.
-
-### Probar el modelo
-
-[Ejecutar el Segregation Model en NetLogo Web](https://www.netlogoweb.org/launch#http://ccl.northwestern.edu/netlogo/models/models/Sample%20Models/Social%20Science/Segregation.nlogox)
-
-### Qué observar
-
-Al abrir el modelo:
-
-1. Revisar los controles disponibles.
-2. Cambiar el porcentaje de similitud deseado.
-3. Ejecutar la simulación varias veces.
-4. Observar cómo cambia la distribución espacial de los agentes.
-5. Comparar el estado inicial con el estado final.
-
-### Preguntas para orientar la exploración
-
-- ¿Qué regla individual organiza el comportamiento de los agentes?
-- ¿Qué patrón colectivo aparece al correr el modelo?
-- ¿El resultado final parece proporcional a las preferencias iniciales?
-- ¿Qué permite ver el modelo que sería difícil observar sólo con una descripción verbal?
-- ¿Qué dimensiones sociales quedan afuera del modelo?
 
 ### Conceptos asociados
 
