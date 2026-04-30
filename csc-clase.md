@@ -10,6 +10,8 @@ permalink: /csc-clase/
 
 Esta página acompaña la clase [**“Ciencias Sociales Computacionales: trayectorias, aplicaciones y desafíos”**](https://uca-edu-ar.zoom.us/meeting/register/h_NYZPUmT_GAbeBwiQNF_Q). Aquí reunimos algunas ideas centrales de la clase y listamos algunos links con ejemplos para explorar herramientas, lenguajes y problemas propios de las ciencias sociales computacionales.
 
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTIr8nV1jWZymmMIgeu-fsVZgChyuwMjOFsqsTAl5cW9I4wk8ZO2CQjiiQ_x-nGbMjmYnFhwiut5gUU/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
 ---
 
 ## 1. ¿Qué son las Ciencias Sociales Computacionales?
@@ -118,3 +120,6 @@ La **Diplomatura Superior en Ciencias Sociales Computacionales UFLO + UCA** ofre
 
 [Conocer la Diplomatura](https://uca.edu.ar/es/cursos-de-educacion-continua/facultad-de-ciencias-sociales/diplomatura/diplomatura-en-ciencias-sociales-computacionales-nivel-introductorio)
 
+Diplomatura en Ciencias Sociales Computacionales (UCA + UFLO)
+Contacto: Dr. Gastón Becerra
+📧 becerragaston@uca.edu.ar
