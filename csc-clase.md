@@ -58,7 +58,31 @@ Con la expansión de internet, una parte creciente de la vida social comenzó a 
 
 ### 2010s: big data, analítica de datos y webscraping
 
-La década de 2010 estuvo marcada por la expansión del big data y de la ciencia de datos. Las ciencias sociales se encontraron frente a fuentes masivas, heterogéneas y dinámicas, pero también frente a una narrativa problemática: la idea de que más datos implican automáticamente mejor conocimiento. Frente a ese supuesto, las CSC permiten recuperar una pregunta metodológica central: cómo se construyen los datos. El **tutorial de webscraping con R sobre discursos de Casa Rosada** muestra justamente este proceso: una página web no es todavía un corpus; para transformarla en datos analizables hay que inspeccionar su estructura, identificar patrones, recuperar contenidos, limpiar textos y documentar decisiones.
+La década de 2010 estuvo marcada por la expansión del big data y de la ciencia de datos. Las ciencias sociales se encontraron frente a fuentes masivas, heterogéneas y dinámicas, y salió al encuentro de los desarrollos en analítica y ciencias de datos. Hoy, este encuentro se convirtió en una posibilidad y responsabilidad para las ciencias sociales: investigar cómo se construyen los datos y qué implicancias trae para una sociedad cada vez más digitalizado.
+
+En este contexto, el *webscraping* se volvió una técnica relevante para las ciencias sociales, porque permite recuperar información disponible en páginas web y transformarla en datos analizables. Integrar técnicas de *text-mining* puede potenciar los análisis cualitativos/documentales, dando trazabilidad a la construcción del corpus y a las decisiones del investigador.
+
+#### Ejemplo: tutorial de webscraping con R
+
+Un ejemplo de este tipo de técnicas podría ser que intentemos hacer un *webscraping* de los [discursos que se publican en el sitio web de Casa Rosada](https://www.casarosada.gob.ar/informacion/discursos). 
+
+[Ejemplo sencillo usado en la clase]()
+[Tutorial completo de webscraping con R](https://gastonbecerra.github.io/scraping-casa-rosada/)
+
+El tutorial muestra cómo pasar de una página web a una tabla de datos que puede ser usada para análisis posteriores. Para eso, se inspecciona la estructura del sitio, se identifican patrones en las páginas, se recuperan enlaces, se descargan textos y se ordena la información en un formato más adecuado para el análisis.
+
+Para trabajar con el tutorial:
+
+1. Recorré primero la explicación general del caso.
+2. Observá cómo se inspecciona la estructura de la página web.
+3. Prestá atención a cómo se construyen las URLs de manera programática.
+4. Revisá cómo se recuperan los enlaces a los discursos.
+5. Observá cómo se extrae el texto y se organiza en una tabla.
+6. Pensá qué decisiones metodológicas aparecen en cada paso.
+
+Quienes quieran probar el código pueden copiarlo en un proyecto de RStudio o correrlo en un entorno online como **Posit Cloud**, que permite usar RStudio desde el navegador sin instalar R ni RStudio en la computadora.
+
+[Entrar a Posit Cloud](https://posit.cloud/)
 
 ### 2020s: inteligencia artificial y tecnologías epistémicas
 
@@ -66,102 +90,7 @@ En los años recientes, la inteligencia artificial reconfiguró nuevamente el ca
 
 ---
 
-## 3. Dos ejemplos para explorar
-
-Los dos ejemplos de esta clase permiten recorrer dos momentos clave de esta historia: la simulación social y la construcción de datos digitales.
-
-| Momento histórico | Ejemplo | Qué permite discutir |
-|---|---|---|
-| 80-90s: computadoras y simulación | Modelo de segregación en NetLogo | Emergencia, relación micro/macro, modelado basado en agentes |
-| 2010s: big data y analítica de datos | Webscraping con R | Construcción de datos, HTML, corpus digitales, reproducibilidad |
-
----
-
-## 3. Ejemplo 1: modelo de segregación en NetLogo
-
-### Qué es
-
-
-
-### Conceptos asociados
-
-**Modelado basado en agentes** · **emergencia** · **micro/macro** · **simulación social** · **formalización** · **complejidad**
-
----
-
-## 4. Ejemplo 2: tutorial de webscraping con R
-
-### Qué es
-
-Este tutorial muestra cómo recuperar discursos del sitio web de Casa Rosada usando R. El ejercicio permite ver cómo una página web puede transformarse en una fuente de datos para la investigación social.
-
-El procedimiento general consiste en:
-
-1. inspeccionar la estructura del sitio;
-2. identificar patrones en las URLs;
-3. recuperar los enlaces a los discursos;
-4. descargar el contenido de cada página;
-5. organizar los datos en una tabla;
-6. preparar el corpus para análisis posterior.
-
-### Por qué es relevante para las CSC
-
-Este ejemplo permite discutir un punto central: los datos no aparecen listos para ser analizados. Hay que construirlos.
-
-El webscraping muestra que la producción de datos implica decisiones técnicas y metodológicas: qué sitio se releva, qué información se recupera, qué se excluye, cómo se limpian los textos, cómo se documenta el procedimiento y bajo qué criterios se considera válido el corpus construido.
-
-### Ver el tutorial
-
-[Tutorial de webscraping de discursos de Casa Rosada](https://gastonbecerra.github.io/scraping-casa-rosada/)
-
-### Cómo trabajarlo
-
-Para esta clase no hace falta ejecutar el código durante el encuentro. La propuesta es leer el tutorial como ejemplo de construcción de datos digitales.
-
-Quienes quieran probarlo pueden hacerlo de dos formas:
-
-1. copiar el código en un proyecto de RStudio;
-2. correrlo en un entorno online como Posit Cloud.
-
-### Qué observar
-
-Al recorrer el tutorial, prestar atención a:
-
-- cómo se identifica el patrón de paginado del sitio;
-- cómo se construyen URLs de manera programática;
-- cómo se recuperan links;
-- cómo se extrae texto desde páginas HTML;
-- cómo se organiza la información en una tabla;
-- qué decisiones de limpieza y normalización aparecen durante el proceso.
-
-### Preguntas para orientar la exploración
-
-- ¿Dónde está el dato: en la página, en el HTML, en el código o en la tabla final?
-- ¿Qué decisiones toma quien construye el corpus?
-- ¿Qué se gana y qué se pierde al automatizar la recolección?
-- ¿Qué problemas de validez podrían aparecer?
-- ¿Qué diferencia hay entre “tener textos” y “tener datos analizables”?
-
-### Conceptos asociados
-
-**Webscraping** · **HTML** · **R** · **corpus textual** · **construcción de datos** · **datificación** · **reproducibilidad**
-
----
-
-## 5. Dos formas de entender las herramientas
-
-Los dos ejemplos muestran usos distintos de herramientas computacionales en ciencias sociales.
-
-| Ejemplo | Qué permite hacer | Pregunta de fondo |
-|---|---|---|
-| NetLogo | Modelar dinámicas sociales mediante agentes y reglas | ¿Cómo emergen patrones colectivos desde interacciones locales? |
-| Webscraping con R | Construir un corpus desde fuentes digitales | ¿Cómo se transforman huellas digitales en datos para la investigación social? |
-
-En ambos casos, la herramienta no reemplaza la pregunta sociológica. La vuelve más explícita: exige definir reglas, criterios, procedimientos y límites.
-
----
-
-## 6. Para seguir explorando
+## 3. Para seguir explorando
 
 En **Recursos Sociológicos** se reúnen materiales abiertos vinculados con sociología, análisis de datos, programación, inteligencia artificial y ciencias sociales computacionales.
 
@@ -178,18 +107,7 @@ En **Recursos Sociológicos** se reúnen materiales abiertos vinculados con soci
 
 ---
 
-## 7. Herramientas y desarrollos abiertos
 
-Algunos desarrollos propios vinculados con ciencias sociales computacionales:
-
-- [minCaqdasR](https://github.com/gastonbecerra/minCaqdasR): herramienta en desarrollo para codificación y anotación cualitativa de documentos.
-- [ojsr](https://cran.r-project.org/package=ojsr): paquete de R para navegar y recuperar información de revistas electrónicas editadas con Open Journal Systems.
-
-Estos proyectos muestran otro aspecto importante de las CSC: no sólo usar herramientas existentes, sino también desarrollar herramientas propias, abiertas y adaptadas a problemas de investigación social.
-
----
-
-## 8. Formación en Ciencias Sociales Computacionales
 
 <a href="https://uca.edu.ar/es/cursos-de-educacion-continua/facultad-de-ciencias-sociales/diplomatura/diplomatura-en-ciencias-sociales-computacionales-nivel-introductorio">
   <img src="/assets/images/flyer-diplo-uca.png" alt="Diplomatura Superior en Ciencias Sociales Computacionales UFLO + UCA" style="max-width:100%; border-radius:12px;">
@@ -199,17 +117,3 @@ La **Diplomatura Superior en Ciencias Sociales Computacionales UFLO + UCA** ofre
 
 [Conocer la Diplomatura](https://uca.edu.ar/es/cursos-de-educacion-continua/facultad-de-ciencias-sociales/diplomatura/diplomatura-en-ciencias-sociales-computacionales-nivel-introductorio)
 
----
-
-## 9. Cierre
-
-Las ciencias sociales computacionales no son solamente un conjunto de técnicas. Son una forma de intervenir en los modos actuales de producción de datos, conocimiento y evidencia sobre la vida social.
-
-Aprender CSC implica aprender herramientas, pero también aprender a preguntar:
-
-- cómo se construyen los datos;
-- qué supuestos incorpora una técnica;
-- qué formas de colaboración habilita;
-- qué aspectos de lo social permite observar;
-- qué dimensiones deja afuera;
-- y cómo podemos usar estos recursos sin perder la reflexividad propia de las ciencias sociales.
