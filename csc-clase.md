@@ -66,7 +66,8 @@ En este contexto, el *webscraping* se volvió una técnica relevante para las ci
 
 Un ejemplo de este tipo de técnicas podría ser que intentemos hacer un *webscraping* de los [discursos que se publican en el sitio web de Casa Rosada](https://www.casarosada.gob.ar/informacion/discursos). 
 
-[Ejemplo sencillo usado en la clase]()
+[Ejemplo sencillo usado en la clase](/assets/materiales/webscraping-simple.r)
+
 [Tutorial completo de webscraping con R](https://gastonbecerra.github.io/scraping-casa-rosada/)
 
 El tutorial muestra cómo pasar de una página web a una tabla de datos que puede ser usada para análisis posteriores. Para eso, se inspecciona la estructura del sitio, se identifican patrones en las páginas, se recuperan enlaces, se descargan textos y se ordena la información en un formato más adecuado para el análisis.
@@ -94,7 +95,7 @@ En los años recientes, la inteligencia artificial reconfiguró nuevamente el ca
 
 En **Recursos Sociológicos** se reúnen materiales abiertos vinculados con sociología, análisis de datos, programación, inteligencia artificial y ciencias sociales computacionales.
 
-### Recursos recomendados
+### Nuestros recursos recomendados
 
 - [Recursos Sociológicos](https://www.recursossociologicos.ar/)
 - [Introducción a la ciencia de datos con R. Una guía rápida para cientistas sociales](https://bookdown.org/gaston_becerra/curso-intro-r/)
@@ -107,7 +108,7 @@ En **Recursos Sociológicos** se reúnen materiales abiertos vinculados con soci
 
 ---
 
-
+### Conocé la Diplomatura en CSC de UCA+UFLO
 
 <a href="https://uca.edu.ar/es/cursos-de-educacion-continua/facultad-de-ciencias-sociales/diplomatura/diplomatura-en-ciencias-sociales-computacionales-nivel-introductorio">
   <img src="/assets/images/flyer-diplo-uca.png" alt="Diplomatura Superior en Ciencias Sociales Computacionales UFLO + UCA" style="max-width:100%; border-radius:12px;">
