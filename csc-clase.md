@@ -8,9 +8,7 @@ permalink: /csc-clase/
 
 ## Material de acompañamiento
 
-Esta página acompaña la clase **“Ciencias Sociales Computacionales: trayectorias, aplicaciones y desafíos”**. Su objetivo es reunir algunas ideas centrales de la clase y ofrecer ejemplos para explorar herramientas, lenguajes y problemas propios de las ciencias sociales computacionales.
-
-La propuesta no es aprender una técnica aislada, sino comprender cómo las herramientas computacionales transforman la manera en que construimos, analizamos, modelamos y comunicamos datos sobre fenómenos sociales.
+Esta página acompaña la clase **“Ciencias Sociales Computacionales: trayectorias, aplicaciones y desafíos”**. Aquí reunimos algunas ideas centrales de la clase y listamos algunos links con ejemplos para explorar herramientas, lenguajes y problemas propios de las ciencias sociales computacionales.
 
 ---
 
@@ -20,8 +18,8 @@ Las **ciencias sociales computacionales** pueden pensarse como un campo híbrido
 
 Desde esta perspectiva, las CSC permiten, por ejemplo:
 
+- recolectar y analizar datos digitales con nuevas técnicas;
 - formalizar hipótesis sociales mediante modelos y simulaciones;
-- recolectar y analizar datos digitales;
 - construir herramientas abiertas para la investigación social;
 - explorar nuevas formas de visualización y comunicación;
 - discutir críticamente los procesos de datificación, automatización e inteligencia artificial.
@@ -32,7 +30,7 @@ Desde esta perspectiva, las CSC permiten, por ejemplo:
 
 <img src="/assets/images/historia-csc.png" alt="Historia de las Ciencias Sociales Computacionales" style="max-width:100%; border-radius:12px;">
 
-Estos logros y posibilidades se fueron conquistando a lo largo de la trayectoria del campo de las CSC, que podemos ver en cuatro momentos: (los 80 y 90) la incorporación de las computadoras, (los años 2000) la expansión de internet y la digitalización de la vida social, (la década del 10) la consolidación del big data y la analítica de datos, y la emergencia reciente de la inteligencia artificial. Esta historia no debe entenderse como una sucesión lineal de técnicas, sino como una transformación progresiva de los modos de construir, modelar, analizar y discutir datos sobre la vida social.
+Estos logros y posibilidades se fueron conquistando a lo largo de la historia del campo de las CSC. Por ejemplo, podemos distinguir cuatro momentos: (los 80 y 90) la incorporación de las computadoras, (los años 2000) la expansión de internet y la digitalización de la vida social, (la década del 10) la consolidación del big data y la analítica de datos, y la emergencia reciente de la inteligencia artificial. Esta historia no debe entenderse como una sucesión lineal de técnicas, sino como una transformación progresiva de los modos de construir, modelar, analizar y discutir datos sobre la vida social.
 
 ### 80-90s: computadoras, simulación y modelos sociales
 
@@ -56,7 +54,7 @@ Cuando entres al modelo:
 
 ### 2000s: internet, digitalidad y nuevas huellas sociales
 
-Con la expansión de internet, una parte creciente de la vida social comenzó a dejar registros digitales: publicaciones, comentarios, imágenes, enlaces, archivos, interacciones y trazas de navegación. Esto modificó las fuentes disponibles para la investigación social y abrió nuevas preguntas metodológicas: qué tipo de datos producen las plataformas, quién los controla, cómo se archivan, qué queda visible y qué queda excluido. En este momento, las ciencias sociales computacionales empiezan a dialogar con métodos digitales, archivos colaborativos, visualizaciones interactivas y nuevas formas de participación en línea. Más que reemplazar a los métodos clásicos, estas fuentes obligan a discutir cómo se construyen los datos en entornos mediados por plataformas.
+Con la expansión de internet, una parte creciente de la vida social comenzó a dejar registros digitales: publicaciones, comentarios, imágenes, enlaces, interacciones, etc. Esto modificó las fuentes disponibles para la investigación social y abrió nuevas preguntas metodológicas: qué tipo de datos producen las plataformas, quién los controla, cómo se archivan, qué queda visible y qué queda excluido. En este momento, las ciencias sociales computacionales empiezan a dialogar con métodos digitales, archivos colaborativos, visualizaciones interactivas y nuevas formas de participación en línea. 
 
 ### 2010s: big data, analítica de datos y webscraping
 
