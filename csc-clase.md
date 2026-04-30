@@ -8,7 +8,7 @@ permalink: /csc-clase/
 
 ## Material de acompañamiento
 
-Esta página acompaña la clase **“Ciencias Sociales Computacionales: trayectorias, aplicaciones y desafíos”**. Aquí reunimos algunas ideas centrales de la clase y listamos algunos links con ejemplos para explorar herramientas, lenguajes y problemas propios de las ciencias sociales computacionales.
+Esta página acompaña la clase [**“Ciencias Sociales Computacionales: trayectorias, aplicaciones y desafíos”**](https://uca-edu-ar.zoom.us/meeting/register/h_NYZPUmT_GAbeBwiQNF_Q). Aquí reunimos algunas ideas centrales de la clase y listamos algunos links con ejemplos para explorar herramientas, lenguajes y problemas propios de las ciencias sociales computacionales.
 
 ---
 
