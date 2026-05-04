@@ -337,3 +337,12 @@
   fecha: "2026-4-21"
   yt_id: "uzHQoJtGXQE"
   tags: ["IA", "psicología social"]
+
+
+- id: csc-uca-i
+  tipo: evento_grabacion
+  titulo: "Clase abierta: Ciencias Sociales Computacionales"
+  descripcion: "Clase abierta: Ciencias Sociales Computacionales: trayectorias, aplicaciones y desafíos"
+  fecha: "2026-4-30"
+  yt_id: "CjGVHbu6q80"
+  tags: ["Ciencias sociales computacionales"]
