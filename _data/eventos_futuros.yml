@@ -94,7 +94,6 @@
   descripcion: "Se viene la última reunión del 📚 Club de lectura “Datos, algoritmos e IA” y vamos a leer nuestro libro y charlar con los autores"
   formulario: "https://zoom.us/meeting/register/ef0ywrrZRLygMxsIUJE5WQ#/registration"
   tags: ["IA"]
-
   
 - titulo: "Sociólogo/as que trabajan con tecnologías digitales"
   fecha: "2026-4-21"
@@ -105,7 +104,6 @@
   descripcion: "Conversatorio con Lucrecia Faraoni (Lic. en Sociología y BI Developer) y Pablo Ayala (Lic. en Sociología y Data Product Manager), colegas que trabajan con tecnologías digitales"
   formulario: "https://zoom.us/meeting/register/7j_k6g06R9yy_yh8RSwh3Q#/registration"
   tags: ["Sociología", "Campo laboral"]
-
   
 - titulo: "Ciencias Sociales Computacionales: trayectorias, aplicaciones y desafíos"
   fecha: "2026-4-30"
@@ -116,8 +114,6 @@
   descripcion: "La clase ofrece una introducción a las Ciencias Sociales Computacionales desde una perspectiva amplia e histórica."
   formulario: "https://uca-edu-ar.zoom.us/meeting/register/h_NYZPUmT_GAbeBwiQNF_Q#/registration"
   tags: ["IA"]
-
-
   
 - titulo: "Sociólogo/as que trabajan en UX"
   fecha: "2026-5-18"
@@ -127,4 +123,14 @@
   arancel: "gratuito"
   descripcion: "Conversatorio con 3 colegas que trabajan con tecnologías digitales: Florencia Costantini, Natalia Millán y Gisela Guolo"
   formulario: "https://zoom.us/meeting/register/OBkUbbsrQ0W2HaIElSuWVg"
+  tags: ["Sociología", "Campo laboral"]
+
+- titulo: "Sociólogo/as que trabajan en Consultoría"
+  fecha: "2026-5-26"
+  hora: "19:00–21:00"
+  modalidad: "Virtual"
+  lugar: "UFLO Virtual"
+  arancel: "gratuito"
+  descripcion: "Conversatorio con colegas que trabajan en consultoría: Cecilia Cejas y María Eugenia Funes"
+  formulario: "https://zoom.us/meeting/register/mSYF3duDTM63TsKm0VJb3g#/registration"
   tags: ["Sociología", "Campo laboral"]
