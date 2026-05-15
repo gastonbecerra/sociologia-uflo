@@ -11,6 +11,45 @@ image: ./assets/images/iso_cuadrado_blanco.jpg
   </a>
 </div>
 
+
+# Recursos Abiertos
+
+1. [Próximos Eventos](#próximos-eventos)
+2. [Formación](#formación)
+2. [Publicaciones](#publicaciones)
+3. [Recursos abiertos: eventos, clases, tutoriales, materiales didácticos](#recursos-abiertos)
+4. [Módulos de nuestras asignaturas](#módulos)
+5. [Proyectos de Investigación](#proyectos-de-investigación)
+6. [Desarrollos y herramientas en Sociología Computacional](#desarrollos-y-herramientas)
+
+
+## Próximos Eventos
+
+{%- comment -%} ==== SECCIÓN: PRÓXIMOS EVENTOS ==== {%- endcomment -%}
+{% assign eventos_items = site.data.eventos_futuros | sort: "fecha" %}
+{% assign ahora_ts = site.time | date: "%s" %}
+
+<div class="cards">
+  {% for e in eventos_items %}
+    {% assign fecha_ts = e.fecha | date: "%s" %}
+    {% if fecha_ts >= ahora_ts %}
+      <div class="card card-evento">
+        <h3>{{ e.titulo }}</h3>
+        <p><strong>{{ e.fecha }}</strong>{% if e.hora %} · {{ e.hora }}{% endif %} — {{ e.modalidad }}</p>
+        {% if e.arancel == "gratuito" %}<p>Actividad gratuita</p>{% endif %}
+        {% if e.descripcion %}<p>{{ e.descripcion }}</p>{% endif %}
+        {% if e.formulario %}<p><a class="btn" href="{{ e.formulario }}" target="_blank" rel="noopener">Inscribirme</a></p>{% endif %}
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
+<a class="cta" href="https://forms.gle/eFxcxuWV1c8oki5CA" target="_blank" rel="noopener">
+  📬 Recibir novedades de próximos eventos gratuitos y abiertos
+</a>
+
+## Formación
+
 <div class="carrera-banner">
 
   <!--
@@ -55,41 +94,6 @@ image: ./assets/images/iso_cuadrado_blanco.jpg
     <a class="carrera-btn" href="https://uca.edu.ar/es/cursos-de-educacion-continua/facultad-de-ciencias-sociales/diplomatura/diplomatura-en-ciencias-sociales-computacionales-nivel-introductorio" target="_blank" rel="noopener">Conocé la diplomatura</a>
   </div>
 </div>
-
-# Recursos Abiertos
-
-1. [Próximos Eventos](#próximos-eventos)
-2. [Publicaciones](#publicaciones)
-3. [Recursos abiertos: eventos, clases, tutoriales, materiales didácticos](#recursos-abiertos)
-4. [Módulos de nuestras asignaturas](#módulos)
-5. [Proyectos de Investigación](#proyectos-de-investigación)
-6. [Desarrollos y herramientas en Sociología Computacional](#desarrollos-y-herramientas)
-
-
-## Próximos Eventos
-
-{%- comment -%} ==== SECCIÓN: PRÓXIMOS EVENTOS ==== {%- endcomment -%}
-{% assign eventos_items = site.data.eventos_futuros | sort: "fecha" %}
-{% assign ahora_ts = site.time | date: "%s" %}
-
-<div class="cards">
-  {% for e in eventos_items %}
-    {% assign fecha_ts = e.fecha | date: "%s" %}
-    {% if fecha_ts >= ahora_ts %}
-      <div class="card card-evento">
-        <h3>{{ e.titulo }}</h3>
-        <p><strong>{{ e.fecha }}</strong>{% if e.hora %} · {{ e.hora }}{% endif %} — {{ e.modalidad }}</p>
-        {% if e.arancel == "gratuito" %}<p>Actividad gratuita</p>{% endif %}
-        {% if e.descripcion %}<p>{{ e.descripcion }}</p>{% endif %}
-        {% if e.formulario %}<p><a class="btn" href="{{ e.formulario }}" target="_blank" rel="noopener">Inscribirme</a></p>{% endif %}
-      </div>
-    {% endif %}
-  {% endfor %}
-</div>
-
-<a class="cta" href="https://forms.gle/eFxcxuWV1c8oki5CA" target="_blank" rel="noopener">
-  📬 Recibir novedades de próximos eventos gratuitos y abiertos
-</a>
 
 ## Publicaciones
 
