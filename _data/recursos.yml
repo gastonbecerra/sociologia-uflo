@@ -336,7 +336,7 @@
   descripcion: "Charlamos sobre nuevos roles laborales de la sociología"
   fecha: "2026-4-21"
   yt_id: "uzHQoJtGXQE"
-  tags: ["IA", "psicología social"]
+  tags: ["IA", "carreras","profesion"]
 
 
 - id: csc-uca-i
@@ -346,3 +346,12 @@
   fecha: "2026-4-30"
   yt_id: "CjGVHbu6q80"
   tags: ["Ciencias sociales computacionales"]
+
+
+- id: tecnosociologos-ii
+  tipo: evento_grabacion
+  titulo: "Conversatorio con Sociólogos que trabajan en UX"
+  descripcion: "Charlamos este nuevo campo laboral de la sociologia"
+  fecha: "2026-5-18"
+  yt_id: "E-AT5MsvmZU"
+  tags: ["IA", "carreras","profesion"]
