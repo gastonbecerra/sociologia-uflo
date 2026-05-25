@@ -78,7 +78,7 @@ image: ./assets/images/iso_cuadrado_blanco.jpg
 
 <div class="carrera-banner">
 
- <img src="/assets/images/flyer-diplo-uca.png" alt="Diplomatura CSC UCA" class="carrera-logo">
+ <img src="/assets/images/flyer-diplo-uca-v2" alt="Diplomatura CSC UCA" class="carrera-logo">
 
   <div class="carrera-texto">
     <h3>Diplomatura en Ciencias Sociales Computacionales UFLO + UCA</h3>
@@ -87,7 +87,7 @@ image: ./assets/images/iso_cuadrado_blanco.jpg
     </p>
     <ul class="carrera-destacados">
       <li>💻 Modalidad <strong>100% virtual</strong></li>
-      <li>🌙 Clases sincrónicas nocturnas + materias asincrónicas</li>
+      <li>🌙 Contenidos asicrónicos y clases de apoyo martes y jueves</li>
       <li>📊 Formación en análisis de datos y programación aplicada a investigación social</li>
       <li>🎓 Certificado validado por dos universidades: Universidad de Flores y Universidad Católica Argentina</li>
     </ul>
