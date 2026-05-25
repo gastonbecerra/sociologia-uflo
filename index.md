@@ -78,7 +78,7 @@ image: ./assets/images/iso_cuadrado_blanco.jpg
 
 <div class="carrera-banner">
 
- <img src="/assets/images/flyer-diplo-uca-v2" alt="Diplomatura CSC UCA" class="carrera-logo">
+ <img src="/assets/images/flyer-diplo-uca-v2.png" alt="Diplomatura CSC UCA" class="carrera-logo">
 
   <div class="carrera-texto">
     <h3>Diplomatura en Ciencias Sociales Computacionales UFLO + UCA</h3>
