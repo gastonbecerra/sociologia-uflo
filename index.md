@@ -127,86 +127,78 @@ image: ./assets/images/iso_cuadrado_blanco.jpg
 
 ## Recursos Abiertos
 
-{%- comment -%} ==== SECCIÓN: RECURSOS ABIERTOS ==== {%- endcomment -%}
-{% assign recursos = site.data.recursos %}
+{% assign recursos_media = site.data.recursos_media %}
+{% assign recursos_tutoriales = site.data.recursos_tutoriales %}
 
-{% if recursos and recursos.size > 0 %}
-  {% assign recursos_tipos = recursos | map: "tipo" | uniq | sort %}
+### Eventos, clases y podcasts
 
-  <div id="filtro-tipos-wrap">
-    <div id="recursos-busqueda">
-      <input id="filtro-texto" type="search" placeholder="Buscar recursos…">
-    </div>
-    <div id="filtro-tipos" class="chips">
-      {% for t in recursos_tipos %}
-        {% if t and t != "" %}
-          {% capture label %}
-            {% case t %}
-              {% when "podcast" %}Podcast
-              {% when "tutorial" %}Tutorial
-              {% when "evento_grabacion" %}Grabación
-              {% when "publicacion" %}Publicación
-              {% when "desarrollo" %}Desarrollo
-              {% else %}{{ t | capitalize }}
-            {% endcase %}
-          {% endcapture %}
-          <button class="chip chip-type" data-type="{{ t | strip }}">{{ label | strip }}</button>
-        {% endif %}
-      {% endfor %}
-    </div>
-    <button id="filtro-clear" class="btn">Limpiar</button>
-  </div>
-
+{% if recursos_media and recursos_media.size > 0 %}
   <div class="cards">
-    {% for r in recursos %}
-      {% unless r.tipo %}{% continue %}{% endunless %}
+    {% for r in recursos_media %}
       {% assign link = r.url %}
-      {% if link == nil and r.repo %}{% assign link = r.repo %}{% endif %}
       {% if link == nil and r.yt_id %}{% assign link = 'https://www.youtube.com/watch?v=' | append: r.yt_id %}{% endif %}
 
-      {% if r.tipo == "podcast" and r.yt_id %}
-        <div class="card card-podcast" data-type="podcast">
+      {% if r.episodio and r.yt_id %}
+        <div class="card card-podcast">
           <div class="video">
             <iframe width="100%" height="200" src="https://www.youtube.com/embed/{{ r.yt_id }}" title="{{ r.titulo }}" frameborder="0" allowfullscreen></iframe>
           </div>
           <h3>Ep. {{ r.episodio }} — {{ r.titulo }}</h3>
           {% if r.entrevistado %}<p class="meta"><strong>Entrevista a:</strong> {{ r.entrevistado }}</p>{% endif %}
+          {% if r.tags %}<p class="descripcion">{{ r.tags | join: " · " }}</p>{% endif %}
         </div>
       {% else %}
-        <a class="card card-{{ r.tipo }}" href="{{ link }}" target="_blank" rel="noopener" data-type="{{ r.tipo }}">
+        <a class="card card-media" href="{{ link }}" target="_blank" rel="noopener">
           {% if r.thumb %}
             <img src="{{ r.thumb }}" alt="{{ r.titulo }}">
           {% elsif r.yt_id %}
             <img src="https://img.youtube.com/vi/{{ r.yt_id }}/hqdefault.jpg" alt="{{ r.titulo }}">
-          {% elsif r.tipo == "publicacion" %}
+          {% else %}
             <div class="thumb"></div>
           {% endif %}
 
-          <h3>{% if r.tipo == "tutorial" %}💻 {% endif %}{{ r.titulo }}</h3>
-
-          {% case r.tipo %}
-            {% when "publicacion" %}
-              <p class="meta">
-                {% if r.subtipo %}<span class="label">{{ r.subtipo | replace: "_"," " }}</span>{% endif %}
-                {% if r.anio %}{{ r.anio }}{% endif %}
-                {% if r.autores and r.autores.size > 0 %} · {{ r.autores | join: ", " }}{% endif %}
-                {% if r.fuente %} · {{ r.fuente }}{% endif %}
-              </p>
-              {% if r.descripcion %}<p class="descripcion">{{ r.descripcion }}</p>{% endif %}
-
-            {% when "tutorial" %}
-              {% if r.lenguaje %}<p class="lenguaje"><span class="badge-lang">{{ r.lenguaje }}</span></p>{% endif %}
-              {% if r.descripcion %}<p class="descripcion">{{ r.descripcion }}</p>{% endif %}
-
-            {% else %}
-              {% if r.descripcion %}<p class="descripcion">{{ r.descripcion }}</p>{% endif %}
-          {% endcase %}
+          <h3>{{ r.titulo }}</h3>
+          {% if r.fecha %}<p class="meta">{{ r.fecha }}</p>{% endif %}
+          {% if r.descripcion %}<p class="descripcion">{{ r.descripcion }}</p>{% endif %}
         </a>
       {% endif %}
     {% endfor %}
   </div>
 {% else %}
-  <p>No se encontraron recursos en <code>_data/recursos.yml</code>.</p>
+  <p>No se encontraron recursos en <code>_data/recursos_media.yml</code>.</p>
+{% endif %}
+
+### Tutoriales y guías
+
+{% if recursos_tutoriales and recursos_tutoriales.size > 0 %}
+  <div class="tabla-tutoriales-wrap">
+    <table class="tabla-tutoriales">
+      <thead>
+        <tr>
+          <th>Tutorial</th>
+          <th>Lenguaje</th>
+          <th>Descripción</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for t in recursos_tutoriales %}
+          <tr>
+            <td>
+              <a href="{{ t.url }}" target="_blank" rel="noopener">{{ t.titulo }}</a>
+            </td>
+            <td>
+              {% if t.lenguaje %}{{ t.lenguaje }}{% endif %}
+            </td>
+            <td>
+              {% if t.descripcion %}{{ t.descripcion }}{% endif %}
+            </td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+{% else %}
+  <p>No se encontraron recursos en <code>_data/recursos_tutoriales.yml</code>.</p>
 {% endif %}
 
 <script>

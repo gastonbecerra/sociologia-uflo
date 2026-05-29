@@ -1,0 +1,276 @@
+- id: pod-001
+  episodio: 1
+  titulo: Pierre Bourdieu
+  entrevistado: Dr. Joaquín Algranti
+  yt_id: mRdwbAdNqYE
+  tags:
+  - podcast
+  - Bourdieu
+  - teoría sociológica
+- id: pod-002
+  episodio: 2
+  titulo: Max Weber
+  entrevistado: Prof. Patricia Lambruschini
+  yt_id: mRdwbAdNqYE
+  tags:
+  - podcast
+  - Weber
+  - teoría sociológica
+- id: pod-003
+  episodio: 3
+  titulo: Talcott Parsons
+  entrevistado: Dr. Pedro Giordano
+  yt_id: mRdwbAdNqYE
+  tags:
+  - podcast
+  - Parsons
+  - teoría sociológica
+- id: pod-004
+  episodio: 4
+  titulo: Michel Foucault
+  entrevistado: Dra. Senda Sferco
+  yt_id: xTNUNDvAPhI
+  tags:
+  - podcast
+  - Foucault
+  - teoría sociológica
+- id: pod-005
+  episodio: 5
+  titulo: Niklas Luhmann
+  entrevistado: Dr. Sergio Pignuoli Ocampo
+  yt_id: AKgqvt_59SQ
+  tags:
+  - podcast
+  - Luhmann
+  - teoría sociológica
+- id: evp-ia-historia
+  titulo: Clase abierta sobre historia del desarrollo/comercialización/adopción de la I.A.
+  descripcion: Clase abierta de la Prof. Dra. Francesca Batista en el módulo Historia de la I.A.
+  fecha: '2025-05-01'
+  yt_id: TJSZ87EJ_ac
+  tags:
+  - clase abierta
+  - IA
+  - historia
+- id: evp-campo-laboral
+  titulo: Conversatorio · El campo laboral de la Sociología
+  descripcion: Gestión pública, consultoría, evaluación de políticas e investigación de mercado.
+  fecha: '2021-11-01'
+  yt_id: pvG38Arm4rg
+  tags:
+  - conversatorio
+  - carreras
+  - mercado laboral
+- id: evp-metodologias
+  titulo: Conversatorio · Metodologías de Investigación Social
+  descripcion: Investigación teórica, empírica, cualitativa/cuantitativa y computacional.
+  fecha: '2022-10-01'
+  yt_id: 8xi8jJzBHfI
+  tags:
+  - conversatorio
+  - metodología
+  - investigación
+- id: evp-nuevos-formatos
+  titulo: Conversatorio · Sociología en nuevos formatos
+  descripcion: Comunicar y enseñar sociología vía podcasts y otros formatos.
+  fecha: '2023-06-01'
+  yt_id: h-nWH7dDmeQ
+  tags:
+  - conversatorio
+  - docencia
+  - comunicación
+- id: evp-regulacion-ia
+  titulo: Clase abierta sobre regulación de la I.A.
+  descripcion: Clase abierta de Carlos Carretero y Guillermo Movia. Módulo Sociología de la I.A.
+  fecha: '2023-01-01'
+  yt_id: ivGBaXMs7yI
+  tags:
+  - clase abierta
+  - regulación
+  - IA
+- id: evp-clasicos
+  titulo: Clase abierta · Vigencia de los clásicos en sociología
+  descripcion: Marx, Durkheim y Weber. Prof. Micaela Ciardiello. Teoría Sociológica Clásica.
+  fecha: '2023-01-01'
+  yt_id: mkuuyVLAtCw
+  tags:
+  - clase abierta
+  - teoría sociológica
+  - clásicos
+- id: evp-varsovia-panel
+  titulo: Panel · Technological Challenges (UWarsaw)
+  descripcion: Panel en ‘Communication In The Age Of Technological Challenges’ (en inglés).
+  fecha: '2023-05-01'
+  yt_id: BgjpTQ4Dx7c
+  tags:
+  - panel
+  - internacional
+  - tecnología
+- id: evp-500-socxs
+  titulo: 500 sociólogxs dicen
+  descripcion: Presentación con datos de encuesta ASRA y Colegio de Sociólogos (Jul/2024).
+  fecha: '2024-07-01'
+  yt_id: ohE4kJM1DSw
+  tags:
+  - presentación
+  - encuesta
+  - Argentina
+- id: evp-www-dimensiones
+  titulo: Clase abierta · Dimensiones sociales de la WWW
+  descripcion: Prof. Guillermo Movia. Materia Programación (Oct/2024).
+  fecha: '2024-10-01'
+  yt_id: ihIzv0LyoTU
+  tags:
+  - clase abierta
+  - web
+  - sociedad
+- id: evp-recursos-educativos-abiertos
+  titulo: Clase abierta · Recursos educativos abiertos
+  descripcion: Rosario Rogel y Alan Colin-Arce (UAEMéx). Materia Programación (Oct/2024).
+  fecha: '2024-10-01'
+  yt_id: ZRKf8WPkI9Y
+  tags:
+  - clase abierta
+  - REA
+  - docencia
+- id: evp-transicion-energetica
+  titulo: Presentación · Transición energética
+  descripcion: Presentación de Gabriela. Teoría Sociológica V · Jornadas de investigación (Jun/2024).
+  fecha: '2024-06-01'
+  url: https://repositorio.uflo.edu.ar/entities/video/62d4d2a6-5215-4b4b-b147-e9d5b59caf5c
+  tags:
+  - presentación
+  - energía
+  - sistemas sociales
+- id: evp-rep-sociales-ia
+  titulo: Clase abierta · Representaciones sociales de la I.A.
+  descripcion: Avances del equipo ‘I.A. en el aula’ (May/2025).
+  fecha: '2025-05-01'
+  yt_id: aZl5wbBdP8Q
+  tags:
+  - clase abierta
+  - IA
+  - representaciones
+- id: evp-comunidades-r
+  titulo: Clase abierta · Comunidades de usuario/as de R
+  descripcion: Andrea Gómez Vargas presenta R-Ladies y R en Baires (Jun/2025).
+  fecha: '2025-06-01'
+  yt_id: UGvCNwxltUg
+  tags:
+  - clase abierta
+  - R
+  - comunidad
+- id: evp-psicoterapia-ia
+  titulo: Conversatorio · Psicoterapia e Inteligencia Artificial
+  descripcion: Riesgos y oportunidades de la IA para la salud mental. Proyecto del libro colaborativo.
+  fecha: '2025-06-01'
+  yt_id: wLRJC2e7O04
+  tags:
+  - conversatorio
+  - salud mental
+  - IA
+- id: evp-mito-inevitabilidad
+  titulo: Conversatorio · El mito de la inevitabilidad de la I.A.
+  descripcion: Con Movia y Battista. Determinismo tecnológico y visiones críticas (May/2025).
+  fecha: '2025-05-01'
+  yt_id: tBbUAEl8jqI
+  tags:
+  - conversatorio
+  - mitos
+  - IA
+- id: evp-css-uflo-uarm-1
+  titulo: 'Clase abierta · CSS: más allá del análisis de datos'
+  descripcion: Ciclo de Charlas de CSS · UFLO & UARM (Jul/2025).
+  fecha: '2025-07-01'
+  yt_id: DDNzdBjgGn0
+  tags:
+  - clase abierta
+  - CSS
+  - charlas
+- id: evp-css-uflo-uarm-2
+  titulo: Clase abierta · Ciencia Política Computacional
+  descripcion: De los datos a la teoría (y viceversa). UARM (Jul/2025).
+  fecha: '2025-07-01'
+  yt_id: 3bbuptkVsNM
+  tags:
+  - clase abierta
+  - ciencia política
+  - CSS
+- id: evp-uflo-fiecyt
+  titulo: Clase abierta · Desafíos de la IA para la investigación
+  descripcion: Charla sobre IA e investigación científica (reemplazo, ética, herramientas) organizada por FIECYT (Nov/2025).
+  fecha: '2025-07-01'
+  yt_id: sn-I2ya1kBA
+  tags:
+  - clase abierta
+  - ciencia política
+  - CSS
+- id: jj-ia-iii
+  titulo: Jornadas · Actividades en torno a la IA con una mirada colectiva
+  descripcion: En las III Jornadas de IA y Educación de UFLO presentamos nuestro libro y coordinamos un panel con coletivos organizados en torno a la IA
+  fecha: '2025-11-10'
+  yt_id: XYLXexqO-yA
+  tags:
+  - IA
+  - libro
+  - colectivo
+- id: dana-i
+  titulo: 'Clase abierta · Adolescentes y tecnología: educación, crianza y vínculos en la era digital - Encuentro 1'
+  descripcion: Taller de reflexión sobre el impacto de las nuevas tecnologías en los adolescentes.
+  fecha: 2025-12-5
+  yt_id: Cr0EFYCdnMA
+  tags:
+  - IA
+  - adolescencia
+  - era digital
+- id: dana-ii
+  titulo: 'Clase abierta y tecnología: educación, crianza y vínculos en la era digital - Encuentro 2'
+  descripcion: Taller de reflexión sobre el impacto de las nuevas tecnologías en los adolescentes.
+  fecha: 2025-12-5
+  yt_id: stij42LcZSk
+  tags:
+  - IA
+  - adolescencia
+  - era digital
+- id: conversatorio-libro
+  titulo: Conversatorio con autores del libro Mitos y Representaciones de la IA
+  descripcion: Charlamos sobre qué estamos discutiendo cuando hablamos de IA
+  fecha: 2026-3-5
+  yt_id: 1KIAlE1KtYI
+  tags:
+  - IA
+  - psicología social
+- id: tecnosociologos-i
+  titulo: Conversatorio con Sociólogos que trabajan en tecnologías digitales
+  descripcion: Charlamos sobre nuevos roles laborales de la sociología
+  fecha: 2026-4-21
+  yt_id: uzHQoJtGXQE
+  tags:
+  - IA
+  - carreras
+  - profesion
+- id: csc-uca-i
+  titulo: 'Clase abierta: Ciencias Sociales Computacionales'
+  descripcion: 'Clase abierta: Ciencias Sociales Computacionales: trayectorias, aplicaciones y desafíos'
+  fecha: 2026-4-30
+  yt_id: CjGVHbu6q80
+  tags:
+  - Ciencias sociales computacionales
+- id: tecnosociologos-ii
+  titulo: Conversatorio con Sociólogos que trabajan en UX
+  descripcion: Charlamos este nuevo campo laboral de la sociologia
+  fecha: 2026-5-18
+  yt_id: E-AT5MsvmZU
+  tags:
+  - IA
+  - carreras
+  - profesion
+- id: tecnosociologos-iii
+  titulo: Conversatorio con Sociólogos que trabajan en Consultoria
+  descripcion: Charlamos de este rol profesional con Cecilia Cejas y Maria Eugenia Funes
+  fecha: 2026-5-26
+  yt_id: PTREZ2_MH4s
+  tags:
+  - IA
+  - carreras
+  - profesion
