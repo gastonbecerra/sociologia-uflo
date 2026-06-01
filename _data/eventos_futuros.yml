@@ -134,3 +134,43 @@
   descripcion: "Conversatorio con colegas que trabajan en consultoría: Cecilia Cejas y María Eugenia Funes"
   formulario: "https://zoom.us/meeting/register/mSYF3duDTM63TsKm0VJb3g#/registration"
   tags: ["Sociología", "Campo laboral"]
+
+- titulo: "Taller intensivo · Primeros pasos en análisis de datos para ciencias sociales con R"
+  fecha: "2026-6-24"
+  hora: "18:00"
+  modalidad: "Virtual"
+  lugar: "UCA"
+  arancel: "gratuito"
+  descripcion: "Taller breve e intensivo orientado a introducir a estudiantes y profesionales de las ciencias sociales en el análisis de datos con R, a partir de un ejercicio práctico con datos de encuestas y una primera aproximación a los métodos computacionales en investigación social."
+  formulario: "https://uca.edu.ar/es/eventos/taller-intensivo-primeros-pasos-en-analisis-de-datos-para-ciencias-sociales-con-r"
+  tags: ["R", "Análisis de datos", "Ciencias Sociales Computacionales"]
+
+- titulo: "Taller breve de análisis de datos con R · Encuentro 1"
+  fecha: "2026-6-24"
+  hora: "18:00–19:30"
+  modalidad: "Virtual"
+  lugar: "Zoom"
+  arancel: "gratuito"
+  descripcion: "Primer encuentro del taller breve e intensivo de introducción al análisis de datos con R para estudiantes y profesionales de ciencias sociales. Incluye trabajo práctico con datos de encuestas, uso de R y Posit.Cloud, y reflexión sobre métodos computacionales en investigación social."
+  formulario: "https://uca-edu-ar.zoom.us/j/84939182302?pwd=sjqj1SdRgv1KtgEcY0kEudgjXWhOvu.1"
+  tags: ["R", "Análisis de datos", "Ciencias Sociales Computacionales"]
+
+- titulo: "Taller breve de análisis de datos con R · Encuentro 2"
+  fecha: "2026-6-25"
+  hora: "18:00–19:30"
+  modalidad: "Virtual"
+  lugar: "Zoom"
+  arancel: "gratuito"
+  descripcion: "Segundo encuentro del taller breve e intensivo de introducción al análisis de datos con R para estudiantes y profesionales de ciencias sociales. Se trabajará sobre exploración y manipulación de datasets en R y Posit.Cloud."
+  formulario: "https://uca-edu-ar.zoom.us/j/81913772031?pwd=SC8NZL0XM5RJQN9yIabUY0lwBn4QnM.1"
+  tags: ["R", "Análisis de datos", "Ciencias Sociales Computacionales"]
+
+- titulo: "Taller breve de análisis de datos con R · Encuentro 3"
+  fecha: "2026-6-26"
+  hora: "18:00–19:30"
+  modalidad: "Virtual"
+  lugar: "Zoom"
+  arancel: "gratuito"
+  descripcion: "Tercer encuentro del taller breve e intensivo de introducción al análisis de datos con R para estudiantes y profesionales de ciencias sociales. Se abordará el análisis descriptivo de datos y una reflexión final sobre programación y métodos computacionales en investigación social."
+  formulario: "https://uca-edu-ar.zoom.us/j/82406285432?pwd=NxZq4oiQLyYVz5NnykIcz2b1WM0aD9.1"
+  tags: ["R", "Análisis de datos", "Ciencias Sociales Computacionales"]
