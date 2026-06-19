@@ -17,10 +17,11 @@ image: ./assets/images/iso_cuadrado_blanco.jpg
 1. [Próximos Eventos](#próximos-eventos)
 2. [Formación](#formación)
 2. [Publicaciones](#publicaciones)
-3. [Recursos abiertos: eventos, clases, tutoriales, materiales didácticos](#recursos-abiertos)
-4. [Módulos de nuestras asignaturas](#módulos)
-5. [Proyectos de Investigación](#proyectos-de-investigación)
-6. [Desarrollos y herramientas en Sociología Computacional](#desarrollos-y-herramientas)
+3. [Eventos, conversatorios y clases abiertas](#eventos)
+4. [Materiales didácticos y tutoriales](#materiales)
+5. [Módulos de nuestras asignaturas](#módulos)
+6. [Proyectos de Investigación](#proyectos-de-investigación)
+7. [Desarrollos y herramientas en Sociología Computacional](#desarrollos-y-herramientas)
 
 
 ## Próximos Eventos
@@ -125,12 +126,10 @@ image: ./assets/images/iso_cuadrado_blanco.jpg
 </div>
 
 
-## Recursos Abiertos
+### Eventos, conversatorios y clases abiertas
 
 {% assign recursos_media = site.data.recursos_media %}
 {% assign recursos_tutoriales = site.data.recursos_tutoriales %}
-
-### Eventos, clases y podcasts
 
 {% if recursos_media and recursos_media.size > 0 %}
   <div class="cards">
@@ -168,7 +167,7 @@ image: ./assets/images/iso_cuadrado_blanco.jpg
   <p>No se encontraron recursos en <code>_data/recursos_media.yml</code>.</p>
 {% endif %}
 
-### Tutoriales y guías
+### Materiales didácticos y tutoriales
 
 {% if recursos_tutoriales and recursos_tutoriales.size > 0 %}
   <div class="tabla-tutoriales-wrap">
