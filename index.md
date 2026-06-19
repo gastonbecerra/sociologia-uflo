@@ -14,17 +14,16 @@ image: ./assets/images/iso_cuadrado_blanco.jpg
 
 # Recursos Abiertos
 
-1. [Próximos Eventos](#próximos-eventos)
-2. [Formación](#formación)
-2. [Publicaciones](#publicaciones)
-3. [Eventos, conversatorios y clases abiertas](#eventos)
-4. [Materiales didácticos y tutoriales](#materiales)
-5. [Módulos de nuestras asignaturas](#módulos)
-6. [Proyectos de Investigación](#proyectos-de-investigación)
-7. [Desarrollos y herramientas en Sociología Computacional](#desarrollos-y-herramientas)
+1. [Próximos Eventos](#proximos-eventos)
+2. [Formación](#formacion)
+3. [Publicaciones](#publicaciones)
+4. [Eventos, conversatorios y clases abiertas](#eventos-conversatorios-y-clases-abiertas)
+5. [Materiales didácticos y tutoriales](#materiales-didacticos-y-tutoriales)
+6. [Módulos de nuestras asignaturas](#modulos-de-nuestras-asignaturas)
+7. [Proyectos de Investigación](#proyectos-de-investigacion)
+8. [Desarrollos y herramientas en Sociología Computacional](#desarrollos-y-herramientas-en-sociologia-computacional)
 
-
-## Próximos Eventos
+## Próximos Eventos {#proximos-eventos}
 
 {%- comment -%} ==== SECCIÓN: PRÓXIMOS EVENTOS ==== {%- endcomment -%}
 {% assign eventos_items = site.data.eventos_futuros | sort: "fecha" %}
@@ -49,7 +48,7 @@ image: ./assets/images/iso_cuadrado_blanco.jpg
   📬 Recibir novedades de próximos eventos gratuitos y abiertos
 </a>
 
-## Formación
+## Formación {#formacion}
 
 <div class="carrera-banner">
 
@@ -96,7 +95,8 @@ image: ./assets/images/iso_cuadrado_blanco.jpg
   </div>
 </div>
 
-## Publicaciones
+
+## Publicaciones {#publicaciones}
 
 <div class="revista-banner">
   <img src="https://revistadesarrollos.uflo.edu.ar/public/journals/1/pageHeaderLogoImage_es.png" alt="Logo Revista DCSC" class="revista-logo">
@@ -126,7 +126,7 @@ image: ./assets/images/iso_cuadrado_blanco.jpg
 </div>
 
 
-### Eventos, conversatorios y clases abiertas
+## Eventos, conversatorios y clases abiertas {#eventos-conversatorios-y-clases-abiertas}
 
 {% assign recursos_media = site.data.recursos_media %}
 {% assign recursos_tutoriales = site.data.recursos_tutoriales %}
@@ -167,7 +167,8 @@ image: ./assets/images/iso_cuadrado_blanco.jpg
   <p>No se encontraron recursos en <code>_data/recursos_media.yml</code>.</p>
 {% endif %}
 
-### Materiales didácticos y tutoriales
+
+## Materiales didácticos y tutoriales {#materiales-didacticos-y-tutoriales}
 
 {% if recursos_tutoriales and recursos_tutoriales.size > 0 %}
   <div class="tabla-tutoriales-wrap">
@@ -239,7 +240,8 @@ image: ./assets/images/iso_cuadrado_blanco.jpg
 })();
 </script>
 
-## Módulos
+
+## Módulos de nuestras asignaturas {#modulos-de-nuestras-asignaturas}
 
 Estos son algunos de los contenidos y temas de algunas materias de la carrera. 
 Por cuestiones de privacidad, sólo listamos contenidos asincrónicos (y no las actividades sincrónicas con estaudiantes). 
@@ -291,7 +293,8 @@ Exposiciones de las clases de Psicología Social. La materia está diseñada par
   
   [Playlist de exposiciones completa](https://www.youtube.com/playlist?list=PLf1wJeC17bILuM-hq0kf0ZJj2t_7MwWzb)
 
-## Proyectos de Investigación
+
+## Proyectos de Investigación {#proyectos-de-investigacion}
 
 Aquí linkeamos a nuestros proyectos de investigación (completos, con marco teórico, objetivos, antecedentes, bajada metodológica y presupuesto) que ya fueron evaluados y aprobados por un comité externo.
 
@@ -306,7 +309,7 @@ Aquí linkeamos a nuestros proyectos de investigación (completos, con marco te�
 - [Proyecto: Incorporación de la Inteligencia Artificial en la educación universitaria](https://docs.google.com/document/d/1kTa5oWwhzRlTPxeyWUcS74SoUd3rPDxUv0FnpnSwZaw/edit?usp=sharing) / 2023 / Proyecto junto a la Comunidad Internacional de Investigación Educativa (CIIED), que vincula a investigadores de Ciencias de la Educación y las Ciencias de Sociales de Perú, Argentina, Brasil, España, Chile y Japón.
 
 
-## Desarrollos y herramientas
+## Desarrollos y herramientas en Sociología Computacional {#desarrollos-y-herramientas-en-sociologia-computacional}
 
 Generamos herramientas de código abierto para asistir a distintos momentos de la investigación social. Algunos de estos desarrollos son:
 
