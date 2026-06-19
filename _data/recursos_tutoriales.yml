@@ -56,8 +56,9 @@
   - educación
 - id: tut-007
   titulo: Primeros pasos en análisis de datos para ciencias sociales con R
-  descripcion: Vamos a meternos con R, empezando desde cero: preparar el entorno, cargar una base, mirar qué forma tiene, transformarla un poco y usarla para responder preguntas.
+  descripcion: Vamos a meternos con R, empezando desde preparar el entorno, cargar una base, mirar qué forma tiene, transformarla un poco y usarla para responder preguntas.
   lenguaje: R
   url: https://gastonbecerra.github.io/primeros-pasos-r/
   tags:
   - R
+  - análisis de datos
