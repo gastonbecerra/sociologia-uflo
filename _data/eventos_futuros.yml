@@ -144,3 +144,14 @@
   descripcion: "Taller breve e intensivo orientado a introducir a estudiantes y profesionales de las ciencias sociales en el análisis de datos con R, a partir de un ejercicio práctico con datos de encuestas y una primera aproximación a los métodos computacionales en investigación social."
   formulario: "https://uca.edu.ar/es/eventos/taller-intensivo-primeros-pasos-en-analisis-de-datos-para-ciencias-sociales-con-r"
   tags: ["R", "Análisis de datos", "Ciencias Sociales Computacionales"]
+
+  
+- titulo: "Trayectorias de sociólogxs en la gobernanza de datos de salud"
+  fecha: "2026-7-8"
+  hora: "18:00–20:00"
+  modalidad: "Virtual"
+  lugar: "UFLO Virtual"
+  arancel: "gratuito"
+  descripcion: "* Conversatorio con Karina Revirol, socióloga, magíster en Demografía Social y doctoranda en Discapacidad sobre trayectorias profesionales, gobernanza de datos de salud y políticas públicas para la inclusión de personas con discapacidad."
+  formulario: "https://zoom.us/meeting/register/gdi2dLW1RfmwdP9gkWWMuA"
+  tags: ["Sociología", "Campo laboral"]
