@@ -181,31 +181,6 @@ image: ./assets/images/iso_cuadrado_blanco.jpg
 
     <div class="tutoriales-stats">
       <span>{{ recursos_tutoriales | size }} recursos abiertos</span>
-      <span>R · Clojure · IA · programación</span>
-    </div>
-  </div>
-
-  <div class="tutoriales-chips">
-    <button class="tutorial-chip active" data-filtro="todos">Todos</button>
-    <button class="tutorial-chip" data-filtro="r">R</button>
-    <button class="tutorial-chip" data-filtro="clojure">Clojure</button>
-    <button class="tutorial-chip" data-filtro="ia">IA</button>
-    <button class="tutorial-chip" data-filtro="opencode">OpenCode</button>
-  </div>
-
-## Materiales didácticos y tutoriales {#materiales-didacticos-y-tutoriales}
-
-{% assign recursos_tutoriales = site.data.recursos_tutoriales %}
-
-<section id="tutoriales" class="tutoriales-section">
-
-  <div class="tutoriales-intro">
-    <p class="tutoriales-bajada">
-      Guías, clases y materiales abiertos para aprender herramientas de análisis de datos, programación, inteligencia artificial y ciencias sociales computacionales.
-    </p>
-
-    <div class="tutoriales-stats">
-      <span>{{ recursos_tutoriales | size }} recursos abiertos</span>
       <span>R · Clojure · ChatGPT · IA · OpenCode</span>
     </div>
   </div>
@@ -223,7 +198,6 @@ image: ./assets/images/iso_cuadrado_blanco.jpg
 
   <div class="tutoriales-grid">
     {% for t in recursos_tutoriales %}
-
       {% assign categorias = t.categorias | join: ' ' %}
 
       {% assign destacado = false %}
@@ -274,7 +248,7 @@ image: ./assets/images/iso_cuadrado_blanco.jpg
 
   {% else %}
 
-  No se encontraron recursos en `_data/recursos_tutoriales.yml`.
+  <p>No se encontraron recursos en <code>_data/recursos_tutoriales.yml</code>.</p>
 
   {% endif %}
 
@@ -303,6 +277,8 @@ image: ./assets/images/iso_cuadrado_blanco.jpg
   });
 })();
 </script>
+
+
 
 ## Módulos de nuestras asignaturas {#modulos-de-nuestras-asignaturas}
 
