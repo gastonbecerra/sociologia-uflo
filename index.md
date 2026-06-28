@@ -248,8 +248,6 @@ image: ./assets/images/iso_cuadrado_blanco.jpg
                 <span class="tutorial-icon">GPT</span>
               {% elsif cat == "ia" %}
                 <span class="tutorial-icon">IA</span>
-              {% elsif cat == "opencode" %}
-                <span class="tutorial-icon">OC</span>
               {% endif %}
             {% endfor %}
           </div>
