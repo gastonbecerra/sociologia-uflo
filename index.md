@@ -193,25 +193,38 @@ image: ./assets/images/iso_cuadrado_blanco.jpg
     <button class="tutorial-chip" data-filtro="opencode">OpenCode</button>
   </div>
 
+## Materiales didácticos y tutoriales {#materiales-didacticos-y-tutoriales}
+
+{% assign recursos_tutoriales = site.data.recursos_tutoriales %}
+
+<section id="tutoriales" class="tutoriales-section">
+
+  <div class="tutoriales-intro">
+    <p class="tutoriales-bajada">
+      Guías, clases y materiales abiertos para aprender herramientas de análisis de datos, programación, inteligencia artificial y ciencias sociales computacionales.
+    </p>
+
+    <div class="tutoriales-stats">
+      <span>{{ recursos_tutoriales | size }} recursos abiertos</span>
+      <span>R · Clojure · ChatGPT · IA · OpenCode</span>
+    </div>
+  </div>
+
+  <div class="tutoriales-chips">
+    <button class="tutorial-chip active" data-filtro="todos">Todos</button>
+    <button class="tutorial-chip" data-filtro="r">R</button>
+    <button class="tutorial-chip" data-filtro="clojure">Clojure</button>
+    <button class="tutorial-chip" data-filtro="chatgpt">ChatGPT</button>
+    <button class="tutorial-chip" data-filtro="ia">IA</button>
+    <button class="tutorial-chip" data-filtro="opencode">OpenCode</button>
+  </div>
+
   {% if recursos_tutoriales and recursos_tutoriales.size > 0 %}
 
   <div class="tutoriales-grid">
     {% for t in recursos_tutoriales %}
 
-      {% assign lang = t.lenguaje | downcase %}
-      {% assign tags = t.tags | join: ' ' | downcase %}
-      {% assign texto = t.titulo | append: ' ' | append: t.descripcion | append: ' ' | append: lang | append: ' ' | append: tags | downcase %}
-
-      {% assign categoria = "otro" %}
-      {% if texto contains "opencode" %}
-        {% assign categoria = "opencode" %}
-      {% elsif texto contains "clojure" %}
-        {% assign categoria = "clojure" %}
-      {% elsif texto contains "chatgpt" or texto contains "ia" or texto contains "llm" or texto contains "inteligencia artificial" %}
-        {% assign categoria = "ia" %}
-      {% elsif texto contains "r" %}
-        {% assign categoria = "r" %}
-      {% endif %}
+      {% assign categorias = t.categorias | join: ' ' %}
 
       {% assign destacado = false %}
       {% if t.id == "tut-007" %}
@@ -222,12 +235,24 @@ image: ./assets/images/iso_cuadrado_blanco.jpg
          href="{{ t.url }}"
          target="_blank"
          rel="noopener"
-         data-categoria="{{ categoria }}">
+         data-categorias="{{ categorias | escape }}">
 
         <div class="tutorial-card-top">
-          <span class="tutorial-icon">
-            {% if categoria == "r" %}R{% elsif categoria == "clojure" %}λ{% elsif categoria == "ia" %}IA{% elsif categoria == "opencode" %}OC{% else %}↗{% endif %}
-          </span>
+          <div class="tutorial-lenguajes">
+            {% for cat in t.categorias %}
+              {% if cat == "r" %}
+                <span class="tutorial-icon">R</span>
+              {% elsif cat == "clojure" %}
+                <span class="tutorial-icon">λ</span>
+              {% elsif cat == "chatgpt" %}
+                <span class="tutorial-icon">GPT</span>
+              {% elsif cat == "ia" %}
+                <span class="tutorial-icon">IA</span>
+              {% elsif cat == "opencode" %}
+                <span class="tutorial-icon">OC</span>
+              {% endif %}
+            {% endfor %}
+          </div>
 
           {% if destacado %}
             <span class="tutorial-destacado">Recomendado para empezar</span>
@@ -242,14 +267,6 @@ image: ./assets/images/iso_cuadrado_blanco.jpg
 
         {% if t.lenguaje %}
           <p class="tutorial-lenguaje">{{ t.lenguaje }}</p>
-        {% endif %}
-
-        {% if t.tags %}
-          <div class="tutorial-tags">
-            {% for tag in t.tags %}
-              <span>{{ tag }}</span>
-            {% endfor %}
-          </div>
         {% endif %}
 
         <span class="tutorial-link">Abrir recurso →</span>
@@ -281,8 +298,8 @@ image: ./assets/images/iso_cuadrado_blanco.jpg
       chip.classList.add("active");
 
       cards.forEach(card => {
-        const categoria = card.dataset.categoria;
-        card.hidden = filtro !== "todos" && categoria !== filtro;
+        const categorias = (card.dataset.categorias || "").split(/\s+/);
+        card.hidden = filtro !== "todos" && !categorias.includes(filtro);
       });
     });
   });

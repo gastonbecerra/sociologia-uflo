@@ -2,73 +2,54 @@
   titulo: Introducción a la ciencia de datos con R. Una guía rápida para cientistas sociales
   descripcion: Compilación de tutoriales en R usados en Análisis de datos y en el curso de Big Data y Ciencias de Datos. Incluye slides teóricas.
   lenguaje: R
+  categorias: [r]
   url: https://bookdown.org/gaston_becerra/curso-intro-r/
-  tags:
-  - R
-  - análisis de datos
-  - big data
+
 - id: tut-002
   titulo: Tutorial de análisis bibliométrico
   descripcion: Guía práctica en R para iniciarse en bibliometría; usada como integrador en Análisis de datos.
   lenguaje: R
+  categorias: [r]
   url: https://rpubs.com/gastonbecerra/bibliometricos-R
-  tags:
-  - R
-  - bibliometría
-  - análisis de datos
+
 - id: tut-003
   titulo: Guía con diferencias y similitudes entre Clojure y R
   descripcion: Comparación Clojure vs R para vincular Análisis de datos y Programación.
   lenguaje: Clojure, R
+  categorias: [clojure, r]
   url: https://nextjournal.com/a/RYA1HcdZkiFBJdNKYuQx7?token=CrpoWYpyyJFs2CPcpTeSSW
-  tags:
-  - Clojure
-  - R
-  - programación
+
 - id: tut-004
   titulo: Tutorial completo de arqueo bibliográfico en Clojure
   descripcion: Curso para crear una app en Clojure con la API de Semantic Scholar. Con teoría y práctica.
   lenguaje: Clojure
+  categorias: [clojure]
   url: https://www.youtube.com/playlist?list=PLUxsdd9CjsoGwvfLkoTuYnSDB3j0L07Xw
-  tags:
-  - Clojure
-  - API
-  - bibliometría
-  - video
+
 - id: tut-005
   titulo: Tutorial de webscraping en R
   descripcion: Recupera discursos desde Casa Rosada con R. Material de apoyo en Programación.
   lenguaje: R
+  categorias: [r]
   url: https://gastonbecerra.github.io/scraping-casa-rosada/
-  tags:
-  - R
-  - webscraping
-  - programación
+
 - id: tut-006
   titulo: Tutorial sobre uso de ChatGPT
   descripcion: Cómo construir prompts con ChatGPT. Material para Sociología de la IA.
   lenguaje: ChatGPT
+  categorias: [chatgpt, ia]
   url: downloads/material%20chatgpt.pdf
-  tags:
-  - ChatGPT
-  - IA
-  - prompts
-  - educación
+
 - id: tut-007
   titulo: Primeros pasos en análisis de datos para ciencias sociales con R
   descripcion: Vamos a meternos con R, empezando desde preparar el entorno, cargar una base, mirar qué forma tiene, transformarla un poco y usarla para responder preguntas.
   lenguaje: R
+  categorias: [r]
   url: https://gastonbecerra.github.io/primeros-pasos-r/
-  tags:
-  - R
-  - análisis de datos
-  
+
 - id: tut-008
   titulo: Definición y uso de skills para LLMs
   descripcion: Vemos qué son las skills y cómo crearlas para estandarizar respuestas de un LLMs. Material para Sociología de la IA.
-  lenguaje: Markdown / LLMs / OpenCode 
+  lenguaje: Markdown / LLMs / OpenCode
+  categorias: [opencode, ia]
   url: https://www.youtube.com/watch?v=zm_QHky8g8c
-  tags:
-  - prompts
-  - IA
-  - OpenCode
