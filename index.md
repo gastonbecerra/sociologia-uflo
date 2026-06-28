@@ -170,76 +170,124 @@ image: ./assets/images/iso_cuadrado_blanco.jpg
 
 ## Materiales didácticos y tutoriales {#materiales-didacticos-y-tutoriales}
 
-{% if recursos_tutoriales and recursos_tutoriales.size > 0 %}
-  <div class="tabla-tutoriales-wrap">
-    <table class="tabla-tutoriales">
-      <thead>
-        <tr>
-          <th>Tutorial</th>
-          <th>Lenguaje</th>
-          <th>Descripción</th>
-        </tr>
-      </thead>
-      <tbody>
-        {% for t in recursos_tutoriales %}
-          <tr>
-            <td>
-              <a href="{{ t.url }}" target="_blank" rel="noopener">{{ t.titulo }}</a>
-            </td>
-            <td>
-              {% if t.lenguaje %}{{ t.lenguaje }}{% endif %}
-            </td>
-            <td>
-              {% if t.descripcion %}{{ t.descripcion }}{% endif %}
-            </td>
-          </tr>
-        {% endfor %}
-      </tbody>
-    </table>
+{% assign recursos_tutoriales = site.data.recursos_tutoriales %}
+
+<section id="tutoriales" class="tutoriales-section">
+
+  <div class="tutoriales-intro">
+    <p class="tutoriales-bajada">
+      Guías, clases y materiales abiertos para aprender herramientas de análisis de datos, programación, inteligencia artificial y ciencias sociales computacionales.
+    </p>
+
+    <div class="tutoriales-stats">
+      <span>{{ recursos_tutoriales | size }} recursos abiertos</span>
+      <span>R · Clojure · IA · programación</span>
+    </div>
   </div>
-{% else %}
-  <p>No se encontraron recursos en <code>_data/recursos_tutoriales.yml</code>.</p>
-{% endif %}
+
+  <div class="tutoriales-chips">
+    <button class="tutorial-chip active" data-filtro="todos">Todos</button>
+    <button class="tutorial-chip" data-filtro="r">R</button>
+    <button class="tutorial-chip" data-filtro="clojure">Clojure</button>
+    <button class="tutorial-chip" data-filtro="ia">IA</button>
+    <button class="tutorial-chip" data-filtro="opencode">OpenCode</button>
+  </div>
+
+  {% if recursos_tutoriales and recursos_tutoriales.size > 0 %}
+
+  <div class="tutoriales-grid">
+    {% for t in recursos_tutoriales %}
+
+      {% assign lang = t.lenguaje | downcase %}
+      {% assign tags = t.tags | join: ' ' | downcase %}
+      {% assign texto = t.titulo | append: ' ' | append: t.descripcion | append: ' ' | append: lang | append: ' ' | append: tags | downcase %}
+
+      {% assign categoria = "otro" %}
+      {% if texto contains "opencode" %}
+        {% assign categoria = "opencode" %}
+      {% elsif texto contains "clojure" %}
+        {% assign categoria = "clojure" %}
+      {% elsif texto contains "chatgpt" or texto contains "ia" or texto contains "llm" or texto contains "inteligencia artificial" %}
+        {% assign categoria = "ia" %}
+      {% elsif texto contains "r" %}
+        {% assign categoria = "r" %}
+      {% endif %}
+
+      {% assign destacado = false %}
+      {% if t.id == "tut-007" %}
+        {% assign destacado = true %}
+      {% endif %}
+
+      <a class="tutorial-card{% if destacado %} tutorial-card-destacado{% endif %}"
+         href="{{ t.url }}"
+         target="_blank"
+         rel="noopener"
+         data-categoria="{{ categoria }}">
+
+        <div class="tutorial-card-top">
+          <span class="tutorial-icon">
+            {% if categoria == "r" %}R{% elsif categoria == "clojure" %}λ{% elsif categoria == "ia" %}IA{% elsif categoria == "opencode" %}OC{% else %}↗{% endif %}
+          </span>
+
+          {% if destacado %}
+            <span class="tutorial-destacado">Recomendado para empezar</span>
+          {% endif %}
+        </div>
+
+        <h3>{{ t.titulo }}</h3>
+
+        {% if t.descripcion %}
+          <p class="tutorial-desc">{{ t.descripcion }}</p>
+        {% endif %}
+
+        {% if t.lenguaje %}
+          <p class="tutorial-lenguaje">{{ t.lenguaje }}</p>
+        {% endif %}
+
+        {% if t.tags %}
+          <div class="tutorial-tags">
+            {% for tag in t.tags %}
+              <span>{{ tag }}</span>
+            {% endfor %}
+          </div>
+        {% endif %}
+
+        <span class="tutorial-link">Abrir recurso →</span>
+      </a>
+    {% endfor %}
+  </div>
+
+  {% else %}
+
+  No se encontraron recursos en `_data/recursos_tutoriales.yml`.
+
+  {% endif %}
+
+</section>
 
 <script>
-(function(){
-  const q         = document.getElementById('filtro-texto');
-  const typeChips = Array.from(document.querySelectorAll('#filtro-tipos .chip-type'));
-  const clearBtn  = document.getElementById('filtro-clear');
-  const cards     = Array.from(document.querySelectorAll('.cards .card'));
+(function() {
+  const root = document.querySelector("#tutoriales");
+  if (!root) return;
 
-  const selTypes  = new Set();
-  const norm = s => (s||'').toLowerCase();
+  const chips = Array.from(root.querySelectorAll(".tutorial-chip"));
+  const cards = Array.from(root.querySelectorAll(".tutorial-card"));
 
-  function visible(card){
-    const text  = norm(card.textContent);
-    const ctype = norm(card.dataset.type || '');
-    if (q && q.value && !text.includes(norm(q.value))) return false;
-    if (selTypes.size > 0 && !selTypes.has(ctype))    return false;
-    return true;
-  }
+  chips.forEach(chip => {
+    chip.addEventListener("click", () => {
+      const filtro = chip.dataset.filtro;
 
-  function apply(){ cards.forEach(c => c.style.display = visible(c) ? '' : 'none'); }
+      chips.forEach(c => c.classList.remove("active"));
+      chip.classList.add("active");
 
-  typeChips.forEach(b=>{
-    b.addEventListener('click', ()=>{
-      const t = norm(b.dataset.type);
-      if (b.classList.toggle('active')) selTypes.add(t); else selTypes.delete(t);
-      apply();
+      cards.forEach(card => {
+        const categoria = card.dataset.categoria;
+        card.hidden = filtro !== "todos" && categoria !== filtro;
+      });
     });
-  });
-
-  if (q) q.addEventListener('input', apply);
-
-  clearBtn.addEventListener('click', ()=>{
-    if (q) q.value = '';
-    selTypes.clear();
-    typeChips.forEach(b=>b.classList.remove('active'));
-    apply();
   });
 })();
 </script>
-
 
 ## Módulos de nuestras asignaturas {#modulos-de-nuestras-asignaturas}
 
