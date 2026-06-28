@@ -62,3 +62,13 @@
   tags:
   - R
   - análisis de datos
+  
+- id: tut-008
+  titulo: Definición y uso de skills para LLMs
+  descripcion: Vemos qué son las skills y cómo crearlas para estandarizar respuestas de un LLMs. Material para Sociología de la IA.
+  lenguaje: Markdown / LLMs / OpenCode 
+  url: https://www.youtube.com/watch?v=zm_QHky8g8c
+  tags:
+  - prompts
+  - IA
+  - OpenCode
