@@ -76,6 +76,7 @@ image: ./assets/images/iso_cuadrado_blanco.jpg
   </div>
 </div>
 
+<!--
 <div class="carrera-banner">
 
  <img src="/assets/images/flyer-diplo-uca-v2.png" alt="Diplomatura CSC UCA" class="carrera-logo">
@@ -94,7 +95,7 @@ image: ./assets/images/iso_cuadrado_blanco.jpg
     <a class="carrera-btn" href="https://uca.edu.ar/es/cursos-de-educacion-continua/facultad-de-ciencias-sociales/diplomatura/diplomatura-en-ciencias-sociales-computacionales-nivel-introductorio" target="_blank" rel="noopener">Conocé la diplomatura</a>
   </div>
 </div>
-
+-->
 
 ## Publicaciones {#publicaciones}
 
