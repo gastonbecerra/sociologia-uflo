@@ -359,19 +359,10 @@
   yt_id: "E-AT5MsvmZU"
   tags: ["IA", "carreras","profesion"]
 
-
 - id: tecnosociologos-iii
   tipo: evento_grabacion
   titulo: "Conversatorio con Sociólogos que trabajan en Consultoria"
   descripcion: "Charlamos de este rol profesional con Cecilia Cejas y Maria Eugenia Funes"
   fecha: "2026-5-26"
   yt_id: "PTREZ2_MH4s"
-  tags: ["IA", "carreras","profesion"]
-
-- id: tecnosociologos-iv
-  tipo: evento_grabacion
-  titulo: "Sociólogos que trabajan en gobernanza de datos de salud"
-  descripcion: "Charlamos con Karina Revirol, colega y referente en datos y sistemas de salud y discapacidad"
-  fecha: "2026-6-26"
-  yt_id: "67AKjmIJWfM"
   tags: ["IA", "carreras","profesion"]
