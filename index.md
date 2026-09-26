@@ -129,41 +129,81 @@ image: ./assets/images/iso_cuadrado_blanco.jpg
 
 ## Eventos, conversatorios y clases abiertas {#eventos-conversatorios-y-clases-abiertas}
 
-{% assign recursos_media = site.data.recursos_media %}
+{% assign categorias_media = site.data.recursos_media %}
 {% assign recursos_tutoriales = site.data.recursos_tutoriales %}
 
-{% if recursos_media and recursos_media.size > 0 %}
-  <div class="cards">
-    {% for r in recursos_media %}
-      {% assign link = r.url %}
-      {% if link == nil and r.yt_id %}{% assign link = 'https://www.youtube.com/watch?v=' | append: r.yt_id %}{% endif %}
+{% if categorias_media and categorias_media.size > 0 %}
 
-      {% if r.episodio and r.yt_id %}
-        <div class="card card-podcast">
-          <div class="video">
-            <iframe width="100%" height="200" src="https://www.youtube.com/embed/{{ r.yt_id }}" title="{{ r.titulo }}" frameborder="0" allowfullscreen></iframe>
+  {% for categoria in categorias_media %}
+
+    <h3>{{ categoria.titulo }}</h3>
+
+    {% assign recursos = categoria.recursos | sort: "fecha" | reverse %}
+
+    <div class="cards">
+      {% for r in recursos %}
+
+        {% assign link = r.url %}
+        {% if link == nil and r.yt_id %}
+          {% assign link = 'https://www.youtube.com/watch?v=' | append: r.yt_id %}
+        {% endif %}
+
+        {% if r.episodio and r.yt_id %}
+
+          <div class="card card-podcast">
+            <div class="video">
+              <iframe
+                width="100%"
+                height="200"
+                src="https://www.youtube.com/embed/{{ r.yt_id }}"
+                title="{{ r.titulo }}"
+                frameborder="0"
+                allowfullscreen>
+              </iframe>
+            </div>
+
+            <h3>Ep. {{ r.episodio }} — {{ r.titulo }}</h3>
+
+            {% if r.entrevistado %}
+              <p class="meta">
+                <strong>Entrevista a:</strong> {{ r.entrevistado }}
+              </p>
+            {% endif %}
           </div>
-          <h3>Ep. {{ r.episodio }} — {{ r.titulo }}</h3>
-          {% if r.entrevistado %}<p class="meta"><strong>Entrevista a:</strong> {{ r.entrevistado }}</p>{% endif %}
-          {% if r.tags %}<p class="descripcion">{{ r.tags | join: " · " }}</p>{% endif %}
-        </div>
-      {% else %}
-        <a class="card card-media" href="{{ link }}" target="_blank" rel="noopener">
-          {% if r.thumb %}
-            <img src="{{ r.thumb }}" alt="{{ r.titulo }}">
-          {% elsif r.yt_id %}
-            <img src="https://img.youtube.com/vi/{{ r.yt_id }}/hqdefault.jpg" alt="{{ r.titulo }}">
-          {% else %}
-            <div class="thumb"></div>
-          {% endif %}
 
-          <h3>{{ r.titulo }}</h3>
-          {% if r.fecha %}<p class="meta">{{ r.fecha }}</p>{% endif %}
-          {% if r.descripcion %}<p class="descripcion">{{ r.descripcion }}</p>{% endif %}
-        </a>
-      {% endif %}
-    {% endfor %}
-  </div>
+        {% else %}
+
+          <a class="card card-media" href="{{ link }}" target="_blank" rel="noopener">
+
+            {% if r.thumb %}
+              <img src="{{ r.thumb }}" alt="{{ r.titulo }}">
+            {% elsif r.yt_id %}
+              <img
+                src="https://img.youtube.com/vi/{{ r.yt_id }}/hqdefault.jpg"
+                alt="{{ r.titulo }}">
+            {% else %}
+              <div class="thumb"></div>
+            {% endif %}
+
+            <h3>{{ r.titulo }}</h3>
+
+            {% if r.fecha %}
+              <p class="meta">{{ r.fecha }}</p>
+            {% endif %}
+
+            {% if r.descripcion %}
+              <p class="descripcion">{{ r.descripcion }}</p>
+            {% endif %}
+
+          </a>
+
+        {% endif %}
+
+      {% endfor %}
+    </div>
+
+  {% endfor %}
+
 {% else %}
   <p>No se encontraron recursos en <code>_data/recursos_media.yml</code>.</p>
 {% endif %}
