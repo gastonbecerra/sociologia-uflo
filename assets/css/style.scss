@@ -647,3 +647,38 @@ h1, h2, h3, h4 {
   font-size: .82rem;
   letter-spacing: -.03em;
 }
+
+.media-strip {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  padding: 0.5rem 0 1rem;
+  scroll-snap-type: x proximity;
+  scrollbar-width: thin;
+}
+
+.media-strip .card {
+  flex: 0 0 320px;
+  scroll-snap-align: start;
+}
+
+.media-strip::-webkit-scrollbar {
+  height: 8px;
+}
+
+.media-strip {
+  -webkit-overflow-scrolling: touch;
+}
+
+.media-strip .card {
+  min-width: 320px;
+  max-width: 320px;
+}
+
+@media (max-width: 768px) {
+  .media-strip .card {
+    flex-basis: 82vw;
+    min-width: 82vw;
+    max-width: 82vw;
+  }
+}

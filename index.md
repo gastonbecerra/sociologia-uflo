@@ -138,7 +138,7 @@ image: ./assets/images/iso_cuadrado_blanco.jpg
 
 {% assign recursos = categoria.recursos | sort: "fecha" | reverse %}
 
-<div class="cards">
+<div class="media-strip">
 
 {% for r in recursos %}
 
@@ -206,6 +206,7 @@ allowfullscreen>
 <p>No se encontraron recursos en <code>_data/recursos_media.yml</code>.</p>
 
 {% endif %}
+
 
 ## Materiales didácticos y tutoriales {#materiales-didacticos-y-tutoriales}
 
