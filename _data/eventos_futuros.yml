@@ -197,7 +197,7 @@
   formulario: "https://www.google.com/url?q=https%3A%2F%2Fzoom.us%2Fmeeting%2Fregister%2FSb9fLHFfSBqH1JFnYIr5eA&sa=D&source=calendar&usd=2&usg=AOvVaw304zO4Su2wvEFZDugznrZS"
   tags: ["Inteligencia Artificial", "Psicología"]
 
-  titulo: "Laboratorios de Simulación Social y Desarrollo Urbano"
+- titulo: "Laboratorios de Simulación Social y Desarrollo Urbano"
   fecha: "2026-10-29"
   hora: "18:00"
   modalidad: "Virtual"
@@ -207,7 +207,7 @@
   formulario: "https://sebas-exe.github.io/inscripci-n-laboratorios-simulacionsocial/"
   tags: ["Simulacion"]
 
-  titulo: "Charla abierta con Darío Mekler, artista visual y autor del libro Desinteligencia artificial"
+- titulo: "Charla abierta con Darío Mekler, artista visual y autor del libro Desinteligencia artificial"
   fecha: "2026-11-05"
   hora: "19:00"
   modalidad: "Virtual"
@@ -216,5 +216,3 @@
   descripcion: "Charla abierta con el artista visual y escritor argentino Darío Mekler sobre la obra Desinteligencia Artificial: Filosofía de la Robótica en el Siglo XXI"
   formulario: "https://zoom.us/meeting/register/GVGwO9MnR0mXnvbpoyLbEg"
   tags: ["IA"]
-
-
