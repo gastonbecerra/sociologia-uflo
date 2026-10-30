@@ -121,6 +121,12 @@
       fecha: "2026-04-30"
       yt_id: "CjGVHbu6q80"
 
+    - id: simulaciones
+      titulo: "Clase abierta: Laboratorios de Simulación Social y Desarrollo Urbano"
+      descripcion: "1. Predicción de desastres naturales con datos + 2. Simulación social, NetLogo e Inteligencia Artificial"
+      fecha: "2026-10-28"
+      yt_id: "gmODM6QRv2g"
+
 
 - id: teoria
   titulo: "Teoría sociológica"
