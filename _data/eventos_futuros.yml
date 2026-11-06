@@ -216,3 +216,13 @@
   descripcion: "Charla abierta con el artista visual y escritor argentino Darío Mekler sobre la obra Desinteligencia Artificial: Filosofía de la Robótica en el Siglo XXI"
   formulario: "https://zoom.us/meeting/register/GVGwO9MnR0mXnvbpoyLbEg"
   tags: ["IA"]
+
+- titulo: "🤖 ¿Qué hacen las sociólogas que trabajan en inteligencia artificial?"
+  fecha: "2026-11-11"
+  hora: "17:00"
+  modalidad: "Virtual"
+  lugar: "UFLO Virtual"
+  arancel: "gratuito"
+  descripcion: "Conoceremos las experiencias de dos colegas que investigan la IA: Ana Carmen Florido y María Eugenia Cardello. Conversaremos sobre sus trayectorias de formación y trabajo, y las oportunidades y desafíos para la Sociología en el sector tecnológico."
+  formulario: "https://zoom.us/meeting/register/jLhLMkEUTCGP1T9kXJXZzg#/registration"
+  tags: ["IA"]
